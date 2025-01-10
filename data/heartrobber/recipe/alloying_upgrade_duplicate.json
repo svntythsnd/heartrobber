@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alloying_upgrade",
+  "key": {
+    "#": "minecraft:command_block",
+    "@": "minecraft:repeating_command_block",
+    "$": "minecraft:structure_block",
+    "%": "#minecraft:coals"
+  },
+  "pattern": [
+    "#%#",
+    "@$@",
+    "#%#"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 3,
+    "components": {
+      "rarity": "common",
+      "lore": [
+        "{\"translate\": \"description.heartrobber.alloying_upgrade\", \"color\": \"gray\", \"italic\": false}"
+      ]
+    }
+  }
+}

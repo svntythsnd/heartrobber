@@ -1,0 +1,1 @@
+execute as @a unless score @s heartrobber_health = @s heartrobber_health store result score @s heartrobber_health run attribute @s minecraft:max_health base get 0.5

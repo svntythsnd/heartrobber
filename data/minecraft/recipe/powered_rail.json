@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "R": "minecraft:activator_rail"
+  },
+  "pattern": [
+    " R ",
+    "#R#",
+    " R "
+  ],
+  "result": {
+    "id": "minecraft:powered_rail",
+    "count": 3
+  }
+}

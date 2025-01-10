@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:structure_block",
+  "base": "#minecraft:coals",
+  "addition": "minecraft:iron_ingot",
+  "result": {
+    "id": "minecraft:repeating_command_block",
+    "count": 3,
+    "components": {
+      "rarity": "common"
+    }
+  }
+}

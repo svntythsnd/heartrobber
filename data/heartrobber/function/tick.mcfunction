@@ -1,0 +1,4 @@
+function heartrobber:tick/health_default
+function heartrobber:tick/death_trigger
+function heartrobber:tick/revive_check
+function heartrobber:tick/countdown

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "minecraft:jigsaw",
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  },
+  "cookingtime": 1200
+}

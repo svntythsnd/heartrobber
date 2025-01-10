@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:smithing/steel_ingot",
+      "heartrobber:smithing/steel_ingot_alt",
+      "heartrobber:smithing/rose_gold_ingot",
+      "heartrobber:smithing/rose_gold_ingot_alt",
+      "heartrobber:smithing/netherite_globule",
+      "heartrobber:smithing/netherite_globule_alt"
+    ]
+  },
+  "sends_telemetry_event": false
+}

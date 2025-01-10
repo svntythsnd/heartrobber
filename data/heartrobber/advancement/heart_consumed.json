@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:triggered/health"
+  }
+}

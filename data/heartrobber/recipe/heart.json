@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:chain_command_block",
+    "@": "minecraft:diamond_block",
+    "*": "minecraft:totem_of_undying"
+  },
+  "pattern": [
+    "@#@",
+    "#*#",
+    "@#@"
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "custom_model_data": 31821, 
+      "item_name": "{\"translate\": \"item.heartrobber.heart\"}", 
+      "consumable": {
+        "consume_seconds": 1
+      },
+      "food": {
+        "saturation": 0, 
+        "nutrition": 0, 
+	"can_always_eat": true
+      }, 
+      "rarity": "uncommon", 
+      "custom_data": {
+        "heartrobber:type": 0
+      }
+    }
+  }
+}

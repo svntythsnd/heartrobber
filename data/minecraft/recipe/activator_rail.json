@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:redstone",
+    "R": "minecraft:rail"
+  },
+  "pattern": [
+    " R ",
+    "#R#",
+    " R "
+  ],
+  "result": {
+    "id": "minecraft:activator_rail",
+    "count": 3
+  }
+}

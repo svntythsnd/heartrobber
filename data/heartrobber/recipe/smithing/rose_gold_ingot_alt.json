@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:structure_block",
+  "base": "minecraft:netherite_ingot",
+  "addition": "minecraft:copper_block",
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "rarity": "uncommon"
+    }
+  }
+}

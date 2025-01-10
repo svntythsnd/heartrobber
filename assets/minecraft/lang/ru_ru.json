@@ -1,0 +1,14 @@
+{
+  "item.heartrobber.heart": "Сердце",
+  "block.minecraft.command_block": "Кусочек стали",
+  "block.minecraft.chain_command_block": "Слиток розового золота",
+  "block.minecraft.repeating_command_block": "Стальной слиток",
+  "block.minecraft.structure_block": "Кузнечный шаблон",
+  "description.heartrobber.alloying_upgrade": "Сплавка",
+  "block.minecraft.petrified_oak_slab": "Лучевой коллектор",
+  "block.minecraft.jigsaw": "Незеритовая глобула",
+  "item.heartrobber.tag_and_inscriber": "Бирка и писец",
+  "item.heartrobber.card": "Карта",
+  "item.heartrobber.inscribed_card": "Подписанная карта",
+  "item.enhanced_pots.filled_pot": "Заполненная ваза"
+}

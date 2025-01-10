@@ -1,0 +1,2 @@
+scoreboard objectives add heartrobber_health dummy
+scoreboard objectives add heartrobber_death deathCount
