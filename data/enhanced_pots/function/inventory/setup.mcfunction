@@ -1,1 +1,0 @@
-$scoreboard players set @s enhanced_pots.item_count $(count)

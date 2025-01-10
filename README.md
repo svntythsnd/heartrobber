@@ -1,1 +1,1 @@
-### This is the main version mixed with the Enhanced Pots extension
+### This is the main version mixed without the Enhanced Pots extension

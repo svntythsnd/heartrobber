@@ -1,1 +1,0 @@
-$execute unless block ~ ~-1.25 ~ minecraft:decorated_pot{item:{id:"$(Name)"}} run kill @s
