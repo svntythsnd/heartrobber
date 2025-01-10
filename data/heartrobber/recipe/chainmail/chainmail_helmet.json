@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:command_block"
+    },
+    "@": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "#@#",
+    "# #"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "count": 1
+  }
+}

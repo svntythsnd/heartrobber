@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "count": 2,
+    "components": {
+      "custom_model_data": 31823, 
+      "item_name": "{\"translate\": \"item.heartrobber.card\"}", 
+      "custom_data": {
+        "heartrobber:type": 5
+      }
+    }
+  }
+}

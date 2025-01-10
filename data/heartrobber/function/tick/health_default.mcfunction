@@ -1,0 +1,1 @@
+execute as @a unless score @s heartrobber_health = @s heartrobber_health run scoreboard players set @s heartrobber_health 10

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "alloying_upgrade",
+  "key": {
+    "#": {
+      "item": "minecraft:command_block"
+    },
+    "@": {
+      "item": "minecraft:repeating_command_block"
+    },
+    "$": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "%": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "pattern": [
+    "#%#",
+    "@$@",
+    "#%#"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "rarity": "common",
+      "lore": [
+        "{\"translate\": \"description.heartrobber.alloying_upgrade\", \"color\": \"gray\", \"italic\": false}"
+      ]
+    }
+  }
+}

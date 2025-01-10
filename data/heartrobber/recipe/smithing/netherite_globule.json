@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:structure_block"
+  },
+  "base": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "count": 1,
+    "components": {
+      "rarity": "common"
+    }
+  }
+}

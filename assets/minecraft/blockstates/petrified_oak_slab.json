@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "heartrobber:block/ray_condenser_bottom"
+    },
+    "type=double": {
+      "model": "heartrobber:block/ray_condenser_full"
+    },
+    "type=top": {
+      "model": "heartrobber:block/ray_condenser_bottom",
+      "x": 180
+    }
+  }
+}

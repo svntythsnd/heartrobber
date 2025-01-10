@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "S": {
+      "item": "minecraft:repeating_command_block"
+    }
+  },
+  "pattern": [
+    " A ",
+    "#S#",
+    "#S#"
+  ],
+  "result": {
+    "id": "minecraft:petrified_oak_slab",
+    "count": 1
+  }
+}

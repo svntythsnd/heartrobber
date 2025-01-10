@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "@": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "$": {
+      "item": "minecraft:name_tag"
+    }
+  },
+  "pattern": [
+    "#@",
+    "$@"
+  ],
+  "result": {
+    "id": "minecraft:name_tag",
+    "count": 1,
+    "components": {
+      "custom_model_data": 31822, 
+      "item_name": "{\"translate\": \"item.heartrobber.tag_and_inscriber\"}", 
+      "food": {
+        "saturation": 0, 
+        "nutrition": 0, 
+        "eat_seconds": 2147483647,
+	"can_always_eat": true
+      },
+      "max_damage": 50,
+      "damage": 0,
+      "max_stack_size": 1,
+      "custom_data": {
+        "heartrobber:type": 4
+      }
+    }
+  }
+}

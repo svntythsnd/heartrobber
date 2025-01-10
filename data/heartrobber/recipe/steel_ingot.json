@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "steel",
+  "key": {
+    "#": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:repeating_command_block",
+    "count": 1,
+    "components": {
+      "rarity": "common"
+    }
+  }
+}
