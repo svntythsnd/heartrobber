@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:name_tag",
     "components": {
-      "custom_model_data": 31822, 
+      "item_model": "heartrobber:tag_and_inscriber", 
       "item_name": "{\"translate\": \"item.heartrobber.tag_and_inscriber\"}", 
       "consumable": {
         "consume_seconds": 3.40282347e+38
