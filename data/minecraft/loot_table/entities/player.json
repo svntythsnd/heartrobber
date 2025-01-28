@@ -11,7 +11,7 @@
             {
               "function": "set_components",
               "components": {
-                "custom_model_data": 31821, 
+                "item_model": "heartrobber:heart", 
                 "item_name": "{\"translate\": \"item.heartrobber.heart\"}", 
                 "consumable": {
                   "consume_seconds": 1
