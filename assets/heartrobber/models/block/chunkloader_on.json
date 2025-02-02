@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "heartrobber:block/chunkloader_top",
+    "side": "heartrobber:block/chunkloader_side_on"
+  }
+}

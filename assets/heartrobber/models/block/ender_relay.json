@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "heartrobber:block/relay_bottom",
+    "side": "heartrobber:block/relay_side",
+    "top": "heartrobber:block/relay_top"
+  }
+}

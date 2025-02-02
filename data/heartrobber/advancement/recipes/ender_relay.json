@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "end_gate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:ender_relay",
+      "minecraft:lodestone"
+    ]
+  }
+}

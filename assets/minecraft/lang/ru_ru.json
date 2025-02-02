@@ -10,5 +10,7 @@
   "item.heartrobber.tag_and_inscriber": "Бирка и писец",
   "item.heartrobber.card": "Карта",
   "item.heartrobber.inscribed_card": "Подписанная карта",
-  "item.enhanced_pots.filled_pot": "Заполненная ваза"
+  "item.enhanced_pots.filled_pot": "Заполненная ваза",
+  "block.heartrobber.ender_relay": "Транслокатор",
+  "block.heartrobber.chunkloader": "Грузитель"
 }

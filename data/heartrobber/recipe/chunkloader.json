@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:chain_command_block",
+    "@": "minecraft:chiseled_stone_bricks",
+    "*": "minecraft:redstone",
+    "A": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "@*@",
+    "A#A",
+    "@*@"
+  ],
+  "result": {
+    "id": "minecraft:allay_spawn_egg",
+    "components": {
+      "item_model": "heartrobber:chunkloader", 
+      "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 
+      "entity_data": {
+        "id":"minecraft:armor_stand",
+        "Tags": ["heartrobber_chunkloaderPlace"],
+        "Marker": true,
+        "Invisible": true
+      },
+      "custom_data": {
+        "heartrobber:type": 7
+      }
+    }
+  }
+}

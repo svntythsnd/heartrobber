@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+	  "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "heartrobber:chunkloader", 
+                "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 
+                "entity_data": {
+                  "id":"minecraft:armor_stand",
+                  "Tags": ["heartrobber_chunkloaderPlace"],
+                  "Marker": true,
+                  "Invisible": true
+                },
+                "custom_data": {
+                  "heartrobber:type": 7
+                }
+              }    
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

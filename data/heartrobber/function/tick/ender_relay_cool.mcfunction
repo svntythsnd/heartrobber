@@ -1,0 +1,1 @@
+execute as @e[tag=heartrobber_relaySoon] at @s align xyz positioned ~0.5 ~-1.5 ~0.5 if data entity @n[tag=heartrobber_relayBlock] {item:{components:{"minecraft:item_model":"heartrobber:ender_relay_on"}}} run scoreboard players remove @s heartrobber_relayCooldown 1
