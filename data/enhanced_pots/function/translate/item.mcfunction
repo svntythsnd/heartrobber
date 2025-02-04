@@ -1,0 +1,2 @@
+$execute if data storage enhanced_pots:broken_pot_data item.components."minecraft:lodestone_tracker" run data modify storage enhanced_pots:broken_pot_data item.raw_name set value "item.minecraft.lodestone_$(raw_name)"
+$execute unless data storage enhanced_pots:broken_pot_data item.components."minecraft:lodestone_tracker" run data modify storage enhanced_pots:broken_pot_data item.raw_name set value "item.minecraft.$(raw_name)"

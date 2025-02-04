@@ -1,0 +1,1 @@
+$title @s actionbar [{"text":"$(x) $(y) $(z)","color":"aqua"},{"text":" ][ ","color":"dark_aqua"},{"text":"$(y)° $(p)°","color":"aqua"},{"text":" ][ ","color":"dark_aqua"}, {"text":"$(sx) $(sy) $(sz)","color":"aqua"}]

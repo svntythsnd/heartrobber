@@ -4,6 +4,11 @@ execute if data entity @s ArmorItems[0].components."minecraft:item_model" run da
 execute unless data entity @s ArmorItems[0].components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s ArmorItems[0].id
 data modify storage enhanced_pots:broken_pot_data item merge value {components:{}}
 execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count
+data modify storage enhanced_pots:broken_pot_data item.raw_name set string storage enhanced_pots:broken_pot_data item.components."minecraft:item_name" 14 -2
+data modify storage enhanced_pots:broken_pot_data italic set value 0b
+data modify storage enhanced_pots:broken_pot_data item.raw_name set string storage enhanced_pots:broken_pot_data item.components."minecraft:custom_name" 1 -1
+execute if data storage enhanced_pots:broken_pot_data item.components."minecraft:custom_name" run data modify storage enhanced_pots:broken_pot_data italic set value 1b
+execute unless data storage enhanced_pots:broken_pot_data item.components."minecraft:item_name" unless data storage enhanced_pots:broken_pot_data item.components."minecraft:custom_name" run function enhanced_pots:translate/yes
 execute as @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] run function enhanced_pots:fill_broken_pot with storage enhanced_pots:broken_pot_data item
 
 # if the pot was shattered with a tool, summon the pot's items from the armor stand's item_count

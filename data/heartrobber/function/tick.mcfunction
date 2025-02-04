@@ -8,3 +8,4 @@ function heartrobber:tick/ender_relay_cool
 function heartrobber:tick/chunkloader
 function heartrobber:tick/chunkloader_look
 function heartrobber:tick/chunkloader_work
+function heartrobber:tick/geolocator

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:command_block",
+    "@": "minecraft:amethyst_shard",
+    "*": "minecraft:compass"
+  },
+  "pattern": [
+    "@#@",
+    "#*#",
+    "@#@"
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "item_model": "heartrobber:geolocator", 
+      "item_name": "{\"translate\": \"item.heartrobber.geolocator\"}", 
+      "custom_data": {
+        "heartrobber:type": 8
+      }
+    }
+  }
+}

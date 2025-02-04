@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] at @s run function heartrobber:triggered/geolocator
