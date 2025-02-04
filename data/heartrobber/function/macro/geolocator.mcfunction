@@ -1,1 +1,1 @@
-$title @s actionbar [{"text":"$(x) $(y) $(z)","color":"aqua"},{"text":" ][ ","color":"dark_aqua"},{"text":"$(y)° $(p)°","color":"aqua"},{"text":" ][ ","color":"dark_aqua"}, {"text":"$(sx) $(sy) $(sz)","color":"aqua"}]
+$title @s actionbar [{"text":"$(x) $(y) $(z)","color":"$(w)"},{"text":" ][ ","color":"dark_$(w)"},{"text":"$(y)° $(p)°","color":"$(w)"},{"text":" ]","color":"dark_$(w)"},{"text":"[ ","color":"dark_$(c)"}, {"text":"$(sx) $(sy) $(sz)","color":"$(c)"}]
