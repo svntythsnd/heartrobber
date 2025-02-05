@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "*": "minecraft:experience_bottle",
+    "@": "minecraft:prismarine_crystals",
+    "#": "minecraft:amethyst_shard",
+    "$": "minecraft:emerald"
+  },
+  "pattern": [
+    "#@#",
+    "$*$",
+    "#@#"
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "custom_data": {
+        "heartrobber:type": 9
+      },
+      "max_damage": 1000,
+      "damage": 1000,
+      "max_stack_size": 1,
+      "consumable": {
+        "consume_seconds": 3.40282347e+38
+      },
+      "food": {
+        "saturation": 0,
+        "nutrition": 0,
+        "can_always_eat": true
+      },
+      "item_model": "heartrobber:xp_crystal",
+      "item_name": "{\"translate\": \"item.heartrobber.xp_crystal\"}"
+    }
+  }
+}

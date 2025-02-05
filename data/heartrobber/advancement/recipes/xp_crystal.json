@@ -6,8 +6,8 @@
         "items": [
           {
             "items": [
-              "minecraft:command_block",
-              "minecraft:compass",
+              "minecraft:prismarine_crystals",
+              "minecraft:experience_bottle",
               "minecraft:amethyst_shard"
             ]
           }
@@ -18,7 +18,7 @@
   },
   "rewards": {
     "recipes": [
-      "heartrobber:geolocator"
+      "heartrobber:xp_crystal"
     ]
   },
   "sends_telemetry_event": false

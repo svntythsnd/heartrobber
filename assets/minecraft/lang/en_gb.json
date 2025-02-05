@@ -13,5 +13,6 @@
   "item.enhanced_pots.filled_pot": "Filled Pot",
   "block.heartrobber.ender_relay": "End Relay",
   "block.heartrobber.chunkloader": "Chunk Loader",
-  "item.heartrobber.geolocator": "Geolocator"
+  "item.heartrobber.geolocator": "Geolocator",
+  "item.heartrobber.xp_crystal": "Experience Crystal"
 }

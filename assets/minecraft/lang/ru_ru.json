@@ -13,5 +13,6 @@
   "item.enhanced_pots.filled_pot": "Заполненная ваза",
   "block.heartrobber.ender_relay": "Транслокатор",
   "block.heartrobber.chunkloader": "Грузитель",
-  "item.heartrobber.geolocator": "Геолокатор"
+  "item.heartrobber.geolocator": "Геолокатор",
+  "item.heartrobber.xp_crystal": "Опытохранительный кристалл"
 }

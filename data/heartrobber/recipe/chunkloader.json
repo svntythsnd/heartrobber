@@ -15,7 +15,7 @@
   "result": {
     "id": "minecraft:allay_spawn_egg",
     "components": {
-      "item_model": "heartrobber:chunkloader", 
+      "item_model": "heartrobber:chunkloader",
       "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 
       "entity_data": {
         "id":"minecraft:armor_stand",
