@@ -4,3 +4,4 @@ scoreboard objectives add heartrobber_relayCooldown dummy
 scoreboard objectives add heartrobber_chunkLoaded dummy
 scoreboard objectives add heartrobber_crystallizeTick dummy
 scoreboard objectives add heartrobber_compare dummy
+scoreboard objectives add heartrobber_compare2 dummy

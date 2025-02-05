@@ -1,0 +1,1 @@
+kill @e[tag=heartrobber_temp_playerhead]
