@@ -9,3 +9,4 @@ function heartrobber:tick/chunkloader
 function heartrobber:tick/chunkloader_look
 function heartrobber:tick/chunkloader_work
 function heartrobber:tick/geolocator
+function heartrobber:tick/honey_crystallize

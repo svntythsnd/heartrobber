@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+	  "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "heartrobber:crystallized_honey", 
+                "item_name": "{\"translate\": \"item.heartrobber.crystallized_honey\"}", 
+                "custom_data": {
+                  "heartrobber:type": 10
+                },
+                "food": {
+                  "nutrition": 6,
+                  "saturation": 5.2,
+                  "can_always_eat": true
+                },
+                "consumable": {
+                  "consume_seconds": 1.2,
+                  "on_consume_effects": [
+                    {
+                      "type": "remove_effects",
+                      "effects": ["minecraft:poison","minecraft:wither","minecraft:weakness"]
+                    }
+                  ]
+                }
+              }    
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -14,5 +14,6 @@
   "block.heartrobber.ender_relay": "End Relay",
   "block.heartrobber.chunkloader": "Chunk Loader",
   "item.heartrobber.geolocator": "Geolocator",
-  "item.heartrobber.xp_crystal": "Experience Crystal"
+  "item.heartrobber.xp_crystal": "Experience Crystal",
+  "item.heartrobber.crystallized_honey": "Crystallized Honey"
 }
