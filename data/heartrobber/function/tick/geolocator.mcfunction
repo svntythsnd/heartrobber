@@ -1,2 +1,2 @@
 execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] at @s run function heartrobber:triggered/geolocator
-execute as @a[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] if data entity @s Inventory[{Slot:-106b,components:{"minecraft:custom_data":{"heartrobber:type":8b}}}] run function heartrobber:triggered/geolocator
+execute as @a[nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] if data entity @s Inventory[{Slot:-106b,components:{"minecraft:custom_data":{"heartrobber:type":8b}}}] at @s run function heartrobber:triggered/geolocator
