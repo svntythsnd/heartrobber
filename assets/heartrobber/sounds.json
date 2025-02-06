@@ -1,0 +1,223 @@
+{
+  "item.honey.crystallize": {
+    "subtitle": "subtitles.heartrobber.item.honey.crystallize",
+    "sounds": [
+      "heartrobber:item/honey/crystallize1",
+      "heartrobber:item/honey/crystallize2",
+      "heartrobber:item/honey/crystallize3",
+      "heartrobber:item/honey/crystallize4",
+      "heartrobber:item/honey/crystallize5",
+      "heartrobber:item/honey/crystallize6",
+      "heartrobber:item/honey/crystallize7"
+    ]
+  },
+  "block.ender_relay.charge": {
+    "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
+    "sounds": [
+      {
+        "name": "heartrobber:block/ender_relay/charge1",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/ender_relay/charge1",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:block/ender_relay/charge1",
+        "pitch": 1.05
+      },
+      {
+        "name": "heartrobber:block/ender_relay/charge2",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/ender_relay/charge2",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:block/ender_relay/charge2",
+        "pitch": 1.05
+      }
+    ]
+  },
+  "block.ender_relay.teleport": {
+    "subtitle": "subtitles.heartrobber.block.ender_relay.teleport",
+    "sounds": [
+      {
+        "name": "heartrobber:block/ender_relaye/teleport1",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/ender_relay/teleport1",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:block/ender_relay/teleport1",
+        "pitch": 1.05
+      },
+      {
+        "name": "heartrobber:block/ender_relay/teleport2",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/ender_relay/teleport2",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:block/ender_relay/teleport2",
+        "pitch": 1.05
+      }
+    ]
+  },
+  "block.ender_relay.deplete": {
+    "subtitle": "subtitles.heartrobber.block.ender_relay.deplete",
+    "sounds": [
+      {
+        "name": "heartrobber:block/ender_relay/deplete1",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:block/ender_relay/deplete1",
+        "pitch": 0.8
+      },
+      "heartrobber:block/ender_relay/deplete1",
+      {
+        "name": "heartrobber:block/ender_relay/deplete2",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:block/ender_relay/deplete2",
+        "pitch": 0.8
+      },
+      "heartrobber:sounds/block/ender_relay/deplete2",
+      {
+        "name": "heartrobber:block/ender_relay/deplete3",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:block/ender_relay/deplete3",
+        "pitch": 0.8
+      },
+      "heartrobber:block/ender_relay/deplete3"
+    ]
+  },
+  "block.lodestone.teleport": {
+    "subtitle": "subtitles.heartrobber.block.lodestone.teleport",
+    "sounds": [
+      {
+        "name": "heartrobber:block/lodestone/teleport1",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/lodestone/teleport1",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:block/lodestone/teleport1",
+        "pitch": 1.05
+      },
+      {
+        "name": "heartrobber:block/lodestone/teleport2",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:block/lodestone/teleport2",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:block/lodestone/teleport2",
+        "pitch": 1.05
+      }
+    ]
+  },
+  "block.chunkloader.click_off": {
+    "sounds": [
+      {
+        "name": "random/click",
+        "pitch": 1.4,
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.heartrobber.block.chunkloader.click_off"
+  },
+  "block.chunkloader.click_on": {
+    "sounds": [
+      {
+        "name": "random/click",
+        "pitch": 1.6,
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.heartrobber.block.chunkloader.click_on"
+  },
+  "item.heart.absorb": {
+    "sounds": [
+      {
+        "name": "block/nether_sprouts/break1",
+        "volume": 0.7,
+        "pitch": 0.2
+      },
+      {
+        "name": "block/nether_sprouts/break2",
+        "volume": 0.7,
+        "pitch": 0.2
+      },
+      {
+        "name": "block/nether_sprouts/break3",
+        "volume": 0.7,
+        "pitch": 0.2
+      },
+      {
+        "name": "block/nether_sprouts/break4",
+        "volume": 0.7,
+        "pitch": 0.2
+      }
+    ],
+    "subtitle": "subtitles.heartrobber.item.heart.absorb"
+  },
+  "item.heart.link": {
+    "max_distance": 32.0,
+    "sounds": [
+      {
+        "name": "mob/illusion_illager/mirror_move1",
+        "pitch": 1.5,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/illusion_illager/mirror_move2",
+        "pitch": 1.5,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/illusion_illager/mirror_move1",
+        "pitch": 1.35,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/illusion_illager/mirror_move2",
+        "pitch": 1.35,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/illusion_illager/mirror_move1",
+        "pitch": 1.65,
+        "volume": 0.7
+      },
+      {
+        "name": "mob/illusion_illager/mirror_move2",
+        "pitch": 1.65,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.heartrobber.item.heart.link"
+  },
+  "item.heart.revive": {
+    "sounds": [
+      {
+        "name": "item/totem/use_totem",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.heartrobber.item.heart.revive"
+  }
+}

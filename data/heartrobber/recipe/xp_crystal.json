@@ -20,6 +20,9 @@
       },
       "max_damage": 1000,
       "damage": 1000,
+      "unbreakable": {
+        "show_in_tooltip": false
+      },
       "max_stack_size": 1,
       "consumable": {
         "consume_seconds": 3.40282347e+38
@@ -29,8 +32,10 @@
         "nutrition": 0,
         "can_always_eat": true
       },
+      "rarity": "uncommon",
       "item_model": "heartrobber:xp_crystal",
-      "item_name": "{\"translate\": \"item.heartrobber.xp_crystal\"}"
+      "item_name": "{\"translate\": \"item.heartrobber.xp_crystal\"}",
+      "lore": ["\"\"","{\"text\":\"0/1000 XP\", \"italic\":false, \"color\":\"blue\"}"]
     }
   }
 }

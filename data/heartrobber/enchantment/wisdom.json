@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.heartrobber.wisdom"
+  },
+  "effects": {
+    "minecraft:block_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.2,
+            "per_level_above_first": 0.2
+          }
+        }
+      }
+    ],
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.4,
+            "per_level_above_first": 0.4
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 45,
+    "per_level_above_first": 4
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#heartrobber:enchantable/loots",
+  "weight": 9
+}

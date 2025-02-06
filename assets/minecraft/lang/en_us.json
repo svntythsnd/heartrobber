@@ -15,5 +15,16 @@
   "block.heartrobber.chunkloader": "Chunk Loader",
   "item.heartrobber.geolocator": "Geolocator",
   "item.heartrobber.xp_crystal": "Experience Crystal",
-  "item.heartrobber.crystallized_honey": "Crystallized Honey"
+  "item.heartrobber.crystallized_honey": "Crystallized Honey",
+  "enchantment.heartrobber.wisdom": "Wisdom",
+  "subtitles.heartrobber.block.chunkloader.click_off": "Chunk Loader powers off",
+  "subtitles.heartrobber.block.chunkloader.click_on": "Chunk Loader powers on",
+  "subtitles.heartrobber.block.ender_relay.charge": "End Relay is charged",
+  "subtitles.heartrobber.block.ender_relay.deplete": "End Relay depletes",
+  "subtitles.heartrobber.block.ender_relay.teleport": "End Relay teleports something",
+  "subtitles.heartrobber.block.lodestone.teleport": "Something is teleported to Lodestone",
+  "subtitles.heartrobber.item.honey.crystallize": "Honey crystallizes",
+  "subtitles.heartrobber.item.heart.absorb": "Heart is absorbed",
+  "subtitles.heartrobber.item.heart.link": "Hearts charge",
+  "subtitles.heartrobber.item.heart.revive": "Player is revived"
 }

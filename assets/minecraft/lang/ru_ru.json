@@ -15,5 +15,16 @@
   "block.heartrobber.chunkloader": "Грузитель",
   "item.heartrobber.geolocator": "Геолокатор",
   "item.heartrobber.xp_crystal": "Опытохранительный кристалл",
-  "item.heartrobber.crystallized_honey": "Кристаллизованный мёд"
+  "item.heartrobber.crystallized_honey": "Кристаллизованный мёд",
+  "enchantment.heartrobber.wisdom": "Мудрость",
+  "subtitles.heartrobber.block.chunkloader.click_off": "Грузитель выключается",
+  "subtitles.heartrobber.block.chunkloader.click_on": "Грузитель включается",
+  "subtitles.heartrobber.block.ender_relay.charge": "Транслокатор заряжен",
+  "subtitles.heartrobber.block.ender_relay.deplete": "Транслокатор истощается",
+  "subtitles.heartrobber.block.ender_relay.teleport": "Транслокатор телепортирует что-то",
+  "subtitles.heartrobber.block.lodestone.teleport": "Что-то телепортировалось к магнетиту",
+  "subtitles.heartrobber.item.honey.crystallize": "Мёд кристаллизуется",
+  "subtitles.heartrobber.item.heart.absorb": "Игрок поглотил сердце",
+  "subtitles.heartrobber.item.heart.link": "Сердца заряжаются",
+  "subtitles.heartrobber.item.heart.revive": "Игрок возрождён"
 }

@@ -14,5 +14,16 @@
   "block.heartrobber.chunkloader": "Навантажник",
   "item.heartrobber.geolocator": "Геолокатор",
   "item.heartrobber.xp_crystal": "Знавственакопичувальний кристал",
-  "item.heartrobber.crystallized_honey": "Кристалізований мед"
+  "item.heartrobber.crystallized_honey": "Кристалізований мед",
+  "enchantment.heartrobber.wisdom": "Мудрість",
+  "subtitles.heartrobber.block.chunkloader.click_off": "Навантажник вимикається",
+  "subtitles.heartrobber.block.chunkloader.click_on": "Навантажник вмикається",
+  "subtitles.heartrobber.block.ender_relay.charge": "Транслокатор заряджається",
+  "subtitles.heartrobber.block.ender_relay.deplete": "Транслокатор вичерпується",
+  "subtitles.heartrobber.block.ender_relay.teleport": "Транслокатор телепортує щось",
+  "subtitles.heartrobber.block.lodestone.teleport": "Щось телепортувалося до магнетиту",
+  "subtitles.heartrobber.item.honey.crystallize": "Мед кристалізується",
+  "subtitles.heartrobber.item.heart.absorb": "Гравець поглинув серце",
+  "subtitles.heartrobber.item.heart.link": "Серця заряджаються",
+  "subtitles.heartrobber.item.heart.revive": "Гравець відроджується"
 }
