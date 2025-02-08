@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "light",
+  "ingredients": [
+    "minecraft:structure_void",
+    "minecraft:structure_void",
+    "minecraft:structure_void",
+    "minecraft:glowstone",
+    "minecraft:glowstone",
+    "minecraft:glowstone",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "id": "minecraft:light",
+    "count": 6,
+    "components": {
+      "rarity": "uncommon",
+      "block_state": {
+         "level": "13"
+      }
+    }
+  }
+}

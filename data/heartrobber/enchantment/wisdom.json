@@ -41,6 +41,7 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": "#heartrobber:exclusive_set/wisdom",
   "supported_items": "#heartrobber:enchantable/loots",
   "weight": 9
 }

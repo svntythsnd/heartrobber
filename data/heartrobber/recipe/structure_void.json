@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#heartrobber:heads",
+    "*": "minecraft:echo_shard",
+    "@": "minecraft:sculk"
+  },
+  "pattern": [
+    "*@*",
+    "@#@",
+    "*@*"
+  ],
+  "result": {
+    "id": "minecraft:structure_void",
+    "count": 20,
+    "components": {
+      "rarity": "uncommon"
+    }
+  }
+}
