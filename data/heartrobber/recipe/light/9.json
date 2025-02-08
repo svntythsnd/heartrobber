@@ -12,7 +12,7 @@
   ],
   "result": {
     "id": "minecraft:light",
-    "count": 6
+    "count": 6,
     "components": {
       "rarity": "uncommon",
       "block_state": {
