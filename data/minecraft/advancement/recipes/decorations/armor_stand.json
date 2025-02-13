@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:armor_stand",
+      "heartrobber:armor_stand/no_baseplate",
+      "heartrobber:armor_stand/no_baseplate_arms",
+      "heartrobber:armor_stand/arms",
+      "heartrobber:armor_stand/small",
+      "heartrobber:armor_stand/small_no_baseplate",
+      "heartrobber:armor_stand/small_no_baseplate_arms",
+      "heartrobber:armor_stand/small_arms"
+    ]
+  }
+}

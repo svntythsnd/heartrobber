@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+	  "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_model": "minecraft:air",
+                "custom_data": {
+                  "heartrobber:type": 11
+                }
+              }
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "ShowArms",
+                  "target": "\"heartrobber:armor_stand\".ShowArms",
+                  "op": "replace"
+                },
+                {
+                  "source": "NoBasePlate",
+                  "target": "\"heartrobber:armor_stand\".NoBasePlate",
+                  "op": "replace"
+                },
+                {
+                  "source": "Small",
+                  "target": "\"heartrobber:armor_stand\".Small",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:player",
+                    "gamemode": [
+                      "creative"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/armor_stand"
+}

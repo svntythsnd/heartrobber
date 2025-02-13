@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_stand",
+  "key": {
+    "*": "minecraft:stick",
+    "@": "minecraft:smooth_stone_slab"
+  },
+  "pattern": [
+    " * ",
+    " * ",
+    "*@*"
+  ],
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoBasePlate": 0,
+        "ShowArms": 0,
+        "Small": 1
+      },
+      "custom_model_data": {
+        "flags": [
+          false,
+          false,
+          true
+        ]
+      }
+    }
+  }
+}

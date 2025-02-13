@@ -1,0 +1,71 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 2,
+    "on_true": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/armor_stand/small_body"
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_true": {
+            "type": "minecraft:empty"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "heartrobber:item/armor_stand/small_base"
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "heartrobber:item/armor_stand/small_arms"
+          },
+          "on_false": {
+            "type": "minecraft:empty"
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/armor_stand/body"
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_true": {
+            "type": "minecraft:empty"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "heartrobber:item/armor_stand/base"
+          }
+        },
+        {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "heartrobber:item/armor_stand/arms"
+          },
+          "on_false": {
+            "type": "minecraft:empty"
+          }
+        }
+      ]
+    }
+  }
+}

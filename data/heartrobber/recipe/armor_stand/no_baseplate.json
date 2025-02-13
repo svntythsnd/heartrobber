@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "armor_stand",
+  "key": {
+    "*": "minecraft:stick"
+  },
+  "pattern": [
+    "***",
+    " * ",
+    "* *"
+  ],
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoBasePlate": 1,
+        "ShowArms": 0,
+        "Small": 0
+      },
+      "custom_model_data": {
+        "flags": [
+          true,
+          false,
+          false
+        ]
+      }
+    }
+  }
+}

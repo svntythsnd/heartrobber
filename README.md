@@ -1,1 +1,1 @@
-### This is the current version of the datapack, featuring the Enhanced Pots extension.
+### This is the current version of the datapack, featuring the Enhanced Pots extension. Works better on Paper.
