@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,nbt={Small:1b}] unless data entity @s HandItems[0].components."minecraft:custom_data"."heartrobber:link" at @s run function heartrobber:macro/armor_stand_start_small with entity @s
+execute as @e[type=armor_stand,tag=heartrobber_smallArmor] at @s run function heartrobber:macro/armor_stand_break_small with entity @s HandItems[0].components."minecraft:custom_data"."heartrobber:link"

@@ -10,5 +10,6 @@ function heartrobber:tick/chunkloader_look
 function heartrobber:tick/chunkloader_work
 function heartrobber:tick/geolocator
 function heartrobber:tick/honey_crystallize
+function heartrobber:tick/armor_stand_break_small
 function heartrobber:tick/armor_stand_break
 function heartrobber:tick/clear_cache
