@@ -1,0 +1,1 @@
+$title @s actionbar [{"translate":"gui.heartrobber.day","color":"yellow"}, {"text":": $(day)","color":"yellow"},{"text":" ][ ","color":"gold"},{"text":"$(hours):$(minutes).$(ticks)","color":"yellow"}]

@@ -8,7 +8,7 @@ function heartrobber:tick/ender_relay_cool
 function heartrobber:tick/chunkloader
 function heartrobber:tick/chunkloader_look
 function heartrobber:tick/chunkloader_work
-function heartrobber:tick/geolocator
+function heartrobber:tick/holdables
 function heartrobber:tick/honey_crystallize
 function heartrobber:tick/armor_stand_break_small
 function heartrobber:tick/armor_stand_break

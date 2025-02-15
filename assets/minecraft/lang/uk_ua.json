@@ -25,5 +25,6 @@
   "subtitles.heartrobber.item.honey.crystallize": "Мед кристалізується",
   "subtitles.heartrobber.item.heart.absorb": "Гравець поглинув серце",
   "subtitles.heartrobber.item.heart.link": "Серця заряджаються",
-  "subtitles.heartrobber.item.heart.revive": "Гравець відроджується"
+  "subtitles.heartrobber.item.heart.revive": "Гравець відроджується",
+  "gui.heartrobber.day": "Пройшло днів"
 }

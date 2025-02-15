@@ -26,5 +26,6 @@
   "subtitles.heartrobber.item.honey.crystallize": "Honey crystallizes",
   "subtitles.heartrobber.item.heart.absorb": "Heart is absorbed",
   "subtitles.heartrobber.item.heart.link": "Hearts charge",
-  "subtitles.heartrobber.item.heart.revive": "Player is revived"
+  "subtitles.heartrobber.item.heart.revive": "Player is revived",
+  "gui.heartrobber.day": "Days passed"
 }
