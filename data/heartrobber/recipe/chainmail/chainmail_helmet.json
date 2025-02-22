@@ -10,6 +10,9 @@
     "# #"
   ],
   "result": {
-    "id": "minecraft:chainmail_helmet"
+    "id": "minecraft:chainmail_helmet",
+    "components": {
+      "rarity": "common"
+    }
   }
 }

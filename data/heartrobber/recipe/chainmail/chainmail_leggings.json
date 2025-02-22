@@ -11,6 +11,9 @@
     "# #"
   ],
   "result": {
-    "id": "minecraft:chainmail_leggings"
+    "id": "minecraft:chainmail_leggings",
+    "components": {
+      "rarity": "common"
+    }
   }
 }

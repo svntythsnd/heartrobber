@@ -10,6 +10,9 @@
     "@ @"
   ],
   "result": {
-    "id": "minecraft:chainmail_boots"
+    "id": "minecraft:chainmail_boots",
+    "components": {
+      "rarity": "common"
+    }
   }
 }
