@@ -1,0 +1,3 @@
+execute store result score @s heartrobber_chunkLoaded run forceload query ~ ~
+execute as @s[scores={heartrobber_chunkLoaded=0}] positioned ~ ~0.5 ~ if data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader_on"}}} run tag @s add heartrobber_working
+execute as @s[tag=heartrobber_working] positioned ~ ~0.5 ~ run function heartrobber:triggered/chunkloader_nests/work/working

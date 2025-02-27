@@ -14,6 +14,7 @@
   ],
   "result": {
     "id": "minecraft:allay_spawn_egg",
+    "count": 4,
     "components": {
       "item_model": "heartrobber:chunkloader",
       "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 

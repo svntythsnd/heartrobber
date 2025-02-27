@@ -1,0 +1,5 @@
+execute if block ~ ~-1 ~ #heartrobber:lamps[lit=true] unless data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader_on"}}} run playsound heartrobber:block.chunkloader.click_on block @a
+execute if block ~ ~-1 ~ #heartrobber:lamps[lit=true] run data modify entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] item.components."minecraft:item_model" set value "heartrobber:chunkloader_on"
+
+execute unless block ~ ~-1 ~ #heartrobber:lamps[lit=true] unless data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader"}}} run playsound heartrobber:block.chunkloader.click_off block @a
+execute unless block ~ ~-1 ~ #heartrobber:lamps[lit=true] run data modify entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] item.components."minecraft:item_model" set value "heartrobber:chunkloader"

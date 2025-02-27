@@ -1,0 +1,3 @@
+execute if score @s heartrobber_chunkLoaded matches 0 if data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader_on"}}} run forceload add ~ ~
+execute if score @s heartrobber_chunkLoaded matches 1 if data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader"}}} run forceload remove ~ ~
+execute if score @s heartrobber_chunkLoaded matches 0 if data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader"}}} run tag @s remove heartrobber_working

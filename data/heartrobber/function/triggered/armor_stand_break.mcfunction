@@ -1,0 +1,7 @@
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:entity_data".id set value "minecraft:armor_stand"
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:entity_data" merge from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand"
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags set value [B; 0B, 0B, 0B]
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[0] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".NoBasePlate
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[1] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".ShowArms
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[2] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".Small
+kill @s

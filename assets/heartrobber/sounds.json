@@ -44,7 +44,7 @@
     "subtitle": "subtitles.heartrobber.block.ender_relay.teleport",
     "sounds": [
       {
-        "name": "heartrobber:block/ender_relaye/teleport1",
+        "name": "heartrobber:block/ender_relay/teleport1",
         "pitch": 0.95
       },
       {
@@ -89,7 +89,7 @@
         "name": "heartrobber:block/ender_relay/deplete2",
         "pitch": 0.8
       },
-      "heartrobber:sounds/block/ender_relay/deplete2",
+      "heartrobber:block/ender_relay/deplete2",
       {
         "name": "heartrobber:block/ender_relay/deplete3",
         "pitch": 0.9

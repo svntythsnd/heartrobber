@@ -1,8 +1,2 @@
-execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ if block ~ ~-1 ~ #heartrobber:lamps[lit=true] unless data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader_on"}}} run playsound heartrobber:block.chunkloader.click_on block @a
-execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ if block ~ ~-1 ~ #heartrobber:lamps[lit=true] run data modify entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] item.components."minecraft:item_model" set value "heartrobber:chunkloader_on"
-
-execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ unless block ~ ~-1 ~ #heartrobber:lamps[lit=true] unless data entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] {item:{components:{"minecraft:item_model":"heartrobber:chunkloader"}}} run playsound heartrobber:block.chunkloader.click_off block @a
-execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ unless block ~ ~-1 ~ #heartrobber:lamps[lit=true] run data modify entity @n[tag=heartrobber_chunkloaderBlock,distance=..0.01] item.components."minecraft:item_model" set value "heartrobber:chunkloader"
-
-execute as @e[tag=heartrobber_chunkloaderBlock,distance=..0.01,nbt={item:{components:{"minecraft:item_model":"heartrobber:chunkloader"}}}] run data merge entity @s {brightness:{block:0b,sky:15b}}
-execute as @e[tag=heartrobber_chunkloaderBlock,distance=..0.01,nbt={item:{components:{"minecraft:item_model":"heartrobber:chunkloader_on"}}}] run data merge entity @s {brightness:{block:8b,sky:15b}}
+execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/chunkloader_nests/look/main
+execute as @e[tag=heartrobber_chunkloaderBlock] run function heartrobber:triggered/chunkloader_nests/look/block

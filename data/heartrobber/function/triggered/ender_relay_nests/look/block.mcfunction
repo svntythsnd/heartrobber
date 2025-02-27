@@ -1,0 +1,2 @@
+data merge entity @s[nbt={item:{components:{"minecraft:item_model":"heartrobber:ender_relay"}}}] {brightness:{block:0b,sky:15b}}
+data merge entity @s[nbt={item:{components:{"minecraft:item_model":"heartrobber:ender_relay_on"}}}] {brightness:{block:8b,sky:15b}}
