@@ -27,5 +27,7 @@
   "subtitles.heartrobber.item.heart.absorb": "Гравець поглинув серце",
   "subtitles.heartrobber.item.heart.link": "Серця заряджаються",
   "subtitles.heartrobber.item.heart.revive": "Гравець відроджується",
-  "gui.heartrobber.day": "Пройшло днів"
+  "gui.heartrobber.day": "Пройшло днів",
+  "trim_material.heartrobber.rose_gold": "Рожеве золото",
+  "trim_material.heartrobber.steel": "Сталь"
 }

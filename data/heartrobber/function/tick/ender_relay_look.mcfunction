@@ -1,2 +1,2 @@
-execute as @e[tag=heartrobber_relay] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/ender_relay_nests/look/main
-execute as @e[tag=heartrobber_relayBlock] run function heartrobber:triggered/ender_relay_nests/look/block
+execute as @e[type=marker,tag=heartrobber_relay] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/ender_relay_nests/look/main
+execute as @e[type=item_display,tag=heartrobber_relayBlock] run function heartrobber:triggered/ender_relay_nests/look/block

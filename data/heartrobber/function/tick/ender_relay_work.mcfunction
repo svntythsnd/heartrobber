@@ -1,2 +1,2 @@
-execute as @e[tag=heartrobber_relay] at @s positioned ~ ~0.5 ~ run function heartrobber/triggered/ender_relay_nests/work
-execute as @e[tag=heartrobber_relaySoon] at @s at @n[tag=heartrobber_relay] positioned ~ ~2 ~ run tag @s[distance=1..] remove heartrobber_relaySoon
+execute as @e[type=marker,tag=heartrobber_relay] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/ender_relay_nests/work
+execute as @e[tag=heartrobber_relaySoon] at @s positioned ~ ~-2 ~ at @n[type=marker,tag=heartrobber_relay] positioned ~ ~2 ~ run tag @s[distance=1..] remove heartrobber_relaySoon

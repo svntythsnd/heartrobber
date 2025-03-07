@@ -1,3 +1,3 @@
-execute as @e[tag=heartrobber_chunkloaderPlace] at @s align xyz positioned ~0.5 ~ ~0.5 run function heartrobber:triggered/chunkloader_nests/place
-execute as @e[tag=heartrobber_chunkloader] at @s run function heartrobber:triggered/chunkloader_nests/main
-execute as @e[tag=heartrobber_chunkloaderBlock] at @s positioned ~ ~-0.5 ~ unless entity @e[tag=heartrobber_chunkloader,distance=..0.01] run kill @s
+execute as @e[type=marker,tag=heartrobber_chunkloaderPlace] at @s align xyz positioned ~0.5 ~ ~0.5 run function heartrobber:triggered/chunkloader_nests/place
+execute as @e[type=marker,tag=heartrobber_chunkloader] at @s run function heartrobber:triggered/chunkloader_nests/main
+execute as @e[type=item_display,tag=heartrobber_chunkloaderBlock] at @s positioned ~ ~-0.5 ~ unless entity @e[tag=heartrobber_chunkloader,distance=..0.01] run kill @s

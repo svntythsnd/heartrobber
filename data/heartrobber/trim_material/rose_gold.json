@@ -1,0 +1,8 @@
+{
+  "asset_name": "rose_gold",
+  "description": {
+    "color": "#F28F88",
+    "translate": "trim_material.heartrobber.rose_gold"
+  },
+  "ingredient": "minecraft:chain_command_block"
+}

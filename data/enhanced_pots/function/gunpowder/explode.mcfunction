@@ -1,8 +1,6 @@
-scoreboard objectives add enhanced_pots.explosion_ratio dummy
-scoreboard objectives add enhanced_pots.explosion_radius dummy
+scoreboard players set @s enhanced_pots.explosion_ratio 4
+scoreboard players operation @s enhanced_pots.explosion_radius = @s enhanced_pots.item_count
 
-scoreboard players set @s enhanced_pots.explosion_ratio 5
-execute store result score @s enhanced_pots.explosion_radius run scoreboard players get @s enhanced_pots.item_count
 
 scoreboard players operation @s enhanced_pots.explosion_radius /= @s enhanced_pots.explosion_ratio
 scoreboard players add @s enhanced_pots.explosion_radius 2

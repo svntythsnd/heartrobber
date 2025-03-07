@@ -1,0 +1,4 @@
+scoreboard objectives add enhanced_pots.explosion_ratio dummy
+scoreboard objectives add enhanced_pots.explosion_radius dummy
+scoreboard objectives add enhanced_pots.item_count dummy
+scoreboard objectives add enhanced_pots.max_items dummy

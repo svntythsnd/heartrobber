@@ -1,2 +1,2 @@
-execute as @e[tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/chunkloader_nests/look/main
-execute as @e[tag=heartrobber_chunkloaderBlock] run function heartrobber:triggered/chunkloader_nests/look/block
+execute as @e[type=marker,tag=heartrobber_chunkloader] at @s positioned ~ ~0.5 ~ run function heartrobber:triggered/chunkloader_nests/look/main
+execute as @e[type=item_display,tag=heartrobber_chunkloaderBlock] run function heartrobber:triggered/chunkloader_nests/look/block

@@ -1,1 +1,1 @@
-execute align xyz run summon minecraft:armor_stand ~0.5 ~ ~0.5 { Tags: ["pot_marker"], NoGravity: true, Invisible: true, Silent: true, Marker: true }
+summon marker ~ ~ ~ { Tags: ["pot_marker"] }

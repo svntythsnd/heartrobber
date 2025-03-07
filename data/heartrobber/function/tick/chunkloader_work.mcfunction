@@ -1,1 +1,1 @@
-execute as @e[tag=heartrobber_chunkloader] at @s run function heartrobber:triggered/chunkloader_nests/work/main
+execute as @e[type=marker,tag=heartrobber_chunkloader] at @s run function heartrobber:triggered/chunkloader_nests/work/main

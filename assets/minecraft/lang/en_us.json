@@ -28,5 +28,7 @@
   "subtitles.heartrobber.item.heart.absorb": "Heart is absorbed",
   "subtitles.heartrobber.item.heart.link": "Hearts charge",
   "subtitles.heartrobber.item.heart.revive": "Player is revived",
-  "gui.heartrobber.day": "Days passed"
+  "gui.heartrobber.day": "Days passed",
+  "trim_material.heartrobber.rose_gold": "Rose Gold",
+  "trim_material.heartrobber.steel": "Steel"
 }

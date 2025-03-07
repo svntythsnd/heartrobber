@@ -1,0 +1,8 @@
+{
+  "asset_name": "steel",
+  "description": {
+    "color": "#9E9EB1",
+    "translate": "trim_material.heartrobber.steel"
+  },
+  "ingredient": "minecraft:repeating_command_block"
+}

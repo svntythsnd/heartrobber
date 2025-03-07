@@ -1,7 +1,7 @@
 # move the items into the pot item entity
-data modify storage enhanced_pots:broken_pot_data item set from entity @s ArmorItems[0]
-execute if data entity @s ArmorItems[0].components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s ArmorItems[0].components."minecraft:item_model"
-execute unless data entity @s ArmorItems[0].components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s ArmorItems[0].id
+data modify storage enhanced_pots:broken_pot_data item set from entity @s data.item
+execute if data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.components."minecraft:item_model"
+execute unless data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.id
 data modify storage enhanced_pots:broken_pot_data item merge value {components:{}}
 execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count
 data modify storage enhanced_pots:broken_pot_data item.raw_name set string storage enhanced_pots:broken_pot_data item.components."minecraft:item_name" 14 -2
@@ -16,6 +16,6 @@ execute store result storage enhanced_pots:broken_pot_data item.count int 1 run 
 execute unless data entity @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot"},Age:0s},distance=..1] {Item:{components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}}} unless score @s enhanced_pots.item_count matches 0 run function enhanced_pots:modify_pot_inventory with storage enhanced_pots:broken_pot_data item
 
 # explode pot if hit with a flaming arrow
-execute if data entity @s {ArmorItems:[{id:"minecraft:gunpowder"}]} at @n[type=minecraft:arrow,distance=..2] unless data entity @s {Fire: -1s} run function enhanced_pots:gunpowder/explode
+execute if data entity @s {data:{item:[{id:"minecraft:gunpowder"}]}} at @n[type=minecraft:arrow,distance=..2] unless data entity @s {Fire: -1s} run function enhanced_pots:gunpowder/explode
 
 kill @s

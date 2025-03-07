@@ -19,10 +19,8 @@
       "item_model": "heartrobber:chunkloader",
       "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 
       "entity_data": {
-        "id":"minecraft:armor_stand",
-        "Tags": ["heartrobber_chunkloaderPlace"],
-        "Marker": true,
-        "Invisible": true
+        "id":"minecraft:marker",
+        "Tags": ["heartrobber_chunkloaderPlace"]
       },
       "custom_data": {
         "heartrobber:type": 7

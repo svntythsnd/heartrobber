@@ -28,5 +28,7 @@
   "subtitles.heartrobber.item.heart.absorb": "Игрок поглотил сердце",
   "subtitles.heartrobber.item.heart.link": "Сердца заряжаются",
   "subtitles.heartrobber.item.heart.revive": "Игрок возрождён",
-  "gui.heartrobber.day": "Прошло дней"
+  "gui.heartrobber.day": "Прошло дней",
+  "trim_material.heartrobber.rose_gold": "Розовое золото",
+  "trim_material.heartrobber.steel": "Сталь"
 }

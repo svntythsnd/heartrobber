@@ -1,8 +1,6 @@
 {
   "values": [
     "heartrobber:tick",
-    "enhanced_pots:tick",
-    "enhanced_pots:flowers/tick",
-    "enhanced_pots:gunpowder/tick"
+    "enhanced_pots:tick"
   ]
 }

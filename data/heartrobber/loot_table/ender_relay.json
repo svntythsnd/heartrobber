@@ -13,10 +13,8 @@
                 "item_model": "heartrobber:ender_relay", 
                 "item_name": "{\"translate\": \"block.heartrobber.ender_relay\"}", 
                 "entity_data": {
-                  "id":"minecraft:armor_stand",
-                  "Tags": ["heartrobber_relayPlace"],
-                  "Marker": true,
-                  "Invisible": true
+                  "id":"minecraft:marker",
+                  "Tags": ["heartrobber_relayPlace"]
                 },
                 "custom_data": {
                   "heartrobber:type": 6
