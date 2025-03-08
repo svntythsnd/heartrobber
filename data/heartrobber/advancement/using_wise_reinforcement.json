@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 14
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "heartrobber:type": 14
+                }
+              }
+            },
+            "offhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "heartrobber:type": 9
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:triggered/reinforcement"
+  }
+}

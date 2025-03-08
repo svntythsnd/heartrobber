@@ -14,6 +14,6 @@
     }
   },
   "rewards":  {
-    "function": "heartrobber:triggered/transfer_xp"
+    "function": "heartrobber:triggered/xp/start"
   }
 }

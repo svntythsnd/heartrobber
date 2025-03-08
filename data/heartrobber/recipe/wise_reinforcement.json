@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "@": "minecraft:experience_bottle",
+    "$": "minecraft:structure_block",
+    "#": "minecraft:prismarine_crystals"
+  },
+  "pattern": [
+    " # ",
+    "@$@",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "custom_data": {
+        "heartrobber:type": 14
+      },
+      "consumable": {
+        "consume_seconds": 3.40282347e+38
+      },
+      "food": {
+        "saturation": 0,
+        "nutrition": 0,
+        "can_always_eat": true
+      },
+      "rarity": "uncommon",
+      "max_stack_size": 1,
+      "item_model": "heartrobber:wise_reinforcement",
+      "item_name": "{\"translate\": \"item.heartrobber.wise_reinforcement\"}",
+      "lore": ["\"\"","{\"translate\":\"description.heartrobber.wise_reinforcement\", \"italic\":false, \"color\":\"dark_gray\"}"]
+    }
+  }
+}

@@ -6,3 +6,4 @@ scoreboard objectives add heartrobber_crystallizeTick dummy
 scoreboard objectives add heartrobber_compare dummy
 scoreboard objectives add heartrobber_compare2 dummy
 scoreboard objectives add heartrobber_compare3 dummy
+scoreboard objectives add heartrobber_compare4 dummy

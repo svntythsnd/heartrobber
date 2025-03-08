@@ -11,6 +11,38 @@
       "heartrobber:item/honey/crystallize7"
     ]
   },
+  "item.wise_reinforcement.use": {
+    "subtitle": "subtitles.heartrobber.item.wise_reinforcement.use",
+    "sounds": [
+      "heartrobber:item/wise_reinforcement/use1",
+      {
+        "name": "heartrobber:item/wise_reinforcement/use1",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:item/wise_reinforcement/use1",
+        "pitch": 1.15
+      },
+      "heartrobber:item/wise_reinforcement/use2",
+      {
+        "name": "heartrobber:item/wise_reinforcement/use2",
+        "pitch": 1.08
+      },
+      {
+        "name": "heartrobber:item/wise_reinforcement/use2",
+        "pitch": 1.15
+      },
+      "heartrobber:item/wise_reinforcement/use3",
+      {
+        "name": "heartrobber:item/wise_reinforcement/use3",
+        "pitch": 1.08
+      },
+      {
+        "name": "heartrobber:item/wise_reinforcement/use3",
+        "pitch": 1.15
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [

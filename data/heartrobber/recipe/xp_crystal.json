@@ -18,8 +18,8 @@
       "custom_data": {
         "heartrobber:type": 9
       },
-      "max_damage": 1000,
-      "damage": 1000,
+      "max_damage": 500,
+      "damage": 500,
       "unbreakable": {
         "show_in_tooltip": false
       },
@@ -35,7 +35,7 @@
       "rarity": "uncommon",
       "item_model": "heartrobber:xp_crystal",
       "item_name": "{\"translate\": \"item.heartrobber.xp_crystal\"}",
-      "lore": ["\"\"","{\"text\":\"0/1000 XP\", \"italic\":false, \"color\":\"blue\"}"]
+      "lore": ["\"\"","{\"text\":\"0/500 XP\", \"italic\":false, \"color\":\"blue\"}"]
     }
   }
 }

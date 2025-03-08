@@ -18,7 +18,11 @@
     "components": {
       "rarity": "common",
       "lore": [
-        "{\"translate\": \"description.heartrobber.alloying_upgrade\", \"color\": \"gray\", \"italic\": false}"
+        "{\"translate\": \"description.heartrobber.alloying_upgrade\", \"color\": \"gray\", \"italic\": false}",
+        "\"\"",
+        "{\"translate\": \"description.heartrobber.alloying_upgrade.usage\", \"with\":[{\"translate\": \"item.minecraft.netherite_ingot\", \"color\":\"gray\"}, {\"translate\": \"block.minecraft.copper_block\", \"color\":\"gray\"}, {\"translate\": \"block.minecraft.chain_command_block\", \"color\":\"gray\"}], \"color\": \"dark_gray\", \"italic\": false}",
+        "{\"translate\": \"description.heartrobber.alloying_upgrade.usage\", \"with\":[{\"translate\": \"item.minecraft.netherite_scrap\", \"color\":\"gray\"}, {\"translate\": \"item.minecraft.gold_ingot\", \"color\":\"gray\"}, {\"translate\": \"block.minecraft.jigsaw\", \"color\":\"gray\"}], \"color\": \"dark_gray\", \"italic\": false}",
+        "{\"translate\": \"description.heartrobber.alloying_upgrade.usage\", \"with\":[{\"translate\": \"item.minecraft.iron_ingot\", \"color\":\"gray\"}, {\"translate\": \"description.heartrobber.alloying_upgrade.usage.alternatives\", \"color\":\"gray\", \"with\": [{\"translate\": \"item.minecraft.coal\"}, {\"translate\": \"item.minecraft.charcoal\"}]}, {\"translate\": \"block.minecraft.repeating_command_block\", \"color\":\"gray\"}], \"color\": \"dark_gray\", \"italic\": false}"
       ]
     }
   }
