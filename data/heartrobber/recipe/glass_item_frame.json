@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:item_frame",
+    "minecraft:glass_pane",
+    "minecraft:amethyst_shard"
+  ],
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "entity_data": {
+        "id":"item_frame",
+        "Invisible": true
+      },
+      "item_name": "{\"translate\":\"item.heartrobber.glass_item_frame\"}",
+      "item_model": "heartrobber:glass_item_frame",
+      "custom_data": {
+        "heartrobber:type": 15
+      }
+    }
+  }
+}

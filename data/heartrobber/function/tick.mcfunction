@@ -12,4 +12,5 @@ function heartrobber:tick/holdables
 function heartrobber:tick/honey_crystallize
 function heartrobber:tick/armor_stand_break_small
 function heartrobber:tick/armor_stand_break
+function heartrobber:tick/glass_frames
 function heartrobber:tick/clear_cache

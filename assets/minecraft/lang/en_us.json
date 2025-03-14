@@ -20,6 +20,8 @@
   "item.heartrobber.creaking_essence": "Creaking Essence",
   "item.heartrobber.wise_reinforcement": "Wise Reinforcement",
   "description.heartrobber.wise_reinforcement": "Use on an Experience Crystal in your offhand",
+  "item.heartrobber.glass_item_frame": "Glass Item Frame",
+  "item.heartrobber.glow_glass_item_frame": "Glow Glass Item Frame",
   "enchantment.heartrobber.wisdom": "Wisdom",
   "subtitles.heartrobber.block.chunkloader.click_off": "Chunk Loader powers off",
   "subtitles.heartrobber.block.chunkloader.click_on": "Chunk Loader powers on",
