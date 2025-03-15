@@ -17,6 +17,10 @@
       "item_name": "{\"translate\": \"item.heartrobber.creaking_essence\"}", 
       "custom_data": {
         "heartrobber:type": 12
+      },
+      "entity_data": {
+        "id": "minecraft:creaking",
+        "PersistenceRequired": true
       }
     },
     "count": 4

@@ -85,6 +85,13 @@
           "model": "minecraft:item/chainmail_chestplate_amethyst_trim"
         },
         "when": "minecraft:amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/chainmail_chestplate_resin_trim"
+        },
+        "when": "minecraft:resin"
       }
     ],
     "fallback": {

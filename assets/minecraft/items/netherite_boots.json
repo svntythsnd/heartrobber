@@ -85,6 +85,13 @@
           "model": "minecraft:item/netherite_boots_amethyst_trim"
         },
         "when": "minecraft:amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_boots_resin_trim"
+        },
+        "when": "minecraft:resin"
       }
     ],
     "fallback": {
