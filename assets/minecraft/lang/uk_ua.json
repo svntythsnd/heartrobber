@@ -22,6 +22,8 @@
   "description.heartrobber.wise_reinforcement": "Використайте на Знавственакопичувальному кристалі",
   "item.heartrobber.glass_item_frame": "Скляна рамка для предметів‌",
   "item.heartrobber.glow_glass_item_frame": "Сяйна скляна рамка для предметів",
+  "item.heartrobber.lock": "Рамковий замок",
+  "description.heartrobber.lock": "Фіксує рамку для предметів при використанні поблизу неї",
   "enchantment.heartrobber.wisdom": "Мудрість",
   "subtitles.heartrobber.block.chunkloader.click_off": "Навантажник вимикається",
   "subtitles.heartrobber.block.chunkloader.click_on": "Навантажник вмикається",

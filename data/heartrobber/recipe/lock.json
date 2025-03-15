@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:command_block",
+    "@": "minecraft:repeating_command_block",
+    "$": "minecraft:glass_pane",
+    "%": "#minecraft:coals"
+  },
+  "pattern": [
+    " % ",
+    "@$@",
+    "#@#"
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "item_model": "heartrobber:lock", 
+      "item_name": "{\"translate\": \"item.heartrobber.lock\"}",
+      "lore": ["{\"translate\": \"description.heartrobber.lock\", \"color\": \"gray\", \"italic\": false}"],
+      "max_stack_size": 1,
+      "custom_data": {
+        "heartrobber:type": 17
+      },
+      "consumable": {
+        "consume_seconds": 3.40282347e+38
+      },
+      "food": {
+        "saturation": 0, 
+        "nutrition": 0, 
+	"can_always_eat": true
+      }
+    }
+  }
+}

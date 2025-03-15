@@ -22,6 +22,8 @@
   "description.heartrobber.wise_reinforcement": "Use on an Experience Crystal in your offhand",
   "item.heartrobber.glass_item_frame": "Glass Item Frame",
   "item.heartrobber.glow_glass_item_frame": "Glow Glass Item Frame",
+  "item.heartrobber.lock": "Frame Lock",
+  "description.heartrobber.lock": "Locks an Item Frame when used on it up close",
   "enchantment.heartrobber.wisdom": "Wisdom",
   "subtitles.heartrobber.block.chunkloader.click_off": "Chunk Loader powers off",
   "subtitles.heartrobber.block.chunkloader.click_on": "Chunk Loader powers on",

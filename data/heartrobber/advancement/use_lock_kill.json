@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 17
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "heartrobber:triggered/unlock_frame"
+  },
+  "sends_telemetry_event": false
+}

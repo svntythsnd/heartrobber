@@ -1,2 +1,2 @@
-data modify entity @n[type=item,nbt={Item:{id:"minecraft:item_frame"},Age:0s},nbt=!{Item:{components:{}}}] Item.components set value {"minecraft:entity_data":{id:item_frame,Invisible:1b},"minecraft:item_name":'{"translate":"item.heartrobber.glass_item_frame"}',"minecraft:item_model":"heartrobber:glass_item_frame","minecraft:custom_data":{"heartrobber:type":15b}}
-kill @s 
+execute unless entity @n[type=item_frame,distance=..0.01] run function heartrobber:triggered/glass_frames/normalkill
+execute unless data entity @n[type=item_frame,distance=..0.01] Item run particle dust_color_transition{from_color:[1.0,1.0,1.0],to_color:[0.84,0.91,0.96],scale:0.8} ~ ~ ~ 0.04 0.04 0.04 1 1

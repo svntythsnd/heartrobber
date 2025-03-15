@@ -23,6 +23,8 @@
   "description.heartrobber.wise_reinforcement": "Используйте на Опытохранительном кристалле",
   "item.heartrobber.glass_item_frame": "Стеклянная рамка",
   "item.heartrobber.glow_glass_item_frame": "Светящаяся стеклянная рамка",
+  "item.heartrobber.lock": "Рамочный замок",
+  "description.heartrobber.lock": "Фиксирует рамку при использовании вблизи к ней",
   "enchantment.heartrobber.wisdom": "Мудрость",
   "subtitles.heartrobber.block.chunkloader.click_off": "Грузитель выключается",
   "subtitles.heartrobber.block.chunkloader.click_on": "Грузитель включается",
