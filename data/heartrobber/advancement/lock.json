@@ -1,7 +1,7 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:using_item",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "predicates": {
@@ -9,12 +9,18 @@
               "heartrobber:type": 17
             }
           }
+        },
+        "entity": {
+          "type": [
+            "minecraft:item_frame",
+            "minecraft:glow_item_frame"
+          ]
         }
       }
     }
   },
   "rewards": {
-    "function": "heartrobber:triggered/unlock_frame"
+    "function": "heartrobber:triggered/lock/lock/main"
   },
   "sends_telemetry_event": false
 }

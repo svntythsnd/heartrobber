@@ -1,0 +1,2 @@
+execute anchored eyes positioned ^ ^ ^1.1 as @n[type=#heartrobber:item_frame,distance=..0.5,nbt={Fixed:1b}] at @s run function heartrobber:triggered/lock/unlock/pov
+advancement revoke @s only heartrobber:unlock

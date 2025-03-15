@@ -19,7 +19,7 @@
   "item.heartrobber.crystallized_honey": "Кристалізований мед",
   "item.heartrobber.creaking_essence": "Скрипляча есенція",
   "item.heartrobber.wise_reinforcement": "Підкріплення мудрості",
-  "description.heartrobber.wise_reinforcement": "Використайте на Знавственакопичувальному кристалі",
+  "description.heartrobber.wise_reinforcement": "Використайте на знавственакопичувальному кристалі",
   "item.heartrobber.glass_item_frame": "Скляна рамка для предметів‌",
   "item.heartrobber.glow_glass_item_frame": "Сяйна скляна рамка для предметів",
   "item.heartrobber.lock": "Рамковий замок",
@@ -36,6 +36,8 @@
   "subtitles.heartrobber.item.heart.link": "Серця заряджаються",
   "subtitles.heartrobber.item.heart.revive": "Гравець відроджується",
   "subtitles.heartrobber.item.wise_reinforcement.use": "Підкріплення мудрості використовується",
+  "subtitles.heartrobber.item.lock.lock": "Рамковий замок фіксує рамку для предметів",
+  "subtitles.heartrobber.item.lock.unlock": "Рамковий замок розфіксує рамку для предметів",
   "gui.heartrobber.day": "Пройшло днів",
   "trim_material.heartrobber.rose_gold": "Рожеве золото",
   "trim_material.heartrobber.steel": "Сталь"

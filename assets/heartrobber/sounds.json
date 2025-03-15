@@ -43,6 +43,52 @@
       }
     ]
   },
+  "item.lock.lock": {
+    "subtitle": "subtitles.heartrobber.item.lock.lock",
+    "sounds": [
+      "heartrobber:item/lock/lock1",
+      {
+        "name": "heartrobber:item/lock/lock1",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:item/lock/lock1",
+        "pitch": 1.15
+      },
+      "heartrobber:item/lock/lock2",
+      {
+        "name": "heartrobber:item/lock/lock2",
+        "pitch": 1.08
+      },
+      {
+        "name": "heartrobber:item/lock/lock2",
+        "pitch": 1.15
+      }
+    ]
+  },
+  "item.lock.unlock": {
+    "subtitle": "subtitles.heartrobber.item.lock.unlock",
+    "sounds": [
+      "heartrobber:item/lock/unlock1",
+      {
+        "name": "heartrobber:item/lock/unlock1",
+        "pitch": 0.85
+      },
+      {
+        "name": "heartrobber:item/lock/unlock1",
+        "pitch": 1.15
+      },
+      "heartrobber:item/lock/unlock2",
+      {
+        "name": "heartrobber:item/lock/unlock2",
+        "pitch": 1.08
+      },
+      {
+        "name": "heartrobber:item/lock/unlock2",
+        "pitch": 1.15
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [

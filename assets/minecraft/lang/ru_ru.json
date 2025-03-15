@@ -20,7 +20,7 @@
   "item.heartrobber.crystallized_honey": "Кристаллизованный мёд",
   "item.heartrobber.creaking_essence": "Скрипящая эссенция",
   "item.heartrobber.wise_reinforcement": "Подкрепление мудрости",
-  "description.heartrobber.wise_reinforcement": "Используйте на Опытохранительном кристалле",
+  "description.heartrobber.wise_reinforcement": "Используйте на опытохранительном кристалле",
   "item.heartrobber.glass_item_frame": "Стеклянная рамка",
   "item.heartrobber.glow_glass_item_frame": "Светящаяся стеклянная рамка",
   "item.heartrobber.lock": "Рамочный замок",
@@ -37,6 +37,8 @@
   "subtitles.heartrobber.item.heart.link": "Сердца заряжаются",
   "subtitles.heartrobber.item.heart.revive": "Игрок возрождён",
   "subtitles.heartrobber.item.wise_reinforcement.use": "Подкрепление мудрости используется",
+  "subtitles.heartrobber.item.lock.lock": "Рамочный замок фиксирует рамку",
+  "subtitles.heartrobber.item.lock.unlock": "Рамочный замок разфиксирует рамку",
   "gui.heartrobber.day": "Прошло дней",
   "trim_material.heartrobber.rose_gold": "Розовое золото",
   "trim_material.heartrobber.steel": "Сталь"

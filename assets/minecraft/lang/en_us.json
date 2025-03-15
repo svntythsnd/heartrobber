@@ -36,6 +36,8 @@
   "subtitles.heartrobber.item.heart.link": "Hearts charge",
   "subtitles.heartrobber.item.heart.revive": "Player is revived",
   "subtitles.heartrobber.item.wise_reinforcement.use": "Wise Reinfrocement is used",
+  "subtitles.heartrobber.item.lock.lock": "Frame Lock locks Item Frame",
+  "subtitles.heartrobber.item.lock.unlock": "Frame Lock unlocks Item Frame",
   "gui.heartrobber.day": "Days passed",
   "trim_material.heartrobber.rose_gold": "Rose Gold",
   "trim_material.heartrobber.steel": "Steel"
