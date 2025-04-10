@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/axolotl_bucket/blue"
+        },
+        "when": "blue"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/axolotl_bucket/cyan"
+        },
+        "when": "cyan"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/axolotl_bucket/gold"
+        },
+        "when": "gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "heartrobber:item/axolotl_bucket/wild"
+        },
+        "when": "wild"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/axolotl_bucket"
+    },
+    "property": "minecraft:component",
+    "component": "minecraft:axolotl/variant"
+  }
+}

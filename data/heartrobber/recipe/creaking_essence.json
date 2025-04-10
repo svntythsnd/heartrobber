@@ -14,7 +14,7 @@
     "id": "minecraft:creaking_spawn_egg",
     "components": {
       "item_model": "heartrobber:creaking_essence",
-      "item_name": "{\"translate\": \"item.heartrobber.creaking_essence\"}", 
+      "item_name": {"translate": "item.heartrobber.creaking_essence"}, 
       "custom_data": {
         "heartrobber:type": 12
       },

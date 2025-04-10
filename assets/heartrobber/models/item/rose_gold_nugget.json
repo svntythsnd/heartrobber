@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "heartrobber:item/rose_gold_ingot"
+      "layer0": "heartrobber:item/rose_gold_nugget"
   }
 }

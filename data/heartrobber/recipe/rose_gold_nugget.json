@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chain_command_block"
+  ],
+  "result": {
+    "id": "minecraft:test_instance_block",
+    "count": 9,
+    "components": {
+      "rarity": "common"
+    }
+  }
+}

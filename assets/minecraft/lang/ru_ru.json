@@ -1,7 +1,8 @@
 {
   "item.heartrobber.heart": "Сердце",
-  "block.minecraft.command_block": "Кусочек стали",
+  "block.minecraft.test_instance_block": "Кусочек розового золота",
   "block.minecraft.chain_command_block": "Слиток розового золота",
+  "block.minecraft.command_block": "Кусочек стали",
   "block.minecraft.repeating_command_block": "Стальной слиток",
   "block.minecraft.structure_block": "Сплавка",
   "description.heartrobber.alloying_upgrade": "Кузнечный шаблон",

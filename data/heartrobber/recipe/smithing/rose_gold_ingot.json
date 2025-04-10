@@ -6,7 +6,8 @@
   "result": {
     "id": "minecraft:chain_command_block",
     "components": {
-      "rarity": "uncommon"
+      "rarity": "uncommon",
+      "provides_trim_material": "heartrobber:rose_gold"
     }
   }
 }

@@ -1,7 +1,8 @@
 {
   "item.heartrobber.heart": "Серце",
-  "block.minecraft.command_block": "Сталевий злиток",
+  "block.minecraft.test_instance_block": "Самородок рожевого золота",
   "block.minecraft.chain_command_block": "Злиток рожевого золота",
+  "block.minecraft.command_block": "Сталевий самородок",
   "block.minecraft.repeating_command_block": "Сталевий злиток",
   "block.minecraft.structure_block": "Сплавлення",
   "description.heartrobber.alloying_upgrade": "Ковальський шаблон",

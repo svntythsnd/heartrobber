@@ -11,7 +11,7 @@
               "function": "set_components",
               "components": {
                 "item_model": "heartrobber:crystallized_honey", 
-                "item_name": "{\"translate\": \"item.heartrobber.crystallized_honey\"}", 
+                "item_name": {"translate": "item.heartrobber.crystallized_honey"}, 
                 "custom_data": {
                   "heartrobber:type": 10
                 },

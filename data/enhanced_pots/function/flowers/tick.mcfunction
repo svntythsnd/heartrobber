@@ -4,4 +4,4 @@ execute as @s[tag=pot_marker_flower] unless items block ~ ~ ~ container.0 #enhan
 execute as @s[tag=pot_marker_flower,scores={enhanced_pots.item_count=2..}] run tag @s remove pot_marker_flower
 
 execute as @e[type=block_display,tag=pot_contents_flower] at @s run function enhanced_pots:flowers/tick_flower_display with entity @s block_state
-execute as @s[tag=!pot_marker_flower] positioned ~ ~1.25 ~ run kill @n[tag=pot_contents_flower]
+execute as @s[tag=!pot_marker_flower] positioned ~ ~1 ~ run kill @n[tag=pot_contents_flower,distance=..0.01]
