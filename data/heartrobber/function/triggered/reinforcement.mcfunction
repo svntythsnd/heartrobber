@@ -1,5 +1,5 @@
-execute store result score @s heartrobber_compare run data get entity @s Inventory[{Slot:-106b}].components."minecraft:max_damage"
-execute store result score @s heartrobber_compare2 run data get entity @s Inventory[{Slot:-106b}].components."minecraft:damage"
+execute store result score @s heartrobber_compare run data get entity @s equipment.offhand.components."minecraft:max_damage"
+execute store result score @s heartrobber_compare2 run data get entity @s equipment.offhand.components."minecraft:damage"
 scoreboard players add @s heartrobber_compare 500
 scoreboard players add @s heartrobber_compare2 500
 scoreboard players operation @s heartrobber_compare3 = @s heartrobber_compare

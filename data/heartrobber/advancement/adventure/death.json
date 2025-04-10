@@ -1,0 +1,21 @@
+{
+  "parent": "heartrobber:adventure/heart",
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.death.description"
+    },
+    "hidden": true,
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.death.title"
+    }
+  }
+}

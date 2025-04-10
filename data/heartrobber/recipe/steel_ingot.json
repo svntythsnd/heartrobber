@@ -13,7 +13,8 @@
   "result": {
     "id": "minecraft:repeating_command_block",
     "components": {
-      "rarity": "common"
+      "rarity": "common",
+      "provides_trim_material": "heartrobber:steel"
     }
   }
 }

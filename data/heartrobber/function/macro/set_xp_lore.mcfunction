@@ -1,2 +1,2 @@
-$item modify entity @s weapon.$(hand) {function:set_components,components:{"minecraft:damage":$(damage),"minecraft:lore":['""','{"text":"$(xp)/$(max) XP", "color":"blue", "italic":false}']}}
+$item modify entity @s weapon.$(hand) {function:set_components,components:{"minecraft:damage":$(damage),"minecraft:lore":[{"text":"$(xp)/$(max) XP", "color":"blue", "italic":false}]}}
 $title @s actionbar {"text":"$(xp)/$(max) XP", "color":"gray"}

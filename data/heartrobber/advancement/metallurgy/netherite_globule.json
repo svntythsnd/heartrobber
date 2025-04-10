@@ -1,0 +1,26 @@
+{
+  "parent": "heartrobber:metallurgy/alloying",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jigsaw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.netherite_globule.description"
+    },
+    "icon": {
+      "id": "minecraft:jigsaw"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.netherite_globule.title"
+    }
+  }
+}

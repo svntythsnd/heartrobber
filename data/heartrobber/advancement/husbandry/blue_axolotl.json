@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "criteria": {
+    "axolotl_bucket": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:axolotl_bucket",
+          "components": {
+            "axolotl/variant": "blue"
+          }
+        }
+      },
+      "trigger": "minecraft:filled_bucket"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.husbandry.blue_axolotl.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:axolotl_bucket",
+      "components": {
+        "axolotl/variant": "blue"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.husbandry.blue_axolotl.title"
+    }
+  },
+  "rewards": {
+    "experience": 40
+  }
+}

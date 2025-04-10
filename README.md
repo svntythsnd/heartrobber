@@ -1,1 +1,1 @@
-### This is the current version of the data/resource pack, featuring the Enhanced Pots extension. Works better with Clumps.
+### This is the current version of the data/resource pack, featuring the Enhanced Pots extension. Works better with Clumps. Intended for 1.21.5

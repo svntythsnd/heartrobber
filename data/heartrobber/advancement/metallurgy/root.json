@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:repeating_command_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/coal_block",
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.root.description"
+    },
+    "icon": {
+      "id": "minecraft:command_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.root.title"
+    }
+  },
+  "sends_telemetry_event": true
+}

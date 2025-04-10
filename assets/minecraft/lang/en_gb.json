@@ -1,0 +1,12 @@
+{
+  "block.minecraft.test_instance_block": "Rose Gold Nugget",
+  "block.minecraft.chain_command_block": "Rose Gold Ingot",
+  "block.minecraft.command_block": "Steel Nugget",
+  "block.minecraft.repeating_command_block": "Steel Ingot",
+  "block.minecraft.structure_block": "Alloyment",
+  "block.minecraft.petrified_oak_slab": "Ray Condenser",
+  "block.minecraft.jigsaw": "Netherite Globule",
+  "advancements.heartrobber.adventure.hard_trim.description": "Trim out a full suit of Netherite armour with a Rose Gold finish using the Silence armor trim",
+  "advancements.heartrobber.metallurgy.chainmail.description": "Make yourself a full suit of Chainmail armour",
+  "advancements.minecraft.husbandry.tactical_fishing.description": "Catch a fish... without a Fishing Rod!"
+}

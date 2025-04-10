@@ -1,0 +1,32 @@
+{
+  "parent": "heartrobber:metallurgy/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:name_tag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.name_tag.description"
+    },
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.name_tag.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:tag_and_inscriber",
+      "heartrobber:card"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "heartrobber:metallurgy/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 8
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.geolocator.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:geolocator"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.geolocator.title"
+    }
+  }
+}

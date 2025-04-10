@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "criteria": {
+    "axolotl_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 10 
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.husbandry.crystallized_honey.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:crystallized_honey"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.husbandry.crystallized_honey.title"
+    }
+  }
+}

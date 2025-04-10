@@ -1,1 +1,1 @@
-$execute unless block ~ ~-1.25 ~ decorated_pot{item:{id:"$(Name)"}} run kill @s
+$execute unless block ~0.5 ~-1.245 ~0.5 decorated_pot{item:{id:"$(Name)"}} run kill @s

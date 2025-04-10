@@ -1,0 +1,39 @@
+{
+  "parent": "heartrobber:metallurgy/rose_gold",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 7
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.chunkloader.description"
+    },
+    "icon": {
+      "id": "minecraft:allay_spawn_egg",
+      "components": {
+        "item_model": "heartrobber:chunkloader"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.chunkloader.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:rose_gold_nugget",
+      "heartrobber:chunkloader"
+    ]
+  }
+}

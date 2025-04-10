@@ -15,7 +15,7 @@
     "id": "minecraft:trial_key",
     "components": {
       "item_model": "heartrobber:heart", 
-      "item_name": "{\"translate\": \"item.heartrobber.heart\"}", 
+      "item_name": {"translate": "item.heartrobber.heart"}, 
       "consumable": {
         "consume_seconds": 1
       },

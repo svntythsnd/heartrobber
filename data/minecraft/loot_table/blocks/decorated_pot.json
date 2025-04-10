@@ -33,7 +33,7 @@
                 },
                 {
                   "function": "minecraft:set_custom_data",
-                  "tag": "{\"enhanced_pots:takes\":true}"
+                  "tag": {"enhanced_pots:takes":true}
                 }
               ],
               "conditions": [

@@ -1,0 +1,69 @@
+{
+  "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_helmet",
+	    "components": {
+              "trim": {
+                "material": "heartrobber:rose_gold",
+                "pattern": "minecraft:silence"
+              }
+            }
+          },
+          {
+            "items": "minecraft:netherite_chestplate",
+	    "components": {
+              "trim": {
+                "material": "heartrobber:rose_gold",
+                "pattern": "minecraft:silence"
+              }
+            }
+          },
+          {
+            "items": "minecraft:netherite_leggings",
+	    "components": {
+              "trim": {
+                "material": "heartrobber:rose_gold",
+                "pattern": "minecraft:silence"
+              }
+            }
+          },
+          {
+            "items": "minecraft:netherite_boots",
+	    "components": {
+              "trim": {
+                "material": "heartrobber:rose_gold",
+                "pattern": "minecraft:silence"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.hard_trim.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:netherite_chestplate",
+      "components": {
+        "trim": {
+          "material": "heartrobber:rose_gold",
+          "pattern": "minecraft:silence"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.hard_trim.title"
+    }
+  },
+  "rewards": {
+    "experience": 180
+  }
+}

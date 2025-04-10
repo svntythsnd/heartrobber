@@ -1,0 +1,41 @@
+{
+  "parent": "heartrobber:adventure/brim",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 9
+              }
+            },
+            "components": {
+              "max_damage": 30000
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.reinforce.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:wise_reinforcement"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.reinforce.title"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

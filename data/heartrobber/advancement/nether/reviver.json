@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:nether/create_beacon",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.nether.reviver.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:petrified_oak_slab"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.nether.reviver.title"
+    }
+  }
+}

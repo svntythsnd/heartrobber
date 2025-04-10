@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:item/jigsaw"
+    "model": "heartrobber:item/netherite_globule"
   }
 }

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:creaking_heart"
-            ]
+            "items": "minecraft:creaking_heart"
           }
         ]
       },

@@ -1,0 +1,26 @@
+{
+  "parent": "heartrobber:metallurgy/rose_gold",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "recipe_id": "heartrobber:heart"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.heart.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:heart"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.heart.title"
+    }
+  }
+}

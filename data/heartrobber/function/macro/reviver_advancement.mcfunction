@@ -1,0 +1,1 @@
+$advancement grant @p[nbt={UUID:$(Thrower)}] only heartrobber:nether/reviver

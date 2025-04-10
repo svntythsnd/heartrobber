@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:test_instance_block"
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "rarity": "common",
+      "provides_trim_material": "heartrobber:rose_gold"
+    }
+  }
+}

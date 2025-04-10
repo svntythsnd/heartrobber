@@ -1,0 +1,46 @@
+{
+  "parent": "heartrobber:adventure/decapitation",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_void"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.structure_void.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.structure_void.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:light/0",
+      "heartrobber:light/1",
+      "heartrobber:light/2",
+      "heartrobber:light/3",
+      "heartrobber:light/4",
+      "heartrobber:light/5",
+      "heartrobber:light/6",
+      "heartrobber:light/7",
+      "heartrobber:light/8",
+      "heartrobber:light/9",
+      "heartrobber:light/10",
+      "heartrobber:light/11",
+      "heartrobber:light/12",
+      "heartrobber:light/13",
+      "heartrobber:light/14",
+      "heartrobber:light/15"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.heart.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:heart"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.heart.title"
+    }
+  }
+}

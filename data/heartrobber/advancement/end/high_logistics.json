@@ -1,0 +1,21 @@
+{
+  "parent": "heartrobber:end/relay",
+  "criteria": {
+    "revived": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.end.high_logistics.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.end.high_logistics.title"
+    }
+  }
+}

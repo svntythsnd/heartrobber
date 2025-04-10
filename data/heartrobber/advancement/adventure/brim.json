@@ -1,0 +1,44 @@
+{
+  "parent": "heartrobber:adventure/experience_bottle",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 9
+              },
+              "minecraft:damage": {
+                "damage": 0
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.brim.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:xp_crystal",
+        "max_damage": 500,
+        "max_stack_size": 1
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.brim.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:wise_reinforcement"
+    ]
+  }
+}

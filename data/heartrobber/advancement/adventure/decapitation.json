@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#heartrobber:heads"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.decapitation.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.decapitation.title"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:structure_void"
+    ]
+  }
+}

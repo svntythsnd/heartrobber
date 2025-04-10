@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:adventure/salvage_sherd",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:decorated_pot",
+            "predicates": {
+              "custom_data": {
+                 "enhanced_pots:takes": true
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.enhanced_pots.adventure.filled_pot.description"
+    },
+    "icon": {
+      "id": "minecraft:decorated_pot",
+      "components": {
+        "pot_decorations": [
+          "minecraft:brick",
+          "minecraft:friend_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:guster_pottery_sherd"
+        ]
+      }
+    },
+    "title": {
+      "translate": "advancements.enhanced_pots.adventure.filled_pot.title"
+    }
+  }
+}

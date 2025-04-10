@@ -1,0 +1,160 @@
+{
+  "parent": "heartrobber:adventure/structure_void",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "0"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "1"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "2"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "3"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "4"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "5"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "6"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "7"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "8"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "9"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "10"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "11"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "12"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "13"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "14"
+              }
+            }
+          },
+          {
+            "items": "minecraft:light",
+            "components": {
+              "block_state": {
+                "level": "15"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.you_light_up_my_world.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:light",
+      "components": {
+        "block_state": {
+          "level": "15"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.you_light_up_my_world.title"
+    }
+  },
+  "rewards": {
+    "experience": 70
+  }
+}

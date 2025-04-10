@@ -20,8 +20,11 @@
       },
       "max_damage": 500,
       "damage": 500,
-      "unbreakable": {
-        "show_in_tooltip": false
+      "unbreakable": {},
+      "tooltip_display": {
+        "hidden_components": [
+          "minecraft:unbreakable"
+        ]
       },
       "max_stack_size": 1,
       "consumable": {
@@ -34,8 +37,8 @@
       },
       "rarity": "uncommon",
       "item_model": "heartrobber:xp_crystal",
-      "item_name": "{\"translate\": \"item.heartrobber.xp_crystal\"}",
-      "lore": ["\"\"","{\"text\":\"0/500 XP\", \"italic\":false, \"color\":\"blue\"}"]
+      "item_name": {"translate": "item.heartrobber.xp_crystal"},
+      "lore": [{"text":"0/500 XP", "italic":false, "color":"blue"}]
     }
   }
 }

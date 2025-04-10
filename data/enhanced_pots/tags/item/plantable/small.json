@@ -8,6 +8,13 @@
     "minecraft:crimson_fungus",
     "minecraft:warped_roots",
     "minecraft:crimson_roots",
-    "minecraft:fern"
+    "minecraft:fern",
+    "minecraft:cactus_flower",
+    "minecraft:bush",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "#minecraft:saplings",
+    "#enhanced_pots:live_corals",
+    "#enhanced_pots:dead_corals"
   ]
 }

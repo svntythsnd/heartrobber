@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:end/enter_end_gateway",
+  "criteria": {
+    "revived": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.end.relay.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:ender_relay_on"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.end.relay.title"
+    }
+  }
+}

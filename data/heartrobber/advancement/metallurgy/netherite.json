@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:metallurgy/netherite_globule",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "recipe_id": "heartrobber:blast_netherite_globule"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.netherite.description"
+    },
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.netherite.title"
+    }
+  }
+}

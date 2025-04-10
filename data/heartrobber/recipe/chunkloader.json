@@ -2,22 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "minecraft:chain_command_block",
+    "#": "minecraft:test_instance_block",
     "@": "minecraft:chiseled_stone_bricks",
     "*": "minecraft:redstone",
     "A": "minecraft:glowstone_dust"
   },
   "pattern": [
-    "@*@",
-    "A#A",
-    "@*@"
+    "#@#",
+    "*A*"
   ],
   "result": {
     "id": "minecraft:allay_spawn_egg",
-    "count": 4,
     "components": {
       "item_model": "heartrobber:chunkloader",
-      "item_name": "{\"translate\": \"block.heartrobber.chunkloader\"}", 
+      "item_name": {"translate": "block.heartrobber.chunkloader"}, 
       "entity_data": {
         "id":"minecraft:marker",
         "Tags": ["heartrobber_chunkloaderPlace"]

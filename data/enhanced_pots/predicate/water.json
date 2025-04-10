@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "state": {
+            "waterlogged": "true"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "fluid": {
+          "fluids": "minecraft:water"
+        }
+      }
+    }
+  ]
+}

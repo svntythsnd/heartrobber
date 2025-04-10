@@ -1,2 +1,0 @@
-$execute if block ~ ~ ~ $(id) run data modify storage enhanced_pots:broken_pot_data block set value 1b
-$execute unless block ~ ~ ~ $(id) run data modify storage enhanced_pots:broken_pot_data block set value 1b

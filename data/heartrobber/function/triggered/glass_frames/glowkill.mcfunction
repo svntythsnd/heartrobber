@@ -1,2 +1,2 @@
-data modify entity @n[type=item,nbt={Item:{id:"minecraft:glow_item_frame"},Age:0s},nbt=!{Item:{components:{}}}] Item.components set value {"minecraft:entity_data":{id:glow_item_frame,Invisible:1b},"minecraft:item_name":'{"translate":"item.heartrobber.glow_glass_item_frame"}',"minecraft:item_model":"heartrobber:glow_glass_item_frame","minecraft:custom_data":{"heartrobber:type":16b}}
+data modify entity @n[type=item,nbt={Item:{id:"minecraft:glow_item_frame"},Age:0s},nbt=!{Item:{components:{}}}] Item.components set value {"minecraft:entity_data":{id:glow_item_frame,Invisible:1b},"minecraft:item_name":{"translate":"item.heartrobber.glow_glass_item_frame"},"minecraft:item_model":"heartrobber:glow_glass_item_frame","minecraft:custom_data":{"heartrobber:type":16b}}
 kill @s 

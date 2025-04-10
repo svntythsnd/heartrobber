@@ -1,0 +1,25 @@
+{
+  "parent": "heartrobber:adventure/death",
+  "criteria": {
+    "revived": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.revived.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "enchantment_glint_override": true,
+        "item_model": "heartrobber:heart"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.revived.title"
+    },
+    "hidden": true
+  }
+}

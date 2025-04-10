@@ -1,5 +1,5 @@
-execute store result score @s heartrobber_compare run data get entity @s Inventory[{Slot:-106b}].components."minecraft:damage"
-execute store result score @s heartrobber_compare3 run data get entity @s Inventory[{Slot:-106b}].components."minecraft:max_damage"
+execute store result score @s heartrobber_compare run data get entity @s equipment.offhand.components."minecraft:damage"
+execute store result score @s heartrobber_compare3 run data get entity @s equipment.offhand.components."minecraft:max_damage"
 execute if score @s heartrobber_compare matches 1.. run tag @s add heartrobber_xpStocker
 execute as @s[tag=heartrobber_xpStocker] run xp add @s -1
 scoreboard players remove @s[tag=heartrobber_xpStocker] heartrobber_compare 1

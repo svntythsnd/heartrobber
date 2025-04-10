@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:metallurgy/name_tag",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.inscribe.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:inscribed_card"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.inscribe.title"
+    }
+  }
+}
