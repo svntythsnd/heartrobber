@@ -2,16 +2,7 @@
   "parent": "minecraft:recipes/root",
   "criteria": {
     "has": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:beacon"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:construct_beacon"
     }
   },
   "rewards": {

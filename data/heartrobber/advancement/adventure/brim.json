@@ -6,10 +6,10 @@
         "items": [
           {
             "predicates": {
-              "minecraft:custom_data": {
+              "custom_data": {
                 "heartrobber:type": 9
               },
-              "minecraft:damage": {
+              "damage": {
                 "damage": 0
               }
             }

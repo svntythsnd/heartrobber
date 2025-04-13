@@ -22,5 +22,10 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.netherite_globule.title"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:blast_netherite_globule"
+    ]
   }
 }
