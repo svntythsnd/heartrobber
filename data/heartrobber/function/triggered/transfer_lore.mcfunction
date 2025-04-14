@@ -1,4 +1,4 @@
-advancement grant @s only heartrobber:story/inscribe
+advancement grant @s only heartrobber:metallurgy/inscribe
 data merge storage heartrobber:cardtemp {lore:""}
 data modify storage heartrobber:cardtemp lore set from entity @s SelectedItem.components."minecraft:custom_name"
 loot spawn ~ ~ ~ loot heartrobber:player_head
