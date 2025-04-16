@@ -1,0 +1,1 @@
+execute unless data storage heartrobber:config letterCooldown run data modify storage heartrobber:config letterCooldown set value 7

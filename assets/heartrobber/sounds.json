@@ -49,7 +49,7 @@
       "heartrobber:item/lock/lock1",
       {
         "name": "heartrobber:item/lock/lock1",
-        "pitch": 0.85
+        "pitch": 1.08
       },
       {
         "name": "heartrobber:item/lock/lock1",
@@ -72,7 +72,7 @@
       "heartrobber:item/lock/unlock1",
       {
         "name": "heartrobber:item/lock/unlock1",
-        "pitch": 0.85
+        "pitch": 1.08
       },
       {
         "name": "heartrobber:item/lock/unlock1",
@@ -86,6 +86,56 @@
       {
         "name": "heartrobber:item/lock/unlock2",
         "pitch": 1.15
+      }
+    ]
+  },
+  "item.envelope.close": {
+    "subtitle": "subtitles.heartrobber.item.envelope.close",
+    "sounds": [
+      "heartrobber:item/envelope/close1",
+      "heartrobber:item/envelope/close2",
+      "heartrobber:item/envelope/close3",
+      "heartrobber:item/envelope/close4",
+      {
+        "name": "heartrobber:item/envelope/close1",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/close2",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/close3",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/close4",
+        "pitch": 1.1
+      }
+    ]
+  },
+  "item.envelope.send": {
+    "subtitle": "subtitles.heartrobber.item.envelope.send",
+    "sounds": [
+      "heartrobber:item/envelope/send1",
+      "heartrobber:item/envelope/send2",
+      "heartrobber:item/envelope/send3",
+      "heartrobber:item/envelope/send4",
+      {
+        "name": "heartrobber:item/envelope/send1",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/send2",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/send3",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/envelope/send4",
+        "pitch": 1.1
       }
     ]
   },

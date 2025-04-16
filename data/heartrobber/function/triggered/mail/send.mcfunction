@@ -1,0 +1,1 @@
+$execute if data storage heartrobber:mail envelopes[{recipient:$(recipient)}] run function heartrobber:triggered/mail/send_append {recipient:$(recipient)}

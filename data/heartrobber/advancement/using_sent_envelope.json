@@ -6,7 +6,7 @@
         "item": {
           "predicates": {
             "custom_data": {
-              "heartrobber:type": 4
+              "heartrobber:type": 19
             }
           }
         },
@@ -15,14 +15,8 @@
             "mainhand": {
               "predicates": {
                 "minecraft:custom_data": {
-                  "heartrobber:type": 4
-                }
-              }
-            },
-            "offhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "heartrobber:type": 5
+                  "heartrobber:type": 19,
+                  "heartrobber:sent": true
                 }
               }
             }
@@ -32,6 +26,6 @@
     }
   },
   "rewards":  {
-    "function": "heartrobber:triggered/write_card"
+    "function": "heartrobber:triggered/mail/envelope/open"
   }
 }

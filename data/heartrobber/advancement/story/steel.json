@@ -26,7 +26,8 @@
   "rewards": {
     "recipes": [
       "heartrobber:steel_nugget",
-      "heartrobber:name_tag"
+      "heartrobber:name_tag",
+      "heartrobber:envelope"
     ]
   }
 }

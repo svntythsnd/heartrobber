@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:paper",
+    "@": "minecraft:slime_ball",
+    "$": "minecraft:command_block",
+    "&": "minecraft:ender_eye"
+  },
+  "pattern": [
+    "$&$",
+    "#@#",
+    " # "
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "count": 4,
+    "components": {
+      "item_model": "heartrobber:empty_envelope", 
+      "item_name": {"translate": "item.heartrobber.empty_envelope"},
+      "custom_data": {
+        "heartrobber:type": 18
+      },
+      "consumable": {
+        "consume_seconds": 3.40282347e+38
+      },
+      "food": {
+        "saturation": 0, 
+        "nutrition": 0, 
+	"can_always_eat": true
+      }
+    }
+  }
+}

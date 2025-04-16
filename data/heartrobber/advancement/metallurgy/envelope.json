@@ -1,0 +1,33 @@
+{
+  "parent": "heartrobber:metallurgy/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 18
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.envelope.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:empty_envelope"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.envelope.title"
+    }
+  }
+}

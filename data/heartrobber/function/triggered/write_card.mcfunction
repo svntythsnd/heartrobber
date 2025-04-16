@@ -1,2 +1,2 @@
-execute if items entity @s weapon.mainhand name_tag[custom_data={"heartrobber:type":4b}] if items entity @s weapon.offhand trial_key[custom_data={"heartrobber:type":5b}] at @s run function heartrobber:triggered/transfer_lore
+execute at @s run function heartrobber:triggered/transfer_lore
 advancement revoke @s only heartrobber:using_tag_and_inscriber

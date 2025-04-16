@@ -1,0 +1,1 @@
+function heartrobber:triggered/mail/daily

@@ -1,0 +1,2 @@
+execute if data entity @s SelectedItem.components."minecraft:custom_name" if items entity @s weapon.offhand * unless data entity @s equipment.offhand.components."minecraft:custom_data"{"heartrobber:type":18b} unless data entity @s equipment.offhand.components."minecraft:custom_data"{"heartrobber:type":19b} at @s run function heartrobber:triggered/mail/envelope/prepack
+advancement revoke @s only heartrobber:using_empty_envelope

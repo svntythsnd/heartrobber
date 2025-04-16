@@ -1,0 +1,1 @@
+$data remove storage heartrobber:mail envelopes[{recipient:$(recipient)}][0]

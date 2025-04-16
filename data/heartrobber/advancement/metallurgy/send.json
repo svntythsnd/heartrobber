@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:metallurgy/envelope",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.send.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:envelope"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.send.title"
+    }
+  }
+}
