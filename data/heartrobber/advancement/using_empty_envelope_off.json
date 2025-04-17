@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "heartrobber:type": 18
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "count": 1,
+              "predicates": {
+                "minecraft:custom_data": {
+                  "heartrobber:type": 18
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:triggered/mail/envelope/store_empty"
+  }
+}

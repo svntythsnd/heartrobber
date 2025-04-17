@@ -1,0 +1,2 @@
+execute if data entity @s equipment.offhand.components."minecraft:custom_name" run function heartrobber:triggered/mail/envelope/pack_empty
+advancement revoke @s only heartrobber:using_empty_envelope_off
