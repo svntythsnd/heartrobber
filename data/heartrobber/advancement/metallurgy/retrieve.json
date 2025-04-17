@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:metallurgy/send",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.retrieve.description"
+    },
+    "icon": {
+      "id": "minecraft:trial_key",
+      "components": {
+        "item_model": "heartrobber:retrieval_rod"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.retrieve.title"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "heartrobber:type": 20
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "heartrobber:type": 20
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:triggered/mail/retrieval_rod/act"
+  }
+}

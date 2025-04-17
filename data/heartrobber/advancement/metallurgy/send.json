@@ -18,5 +18,10 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.send.title"
     }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:retrieval_rod"
+    ]
   }
 }

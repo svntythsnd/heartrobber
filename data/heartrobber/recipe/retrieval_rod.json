@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:fishing_rod",
+    "@": "minecraft:ender_eye",
+    "*": "minecraft:command_block"
+  },
+  "pattern": [
+    "#*",
+    " @"
+  ],
+  "result": {
+    "id": "minecraft:trial_key",
+    "components": {
+      "max_stack_size": 1,
+      "item_model": "heartrobber:retrieval_rod", 
+      "item_name": {"translate": "item.heartrobber.retrieval_rod"}, 
+      "custom_data": {
+        "heartrobber:type": 20
+      },
+      "consumable": {
+        "consume_seconds": 3.40282347e+38
+      },
+      "food": {
+        "saturation": 0, 
+        "nutrition": 0, 
+	"can_always_eat": true
+      }
+    }
+  }
+}

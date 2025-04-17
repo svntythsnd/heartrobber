@@ -139,6 +139,31 @@
       }
     ]
   },
+  "item.retrieval_rod.retrieve": {
+    "subtitle": "subtitles.heartrobber.item.retrieval_rod.retrieve",
+    "sounds": [
+      "heartrobber:item/retrieval_rod/retrieve1",
+      "heartrobber:item/retrieval_rod/retrieve2",
+      "heartrobber:item/retrieval_rod/retrieve3",
+      "heartrobber:item/retrieval_rod/retrieve4",
+      {
+        "name": "heartrobber:item/retrieval_rod/retrieve1",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/retrieval_rod/retrieve2",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/retrieval_rod/retrieve3",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/retrieval_rod/retrieve4",
+        "pitch": 1.1
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [
