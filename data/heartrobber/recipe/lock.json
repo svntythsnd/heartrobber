@@ -16,7 +16,7 @@
     "id": "minecraft:trial_key",
     "components": {
       "item_model": "heartrobber:lock", 
-      "item_name": {"translate": "item.heartrobber.lock"},
+      "item_name": {"translate": "item.heartrobber.lock", "fallback": "item.heartrobber.lock"},
       "lore": [{"translate": "description.heartrobber.lock", "color": "gray", "italic": false}],
       "max_stack_size": 1,
       "custom_data": {

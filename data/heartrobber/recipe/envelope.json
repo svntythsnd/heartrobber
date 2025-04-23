@@ -17,7 +17,7 @@
     "count": 4,
     "components": {
       "item_model": "heartrobber:empty_envelope", 
-      "item_name": {"translate": "item.heartrobber.empty_envelope"},
+      "item_name": {"translate": "item.heartrobber.empty_envelope", "fallback": "item.heartrobber.empty_envelope"},
       "custom_data": {
         "heartrobber:type": 18
       },

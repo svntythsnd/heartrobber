@@ -15,7 +15,7 @@
     "components": {
       "max_stack_size": 1,
       "item_model": "heartrobber:retrieval_rod", 
-      "item_name": {"translate": "item.heartrobber.retrieval_rod"}, 
+      "item_name": {"translate": "item.heartrobber.retrieval_rod", "fallback": "item.heartrobber.retrieval_rod"}, 
       "custom_data": {
         "heartrobber:type": 20
       },

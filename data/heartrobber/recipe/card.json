@@ -11,7 +11,7 @@
     "count": 2,
     "components": {
       "item_model": "heartrobber:card", 
-      "item_name": {"translate": "item.heartrobber.card"}, 
+      "item_name": {"translate": "item.heartrobber.card", "fallback": "item.heartrobber.card"}, 
       "custom_data": {
         "heartrobber:type": 5
       }

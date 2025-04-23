@@ -37,7 +37,7 @@
       },
       "rarity": "uncommon",
       "item_model": "heartrobber:xp_crystal",
-      "item_name": {"translate": "item.heartrobber.xp_crystal"},
+      "item_name": {"translate": "item.heartrobber.xp_crystal", "fallback": "item.heartrobber.xp_crystal"},
       "lore": [{"text":"0/500 XP", "italic":false, "color":"blue"}]
     }
   }
