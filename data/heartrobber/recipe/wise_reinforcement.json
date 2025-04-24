@@ -29,7 +29,7 @@
       "max_stack_size": 1,
       "item_model": "heartrobber:wise_reinforcement",
       "item_name": {"translate": "item.heartrobber.wise_reinforcement", "fallback": "item.heartrobber.wise_reinforcement"},
-      "lore": ["",{"translate":"description.heartrobber.wise_reinforcement", "italic":false, "color":"dark_gray"}]
+      "lore": [{"translate":"description.heartrobber.wise_reinforcement", "italic":false, "color":"gray"}]
     }
   }
 }
