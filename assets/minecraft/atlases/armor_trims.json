@@ -43,6 +43,7 @@
             "palette_key": "trims/color_palettes/trim_palette",
             "permutations": {
                 "steel": "heartrobber:trims/color_palettes/steel",
+                "steel_darker": "heartrobber:trims/color_palettes/steel_darker",
                 "rose_gold": "heartrobber:trims/color_palettes/rose_gold"
             }
         }

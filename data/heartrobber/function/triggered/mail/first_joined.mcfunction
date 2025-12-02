@@ -1,1 +1,0 @@
-scoreboard players set @s heartrobber_left 1

@@ -1,1 +1,2 @@
 execute unless data storage heartrobber:config letterCooldown run data modify storage heartrobber:config letterCooldown set value 7
+data modify storage heartrobber:cardtemp location set value "storage heartrobber:cardtemp name set"

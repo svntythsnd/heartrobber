@@ -1,0 +1,1 @@
+$data modify $(location) from storage heartrobber:names "$(UUID)"

@@ -1,0 +1,1 @@
+$data modify storage heartrobber:names "$(UUID)" set value "$(name)"

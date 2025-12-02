@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "minecraft:item/iron_helmet",
-    "layer1": "minecraft:trims/items/helmet_trim_steel"
+    "layer1": "minecraft:trims/items/helmet_trim_steel_darker"
   }
 }
