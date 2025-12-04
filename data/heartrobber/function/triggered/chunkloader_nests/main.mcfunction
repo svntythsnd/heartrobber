@@ -2,6 +2,6 @@ execute if block ~ ~ ~ glass align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @
 execute positioned ~ ~0.5 ~ unless entity @n[type=item_display,tag=heartrobber_chunkloaderBlock,distance=..0.01] run setblock ~ ~ ~ glass destroy
 execute positioned ~ ~0.5 ~ unless entity @n[type=item_display,tag=heartrobber_chunkloaderBlock,distance=..0.01] run playsound block.lodestone.place block @a ~ ~ ~ 1 0.8
 execute unless block ~ ~0.5 ~ glass run kill @n[type=item,nbt={Age:0s},distance=..1]
-execute unless block ~ ~0.5 ~ glass unless block ~ ~0.5 ~1 piston[extended=true,facing=north] unless block ~ ~0.5 ~-1 piston[extended=true,facing=south] unless block ~1 ~0.5 ~ piston[extended=true,facing=west] unless block ~-1 ~0.5 ~ piston[extended=true,facing=east] unless block ~ ~1.5 ~ piston[extended=true,facing=down] unless block ~ ~-0.5 ~ piston[extended=true,facing=up] run loot spawn ~ ~ ~ loot heartrobber:chunkloader
+execute if block ~ ~0.5 ~ #air run loot spawn ~ ~ ~ loot heartrobber:chunkloader
 execute as @e[tag=heartrobber_working] at @s unless block ~ ~0.5 ~ glass run forceload remove ~ ~
 execute unless block ~ ~0.5 ~ glass run kill @s

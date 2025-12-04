@@ -1,14 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
     "#": "minecraft:string",
     "R": "minecraft:rabbit_hide"
   },
   "pattern": [
-    "#R#",
-    "R R",
-    "RRR"
+    "##",
+    "RR"
   ],
   "result": {
     "id": "minecraft:bundle"
