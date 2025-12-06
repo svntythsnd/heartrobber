@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:paper",
-    "@": "minecraft:slime_ball",
+    "@": "#heartrobber:adhesive",
     "$": "minecraft:command_block",
     "&": "minecraft:ender_eye"
   },
