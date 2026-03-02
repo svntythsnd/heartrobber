@@ -2,10 +2,13 @@
   "values": [
     "minecraft:ender_pearl",
     "minecraft:bucket",
-    "minecraft:egg",
+    "#minecraft:eggs",
     "#minecraft:signs",
+    "#minecraft:hanging_signs",
     "minecraft:honey_bottle",
     "minecraft:snowball",
-    "#minecraft:banners"
+    "#minecraft:banners",
+    "minecraft:written_book",
+    "minecraft:armor_stand"
   ]
 }
