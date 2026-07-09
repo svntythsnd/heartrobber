@@ -46,8 +46,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "attacker",
                 "predicate": {
-                  "type_specific": {
-                    "type": "minecraft:player",
+                  "type_specific/player": {
                     "gamemode": [
                       "creative"
                     ]

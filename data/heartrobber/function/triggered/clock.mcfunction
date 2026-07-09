@@ -1,7 +1,7 @@
-execute store result score @s heartrobber_compare4 run time query day
+execute store result score @s heartrobber_compare4 in overworld run time query day repetition
 scoreboard players set @s heartrobber_compare 24000
 scoreboard players operation @s heartrobber_compare4 *= @s heartrobber_compare
-execute store result score @s heartrobber_compare run time query daytime
+execute store result score @s heartrobber_compare in overworld run time query day
 scoreboard players operation @s heartrobber_compare4 += @s heartrobber_compare
 scoreboard players add @s heartrobber_compare4 6000
 

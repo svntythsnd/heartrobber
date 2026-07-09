@@ -1,0 +1,23 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "minecraft:chainmail"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "minecraft:chainmail"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:chainmail"
+      }
+    ]
+  },
+  "trim_palette_replacements": {
+    "minecraft:trim/iron": "minecraft:trim/iron_darker",
+    "heartrobber:trim/steel": "heartrobber:trim/steel_darker"
+  }
+}

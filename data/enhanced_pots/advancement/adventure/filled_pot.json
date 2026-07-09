@@ -24,12 +24,12 @@
     "icon": {
       "id": "minecraft:decorated_pot",
       "components": {
-        "pot_decorations": [
-          "minecraft:brick",
-          "minecraft:friend_pottery_sherd",
-          "minecraft:brick",
-          "minecraft:guster_pottery_sherd"
-        ]
+        "pot_decorations": {
+              "back": { "id": "minecraft:brick" },
+    	      "left": { "id": "minecraft:friend_pottery_sherd" },
+              "right": { "id": "minecraft:brick" },
+              "front": { "id": "minecraft:guster_pottery_sherd" }
+        }
       }
     },
     "title": {

@@ -2,14 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "minecraft:paper",
-    "@": "minecraft:repeating_command_block",
-    "$": "minecraft:iron_nugget"
+    "@": "minecraft:command_block",
+    "#": "minecraft:paper"
   },
   "pattern": [
-    " $@",
-    " #$",
-    "#  "
+    " @",
+    "# "
   ],
   "result": {
     "id": "minecraft:name_tag"

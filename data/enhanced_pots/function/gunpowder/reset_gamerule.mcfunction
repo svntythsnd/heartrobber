@@ -1,1 +1,1 @@
-gamerule mobGriefing false
+gamerule mob_griefing false

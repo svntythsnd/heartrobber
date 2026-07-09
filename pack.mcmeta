@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 71,
-    "supported_formats": [55, 71],
-    "description": "§3[§bheartrobber§3]\n§8v§71.6.0 §8• §7by §9§lflakalet"
+    "min_format": 91,
+    "max_format": 110,
+    "description": "§3[§bheartrobber§3]\n§8v§71.7.0 §8• §7by §9§lflakalet"
   }
 }

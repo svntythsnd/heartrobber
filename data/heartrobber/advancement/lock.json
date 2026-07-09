@@ -11,7 +11,7 @@
           }
         },
         "entity": {
-          "type": [
+          "entity_type": [
             "minecraft:item_frame",
             "minecraft:glow_item_frame"
           ]
