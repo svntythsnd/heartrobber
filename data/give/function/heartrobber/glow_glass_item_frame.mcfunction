@@ -1,0 +1,1 @@
+give @s glow_item_frame[entity_data={"id":"glow_item_frame","Invisible":true},item_name={"translate":"item.heartrobber.glow_glass_item_frame","fallback":"item.heartrobber.glow_glass_item_frame"},item_model="heartrobber:glow_glass_item_frame",custom_data={"heartrobber:type": 16b}]

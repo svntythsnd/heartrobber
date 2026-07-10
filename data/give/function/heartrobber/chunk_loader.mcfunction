@@ -1,0 +1,1 @@
+give @s allay_spawn_egg[item_model="heartrobber:chunkloader",item_name={"translate":"block.heartrobber.chunkloader","fallback":"block.heartrobber.chunkloader"},entity_data={"id":"minecraft:marker","Tags":["heartrobber_chunkloaderPlace"]},custom_data={"heartrobber:type":7b}]

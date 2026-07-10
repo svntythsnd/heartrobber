@@ -1,0 +1,1 @@
+give @s structure_block[rarity="common",lore=[{"translate":"description.heartrobber.alloying_upgrade","color":"gray","italic":false}]]

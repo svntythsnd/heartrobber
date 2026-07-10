@@ -1,0 +1,1 @@
+give @s allay_spawn_egg[item_model="heartrobber:ender_relay",item_name={"translate":"block.heartrobber.ender_relay","fallback":"block.heartrobber.ender_relay"},entity_data={"id":"minecraft:marker","Tags":["heartrobber_relayPlace"]},custom_data={"heartrobber:type":6b}]

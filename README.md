@@ -3,5 +3,10 @@ put this both into your datapack directory and your resourcepack directory (or, 
 
 works better with [Clumps](https://modrinth.com/mod/clumps), theoretically
 
+The `give:` module provides OP functions for getting canonical custom/modified items.
+
+Use `/data merge storage heartrobber:config {letterCooldown:<n>}` to set the letter delivery timeout to `<n>` days (default is 7)
+
 [Modrinth...](https://modrinth.com/datapack/heartrobber/)
+
 [GitHub...](https://github.com/svntythsnd/heartrobber)

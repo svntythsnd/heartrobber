@@ -1,0 +1,1 @@
+give @s beetroot_soup[food={"nutrition":9,"saturation":7.2}]

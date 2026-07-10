@@ -1,0 +1,1 @@
+give @s trial_key[item_model="heartrobber:heart",item_name={"translate":"item.heartrobber.heart", "fallback":"item.heartrobber.heart"},consumable={"consume_seconds":1},food={"saturation":0,"nutrition":0,"can_always_eat":true},rarity="uncommon",custom_data={"heartrobber:type":0b}]

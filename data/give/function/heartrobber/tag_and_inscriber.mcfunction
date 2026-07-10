@@ -1,0 +1,1 @@
+give @s name_tag[item_model="heartrobber:tag_and_inscriber",item_name={"translate":"item.heartrobber.tag_and_inscriber","fallback":"item.heartrobber.tag_and_inscriber"},consumable={"consume_seconds":3.40282347e+38},food={"saturation":0,"nutrition":0,"can_always_eat":true},max_damage=50,damage=0,max_stack_size=1,custom_data={"heartrobber:type":4b}]

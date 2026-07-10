@@ -1,0 +1,1 @@
+give @s item_frame[entity_data={"id":"item_frame","Invisible": true},item_name={"translate":"item.heartrobber.glass_item_frame","fallback":"item.heartrobber.glass_item_frame"},item_model="heartrobber:glass_item_frame",custom_data={"heartrobber:type":15b}]

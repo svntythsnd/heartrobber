@@ -1,0 +1,1 @@
+give @s trial_key[max_stack_size=1,item_model="heartrobber:retrieval_rod",item_name={"translate":"item.heartrobber.retrieval_rod","fallback":"item.heartrobber.retrieval_rod"},custom_data={"heartrobber:type":20b},consumable={"consume_seconds":3.40282347e+38},food={"saturation":0,"nutrition":0,"can_always_eat":true}]

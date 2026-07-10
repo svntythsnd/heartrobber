@@ -1,0 +1,1 @@
+give @s creaking_spawn_egg[item_model="heartrobber:creaking_essence",item_name={"translate":"item.heartrobber.creaking_essence","fallback":"item.heartrobber.creaking_essence"},custom_data={"heartrobber:type":12b},entity_data={"id":"minecraft:creaking","PersistenceRequired":true}]

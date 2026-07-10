@@ -1,0 +1,1 @@
+give @s rabbit_stew[food={"nutrition":16,"saturation":18.4}]

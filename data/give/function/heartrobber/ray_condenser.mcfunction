@@ -1,0 +1,1 @@
+give @s petrified_oak_slab

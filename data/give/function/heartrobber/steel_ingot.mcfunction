@@ -1,0 +1,1 @@
+give @s repeating_command_block[rarity="common",provides_trim_material="heartrobber:steel"]

@@ -1,0 +1,1 @@
+give @s chain_command_block[rarity="common",provides_trim_material="heartrobber:rose_gold"]

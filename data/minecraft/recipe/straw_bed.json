@@ -2,12 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "X": "minecraft:wheat",
-    "-": "minecraft:stick",
-    "#": "minecraft:string"
+    "-": "minecraft:stick"
   },
   "pattern": [
     "XXX",
-    "-#-"
+    "---"
   ],
   "result": {
     "id": "minecraft:straw_bed"

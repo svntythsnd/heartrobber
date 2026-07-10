@@ -1,0 +1,1 @@
+give @s test_instance_block[rarity="common"]

@@ -1,0 +1,1 @@
+give @s command_block[rarity="common"]

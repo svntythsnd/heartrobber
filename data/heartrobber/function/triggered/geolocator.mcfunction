@@ -29,22 +29,31 @@ execute if dimension the_nether run data modify storage heartrobber:geolocator w
 execute if data entity @s {respawn:{dimension:"minecraft:the_end"}} run data modify storage heartrobber:geolocator c set value "aqua"
 execute if dimension the_end run data modify storage heartrobber:geolocator w set value "aqua"
 
+data modify storage heartrobber:geolocator qc set value "aqua"
+data modify storage heartrobber:geolocator rc set value "aqua"
+execute if dimension overworld run data modify storage heartrobber:geolocator qc set value "red"
+execute if data entity @s {respawn:{dimension:"minecraft:overworld"}} run data modify storage heartrobber:geolocator rc set value "red"
+execute if dimension the_nether run data modify storage heartrobber:geolocator qc set value "green"
+execute if data entity @s {respawn:{dimension:"minecraft:the_nether"}} run data modify storage heartrobber:geolocator rc set value "green"
+
 execute if data entity @s respawn.pos[0] run data modify storage heartrobber:geolocator sx set from entity @s respawn.pos[0]
-execute unless data entity @s respawn.dimension if data entity @s respawn.pos[0] store result storage heartrobber:geolocator rx int 0.125 run data get entity @s respawn.pos[0]
+execute if data entity @s {respawn:{dimension:"minecraft:overworld"}} if data entity @s respawn.pos[0] store result storage heartrobber:geolocator rx int 0.125 run data get entity @s respawn.pos[0]
 execute if data entity @s {respawn:{dimension:"minecraft:the_nether"}} if data entity @s respawn.pos[0] store result storage heartrobber:geolocator rx int 8 run data get entity @s respawn.pos[0]
 
 execute unless data entity @s respawn.pos[0] run data modify storage heartrobber:geolocator sx set value "-"
-execute unless data entity @s {respawn:{dimension:"minecraft:the_end"}} unless data entity @s respawn.pos[0] run data modify storage heartrobber:geolocator rx set value "-"
+execute if data entity @s {respawn:{dimension:"minecraft:the_end"}} run data modify storage heartrobber:geolocator rx set value "-"
+execute unless data entity @s respawn.pos[0] run data modify storage heartrobber:geolocator rx set value "-"
 
 execute if data entity @s respawn.pos[1] run data modify storage heartrobber:geolocator sy set from entity @s respawn.pos[1]
 
 execute unless data entity @s respawn.pos[1] run data modify storage heartrobber:geolocator sy set value "-"
 
 execute if data entity @s respawn.pos[2] run data modify storage heartrobber:geolocator sz set from entity @s respawn.pos[2]
-execute unless data entity @s respawn.dimension if data entity @s respawn.pos[2] store result storage heartrobber:geolocator rz int 0.125 run data get entity @s respawn.pos[2]
+execute if data entity @s {respawn:{dimension:"minecraft:overworld"}} if data entity @s respawn.pos[2] store result storage heartrobber:geolocator rz int 0.125 run data get entity @s respawn.pos[2]
 execute if data entity @s {respawn:{dimension:"minecraft:the_nether"}} if data entity @s respawn.pos[2] store result storage heartrobber:geolocator rz int 8 run data get entity @s respawn.pos[2]
 
 execute unless data entity @s respawn.pos[2] run data modify storage heartrobber:geolocator sz set value "-"
-execute unless data entity @s {respawn:{dimension:"minecraft:the_end"}} unless data entity @s respawn.pos[2] run data modify storage heartrobber:geolocator rz set value "-"
+execute if data entity @s {respawn:{dimension:"minecraft:the_end"}} run data modify storage heartrobber:geolocator rz set value "-"
+execute unless data entity @s respawn.pos[2] run data modify storage heartrobber:geolocator rz set value "-"
 
 function heartrobber:macro/geolocator with storage heartrobber:geolocator

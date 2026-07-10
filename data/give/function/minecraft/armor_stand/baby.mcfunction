@@ -1,0 +1,1 @@
+give @s armor_stand[entity_data={"id":"minecraft:armor_stand","NoBasePlate":0b,"ShowArms":0b,"Small":1b},custom_model_data={"flags":[false,false,true]}]
