@@ -1,0 +1,1 @@
+give @s chainmail_leggings[rarity="common"]

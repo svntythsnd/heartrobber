@@ -1,0 +1,1 @@
+give @s chainmail_helmet[rarity="common"]
