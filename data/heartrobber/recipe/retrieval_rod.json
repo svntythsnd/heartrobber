@@ -11,7 +11,7 @@
     " @"
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "components": {
       "max_stack_size": 1,
       "item_model": "heartrobber:retrieval_rod", 

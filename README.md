@@ -7,6 +7,8 @@ The `give:` module provides OP functions for getting canonical custom/modified i
 
 Use `/data merge storage heartrobber:config {letterCooldown:<n>}` to set the letter delivery timeout to `<n>` days (default is 7)
 
+To show the amount of hearts each player has in the player list, use `/scoreboard objectives setdisplay list heartrobber_health`
+
 [Modrinth...](https://modrinth.com/datapack/heartrobber/)
 
 [GitHub...](https://github.com/svntythsnd/heartrobber)

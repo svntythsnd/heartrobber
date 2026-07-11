@@ -1,1 +1,0 @@
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":6}}}}] run function heartrobber:triggered/update_card

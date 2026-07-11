@@ -19,7 +19,7 @@
       "translate": "advancements.heartrobber.adventure.heart.description"
     },
     "icon": {
-      "id": "minecraft:trial_key",
+      "id": "minecraft:filled_map",
       "components": {
         "item_model": "heartrobber:heart"
       }

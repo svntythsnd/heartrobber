@@ -12,7 +12,7 @@
     "@#@"
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "components": {
       "item_model": "heartrobber:geolocator", 
       "item_name": {"translate": "item.heartrobber.geolocator", "fallback": "item.heartrobber.geolocator"}, 

@@ -11,7 +11,7 @@
     },
     "frame": "goal",
     "icon": {
-      "id": "minecraft:trial_key",
+      "id": "minecraft:filled_map",
       "components": {
         "item_model": "heartrobber:ender_relay_on"
       }

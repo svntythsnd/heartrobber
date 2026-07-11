@@ -1,2 +1,0 @@
-function heartrobber:triggered/update_name
-function heartrobber:triggered/mail/joined

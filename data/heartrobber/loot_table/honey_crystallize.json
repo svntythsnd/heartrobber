@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:trial_key",
+          "name": "minecraft:filled_map",
 	  "functions": [
             {
               "function": "set_components",

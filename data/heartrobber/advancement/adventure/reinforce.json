@@ -26,7 +26,7 @@
     "frame": "challenge",
     "hidden": true,
     "icon": {
-      "id": "minecraft:trial_key",
+      "id": "minecraft:filled_map",
       "components": {
         "item_model": "heartrobber:wise_reinforcement"
       }

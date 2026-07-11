@@ -13,7 +13,7 @@
     "#@#"
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "components": {
       "custom_data": {
         "heartrobber:type": 9

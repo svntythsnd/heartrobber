@@ -13,7 +13,7 @@
     " # "
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "count": 4,
     "components": {
       "item_model": "heartrobber:empty_envelope", 

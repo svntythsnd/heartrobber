@@ -7,7 +7,7 @@
     "minecraft:amethyst_shard"
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "count": 2,
     "components": {
       "item_model": "heartrobber:card", 

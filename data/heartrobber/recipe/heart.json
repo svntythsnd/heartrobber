@@ -12,7 +12,7 @@
     "@#@"
   ],
   "result": {
-    "id": "minecraft:trial_key",
+    "id": "minecraft:filled_map",
     "components": {
       "item_model": "heartrobber:heart", 
       "item_name": {"translate": "item.heartrobber.heart", "fallback": "item.heartrobber.heart"}, 

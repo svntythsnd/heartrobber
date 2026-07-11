@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "any_inventory_update": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:on_inventory_changed"
+  }
+}

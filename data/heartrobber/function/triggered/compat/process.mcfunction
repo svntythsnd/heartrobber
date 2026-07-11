@@ -1,0 +1,1 @@
+$item modify entity @s container.$(Slot) {function:set_item,item:filled_map}
