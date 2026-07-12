@@ -20,6 +20,7 @@ execute if dimension overworld store result storage heartrobber:geolocator qz in
 execute if dimension the_nether store result storage heartrobber:geolocator qz int 8 run data get entity @s Pos[2]
 
 execute store result storage heartrobber:geolocator Y int 1 run data get entity @s Rotation[0]
+execute if data storage heartrobber:geolocator {Y:-180} run data merge storage heartrobber:geolocator {Y:180}
 execute store result storage heartrobber:geolocator p int 1 run data get entity @s Rotation[1]
 
 data modify storage heartrobber:geolocator c set value "green"
