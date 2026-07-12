@@ -11,7 +11,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:filled_map",
+      "id": "minecraft:clock",
       "components": {
         "enchantment_glint_override": true,
         "item_model": "heartrobber:heart"

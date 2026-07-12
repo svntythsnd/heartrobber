@@ -12,7 +12,7 @@
     "@#@"
   ],
   "result": {
-    "id": "minecraft:filled_map",
+    "id": "minecraft:clock",
     "components": {
       "item_model": "heartrobber:geolocator", 
       "item_name": {"translate": "item.heartrobber.geolocator", "fallback": "item.heartrobber.geolocator"}, 

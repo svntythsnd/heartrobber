@@ -1,1 +1,1 @@
-give @s filled_map[item_model="heartrobber:geolocator",item_name={"translate":"item.heartrobber.geolocator","fallback":"item.heartrobber.geolocator"},custom_data={"heartrobber:type":8b}]
+give @s clock[item_model="heartrobber:geolocator",item_name={"translate":"item.heartrobber.geolocator","fallback":"item.heartrobber.geolocator"},custom_data={"heartrobber:type":8b}]

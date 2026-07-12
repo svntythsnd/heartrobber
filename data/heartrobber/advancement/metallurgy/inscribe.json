@@ -10,7 +10,7 @@
       "translate": "advancements.heartrobber.metallurgy.inscribe.description"
     },
     "icon": {
-      "id": "minecraft:filled_map",
+      "id": "minecraft:clock",
       "components": {
         "item_model": "heartrobber:inscribed_card"
       }

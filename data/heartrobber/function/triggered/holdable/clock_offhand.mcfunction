@@ -1,0 +1,1 @@
+return run execute if items entity @s weapon.offhand clock unless data entity @s equipment.offhand.components."minecraft:custom_data"."heartrobber:type"

@@ -1,0 +1,1 @@
+return run execute if items entity @s weapon.mainhand clock[custom_data={"heartrobber:type":8b}]

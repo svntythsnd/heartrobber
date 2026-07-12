@@ -7,7 +7,7 @@
     "minecraft:amethyst_shard"
   ],
   "result": {
-    "id": "minecraft:filled_map",
+    "id": "minecraft:clock",
     "count": 2,
     "components": {
       "item_model": "heartrobber:card", 

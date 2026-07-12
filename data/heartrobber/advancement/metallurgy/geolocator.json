@@ -22,7 +22,7 @@
     },
     "frame": "goal",
     "icon": {
-      "id": "minecraft:filled_map",
+      "id": "minecraft:clock",
       "components": {
         "item_model": "heartrobber:geolocator"
       }

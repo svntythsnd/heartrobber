@@ -1,4 +1,4 @@
-execute as @a[gamemode=!spectator,nbt=!{SelectedItem:{id:"minecraft:clock"}},nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}} at @s run function heartrobber:triggered/geolocator
-execute as @a[gamemode=!spectator,nbt=!{SelectedItem:{id:"minecraft:clock"}},nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] if data entity @s {equipment:{offhand:{id:"minecraft:clock"}}} at @s run function heartrobber:triggered/clock
-execute as @a[gamemode=!spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{"heartrobber:type":8b}}}}] at @s run function heartrobber:triggered/geolocator
-execute as @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:clock"}}] at @s run function heartrobber:triggered/clock
+execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/geolocator_mainhand at @s run function heartrobber:triggered/geolocator
+execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/clock_mainhand at @s run function heartrobber:triggered/clock
+execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/geolocator_offhand unless function heartrobber:triggered/holdable/clock_mainhand at @s run function heartrobber:triggered/geolocator
+execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/clock_offhand unless function heartrobber:triggered/holdable/geolocator_mainhand at @s run function heartrobber:triggered/clock

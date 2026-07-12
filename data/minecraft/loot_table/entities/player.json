@@ -31,7 +31,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:filled_map",
+          "name": "minecraft:clock",
 	  "functions": [
             {
               "function": "set_components",

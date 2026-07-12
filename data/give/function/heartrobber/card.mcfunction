@@ -1,1 +1,1 @@
-give @s filled_map[item_model="heartrobber:card",item_name={"translate":"item.heartrobber.card","fallback":"item.heartrobber.card"},custom_data={"heartrobber:type":5b}]
+give @s clock[item_model="heartrobber:card",item_name={"translate":"item.heartrobber.card","fallback":"item.heartrobber.card"},custom_data={"heartrobber:type":5b}]

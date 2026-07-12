@@ -4,7 +4,8 @@ execute if data entity @s data.item.components."minecraft:item_model" run data m
 execute unless data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.id
 data modify storage enhanced_pots:broken_pot_data item merge value {components:{}}
 execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count
-execute as @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] run function enhanced_pots:fill_broken_pot with storage enhanced_pots:broken_pot_data item
+execute store result storage enhanced_pots:broken_pot_data max_stack_size byte 1 run scoreboard players get @s enhanced_pots.max_items
+execute as @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] run function enhanced_pots:pre_fill with storage enhanced_pots:broken_pot_data
 
 # if the pot was shattered with a tool, summon the pot's items from the armor stand's item_count
 execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count

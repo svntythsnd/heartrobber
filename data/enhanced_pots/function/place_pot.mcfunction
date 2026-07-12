@@ -1,5 +1,3 @@
-advancement revoke @s only enhanced_pots:place_pot
-
 execute anchored eyes positioned ~-5 ~-5 ~-5 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
 execute anchored eyes positioned ~-5 ~-5 ~-4 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
 execute anchored eyes positioned ~-5 ~-5 ~-3 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
@@ -1331,3 +1329,5 @@ execute anchored eyes positioned ~5 ~5 ~2 align xyz positioned ~0.5 ~ ~0.5 unles
 execute anchored eyes positioned ~5 ~5 ~3 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
 execute anchored eyes positioned ~5 ~5 ~4 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
 execute anchored eyes positioned ~5 ~5 ~5 align xyz positioned ~0.5 ~ ~0.5 unless entity @n[tag=pot_marker, distance=..0.5] if block ~ ~ ~ minecraft:decorated_pot run function enhanced_pots:setup_pot
+
+advancement revoke @s only enhanced_pots:place_pot

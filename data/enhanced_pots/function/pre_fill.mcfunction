@@ -1,0 +1,4 @@
+$data modify storage enhanced_pots:broken_pot_data item.components."minecraft:max_stack_size" set value $(max_stack_size)b
+execute if data storage enhanced_pots:broken_pot_data item.components."minecraft:custom_data" run data modify storage enhanced_pots:broken_pot_data item.components."minecraft:custom_data"."heartrobber:fake_stack" set value true
+execute unless data storage enhanced_pots:broken_pot_data item.components."minecraft:custom_data"."heartrobber:fake_stack" run data modify storage enhanced_pots:broken_pot_data item.components."minecraft:custom_data"."heartrobber:fake_stack" set value false
+function enhanced_pots:fill_broken_pot with storage enhanced_pots:broken_pot_data item

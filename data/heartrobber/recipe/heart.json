@@ -12,7 +12,7 @@
     "@#@"
   ],
   "result": {
-    "id": "minecraft:filled_map",
+    "id": "minecraft:clock",
     "components": {
       "item_model": "heartrobber:heart", 
       "item_name": {"translate": "item.heartrobber.heart", "fallback": "item.heartrobber.heart"}, 

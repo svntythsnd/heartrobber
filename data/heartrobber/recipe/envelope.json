@@ -13,7 +13,7 @@
     " # "
   ],
   "result": {
-    "id": "minecraft:filled_map",
+    "id": "minecraft:clock",
     "count": 4,
     "components": {
       "item_model": "heartrobber:empty_envelope", 

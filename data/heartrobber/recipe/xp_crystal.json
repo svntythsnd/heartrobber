@@ -13,7 +13,7 @@
     "#@#"
   ],
   "result": {
-    "id": "minecraft:filled_map",
+    "id": "minecraft:clock",
     "components": {
       "custom_data": {
         "heartrobber:type": 9
