@@ -10,3 +10,4 @@ scoreboard objectives add heartrobber_compare4 dummy
 scoreboard objectives add heartrobber_left minecraft.custom:minecraft.leave_game
 scoreboard objectives add heartrobber_mail_slot dummy
 scoreboard objectives add heartrobber_mail_cooldown dummy
+scoreboard objectives add heartrobber_mail_seal_cooldown dummy
