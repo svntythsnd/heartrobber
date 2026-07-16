@@ -1,1 +1,0 @@
-$execute if data storage heartrobber:mail envelopes[{due:$(day)}] run function heartrobber:triggered/mail/check_append {day:$(day)}
