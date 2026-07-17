@@ -7,21 +7,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:fill_player_head",
+              "type": "minecraft:fill_player_head",
               "entity": "this"
             }
           ],
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "attacker",
-              "predicate": {
-                "nbt": "{powered:1b}"
-              }
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "nbt": "{powered:1b}"
             }
-          ]
+          }
         }
       ],
       "rolls": 1.0
@@ -32,9 +30,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:clock",
-	  "functions": [
+	  "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "item_model": "heartrobber:heart", 
                 "item_name": {"translate": "item.heartrobber.heart", "fallback": "item.heartrobber.heart"}, 

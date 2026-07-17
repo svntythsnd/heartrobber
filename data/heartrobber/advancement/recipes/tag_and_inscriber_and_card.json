@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:name_tag"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "has_inscribed_card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 6
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has",
+      "has_card",
+      "has_inscribed_card"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "heartrobber:tag_and_inscriber",
+      "heartrobber:card"
+    ]
+  }
+}

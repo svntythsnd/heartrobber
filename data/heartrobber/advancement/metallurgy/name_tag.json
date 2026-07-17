@@ -22,11 +22,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.name_tag.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:tag_and_inscriber",
-      "heartrobber:card"
-    ]
   }
 }

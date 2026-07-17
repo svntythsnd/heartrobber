@@ -3,20 +3,16 @@
     "place_player_head": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {}
-          }
-        ],
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:decorated_pot",
-            "properties": {}
-          }
-        ]
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "location": {
+          "type": "minecraft:match_block",
+          "block": "minecraft:decorated_pot",
+          "properties": {}
+        }
       }
     }
   },

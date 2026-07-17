@@ -23,16 +23,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.alloying.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:smithing/steel_ingot",
-      "heartrobber:smithing/steel_ingot_alt",
-      "heartrobber:smithing/rose_gold_ingot",
-      "heartrobber:smithing/rose_gold_ingot_alt",
-      "heartrobber:smithing/netherite_globule",
-      "heartrobber:smithing/netherite_globule_alt",
-      "heartrobber:alloying_upgrade_duplicate"
-    ]
   }
 }

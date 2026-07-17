@@ -22,11 +22,5 @@
     "title": {
       "translate": "advancements.heartrobber.story.steel.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:steel_nugget",
-      "heartrobber:envelope"
-    ]
   }
 }

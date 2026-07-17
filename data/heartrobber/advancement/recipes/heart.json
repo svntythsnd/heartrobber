@@ -19,6 +19,5 @@
     "recipes": [
       "heartrobber:heart"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

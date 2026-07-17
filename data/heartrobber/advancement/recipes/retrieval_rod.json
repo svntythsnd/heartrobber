@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 20
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:retrieval_rod"
+    ]
+  }
+}

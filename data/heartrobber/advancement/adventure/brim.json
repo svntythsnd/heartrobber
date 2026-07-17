@@ -35,10 +35,5 @@
     "title": {
       "translate": "advancements.heartrobber.adventure.brim.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:wise_reinforcement"
-    ]
   }
 }

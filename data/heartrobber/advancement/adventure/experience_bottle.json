@@ -22,10 +22,5 @@
     "title": {
       "translate": "advancements.heartrobber.adventure.experience_bottle.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:xp_crystal"
-    ]
   }
 }

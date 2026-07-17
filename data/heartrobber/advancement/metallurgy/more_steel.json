@@ -1,15 +1,12 @@
 {
   "parent": "heartrobber:metallurgy/alloying",
   "criteria": {
-    "has_one": {
+    "has": {
       "conditions": {
-        "recipe_id": "heartrobber:smithing/steel_ingot"
-      },
-      "trigger": "minecraft:recipe_crafted"
-    },
-    "has_other": {
-      "conditions": {
-        "recipe_id": "heartrobber:smithing/steel_ingot_alt"
+        "recipes": [
+          "heartrobber:smithing/steel_ingot", 
+          "heartrobber:smithing/steel_ingot_alt"
+        ]
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -24,11 +21,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.more_steel.title"
     }
-  },
-  "requirements": [
-    [
-      "has_one",
-      "has_other"
-    ]
-  ]
+  }
 }

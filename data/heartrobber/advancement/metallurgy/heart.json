@@ -3,7 +3,9 @@
   "criteria": {
     "has": {
       "conditions": {
-        "recipe_id": "heartrobber:heart"
+        "recipes": [
+          "heartrobber:heart"
+        ]
       },
       "trigger": "minecraft:recipe_crafted"
     }

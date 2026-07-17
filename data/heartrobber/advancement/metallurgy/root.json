@@ -24,6 +24,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.root.title"
     }
-  },
-  "sends_telemetry_event": true
+  }
 }

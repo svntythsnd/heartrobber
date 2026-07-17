@@ -11,12 +11,16 @@
           }
         },
         "player": {
-          "equipment": {
-            "mainhand": {
-              "predicates": {
-                "minecraft:custom_data": {
-                  "heartrobber:type": 19,
-                  "heartrobber:sent": false
+	  "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "heartrobber:type": 19,
+                    "heartrobber:sent": false
+                  }
                 }
               }
             }

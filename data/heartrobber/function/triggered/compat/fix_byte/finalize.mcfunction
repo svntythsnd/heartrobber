@@ -1,1 +1,1 @@
-$item modify entity @s container.$(Slot) {function:set_components,components:{"minecraft:custom_data":$(fix_byte)}}
+$item modify entity @s container.$(Slot) {type:set_components,components:{"minecraft:custom_data":$(fix_byte)}}

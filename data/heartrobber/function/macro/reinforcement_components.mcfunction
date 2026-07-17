@@ -1,1 +1,1 @@
-$item modify entity @s weapon.offhand {function:set_components,components:{"minecraft:damage":$(damage), "minecraft:max_damage":$(max)}}
+$item modify entity @s weapon.offhand {type:set_components,components:{"minecraft:damage":$(damage), "minecraft:max_damage":$(max)}}

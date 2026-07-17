@@ -1,0 +1,22 @@
+<heartrobber:type>: <item_id>
+0: heart
+1-2: <free>
+3: end_relay
+4: tag_and_inscriber
+5: card
+6: inscribed_card
+7: chunk_loader
+8: geolocator
+9: xp_crystal
+10: crystallized_honey
+11: armor_stand_drop_mediator
+12: creaking_essence
+13: <scrapped/free> biolocator
+14: wise_reinforcement
+15: glass_item_frame
+16: glow_glass_item_frame
+17: frame_lock
+18: empty_envelope
+19: envelope
+20: retrieval_rod
+21: correction_fluid

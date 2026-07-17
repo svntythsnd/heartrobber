@@ -5,7 +5,10 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:netherite_upgrade_smithing_template"
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template",
+              "minecraft:structure_block"
+            ]
           }
         ]
       },
@@ -16,6 +19,5 @@
     "recipes": [
       "heartrobber:alloying_upgrade_from_netherite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

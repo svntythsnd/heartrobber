@@ -1,0 +1,4 @@
+execute store result score @s heartrobber_compare2 run data get entity @s SelectedItem.components."minecraft:custom_model_data".floats[0]
+execute if score @s heartrobber_compare2 matches 2 run item modify entity @s weapon.mainhand {type:set_components,components:{"minecraft:custom_model_data":{floats:[1]}}}
+execute if score @s heartrobber_compare2 matches 1 run item modify entity @s weapon.mainhand {type:set_components,components:{"minecraft:custom_model_data":{floats:[0]}}}
+execute if score @s heartrobber_compare2 matches 0 run item replace entity @s weapon.mainhand with minecraft:glass_bottle

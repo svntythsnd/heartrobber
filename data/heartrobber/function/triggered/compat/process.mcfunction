@@ -1,1 +1,1 @@
-$item modify entity @s container.$(Slot) {function:set_item,item:clock}
+$item modify entity @s container.$(Slot) {type:set_item,item:clock}

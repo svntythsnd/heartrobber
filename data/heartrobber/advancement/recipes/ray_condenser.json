@@ -3,12 +3,31 @@
   "criteria": {
     "has": {
       "trigger": "minecraft:construct_beacon"
+    },
+    "has_items": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:repeating_command_block",
+              "minecraft:command_block",
+              "minecraft:petrified_oak_slab"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
+  "requirements": [
+    [
+      "has",
+      "has_items"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "heartrobber:ray_condenser"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw",
+              "minecraft:structure_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:smithing/netherite_globule",
+      "heartrobber:smithing/netherite_globule_alt"
+    ]
+  }
+}

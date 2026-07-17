@@ -3,7 +3,7 @@
   "criteria": {
     "has": {
       "conditions": {
-        "recipe_id": "heartrobber:blast_netherite_globule"
+        "recipes": "heartrobber:blast_netherite_globule"
       },
       "trigger": "minecraft:recipe_crafted"
     }

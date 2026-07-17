@@ -1,0 +1,19 @@
+{
+  "parent": "heartrobber:nether/correction_fluid",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.nether.clear_book.description"
+    },
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.nether.clear_book.title"
+    }
+  }
+}

@@ -6,13 +6,13 @@
       "conditions": [
         {
           "block": "minecraft:large_fern",
-          "condition": "minecraft:block_state_property",
+          "type": "minecraft:block_state_property",
           "properties": {
             "half": "lower"
           }
         },
         {
-          "condition": "minecraft:location_check",
+          "type": "minecraft:location_check",
           "offsetY": 1,
           "predicate": {
             "block": {
@@ -30,25 +30,23 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
+              "condition": {
+                  "type": "minecraft:match_tool",
                   "predicate": {
                     "items": "minecraft:shears"
                   }
-                }
-              ],
+                },
               "name": "minecraft:large_fern"
             },
             {
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "type": "minecraft:survives_explosion"
                 },
                 {
                   "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "type": "minecraft:random_chance"
                 }
               ],
               "name": "minecraft:wheat_seeds"
@@ -63,13 +61,13 @@
       "conditions": [
         {
           "block": "minecraft:large_fern",
-          "condition": "minecraft:block_state_property",
+          "type": "minecraft:block_state_property",
           "properties": {
             "half": "upper"
           }
         },
         {
-          "condition": "minecraft:location_check",
+          "type": "minecraft:location_check",
           "offsetY": -1,
           "predicate": {
             "block": {
@@ -87,25 +85,23 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
+              "condition": {
+                  "type": "minecraft:match_tool",
                   "predicate": {
                     "items": "minecraft:shears"
                   }
-                }
-              ],
+                },
               "name": "minecraft:large_fern"
             },
             {
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "type": "minecraft:survives_explosion"
                 },
                 {
                   "chance": 0.125,
-                  "condition": "minecraft:random_chance"
+                  "type": "minecraft:random_chance"
                 }
               ],
               "name": "minecraft:wheat_seeds"

@@ -1,1 +1,1 @@
-$item modify entity @s container.$(Slot) {function:set_components,components:{"minecraft:lore":[{color:"dark_gray",extra:[{color:"gray",text:"$(text)"}],text:"$(name): ",italic:false}]}}
+$item modify entity @s container.$(Slot) {type:set_components,components:{"minecraft:lore":[{color:"dark_gray",extra:[{color:"gray",text:"$(text)"}],text:"$(name): ",italic:false}]}}

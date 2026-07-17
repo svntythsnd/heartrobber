@@ -1,1 +1,1 @@
-$item modify entity @s weapon.mainhand {function:set_components,components:{"minecraft:lore":[{"color":"dark_gray","italic":false,"text":"$(name): ","extra":$(old)}]}}
+$item modify entity @s weapon.mainhand {type:set_components,components:{"minecraft:lore":[{"color":"dark_gray","italic":false,"text":"$(name): ","extra":$(old)}]}}

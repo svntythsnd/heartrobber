@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:experience_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 9
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has",
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "heartrobber:xp_crystal"
+    ]
+  }
+}

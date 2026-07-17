@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:command_block",
+              "minecraft:repeating_command_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_envelope": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 18
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has",
+      "has_envelope"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "heartrobber:envelope"
+    ]
+  }
+}

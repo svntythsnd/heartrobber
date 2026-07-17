@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:allay_spawn_egg",
-	  "functions": [
+	  "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "item_model": "heartrobber:ender_relay", 
                 "item_name": {"translate": "block.heartrobber.ender_relay", "fallback": "block.heartrobber.ender_relay"}, 
@@ -17,7 +17,7 @@
                   "Tags": ["heartrobber_relayPlace"]
                 },
                 "custom_data": {
-                  "heartrobber:type": 6
+                  "heartrobber:type": 3
                 }
               }    
             }

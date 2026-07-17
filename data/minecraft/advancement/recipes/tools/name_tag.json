@@ -34,16 +34,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_the_recipe": {
+    "has_the_recipes": {
       "conditions": {
-        "recipe": "minecraft:name_tag"
+        "recipes": "minecraft:name_tag"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
+      "has_the_recipes",
       "has_metal_nugget",
       "has_paper",
       "has_name_tag"

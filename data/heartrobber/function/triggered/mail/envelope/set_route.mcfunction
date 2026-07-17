@@ -1,1 +1,1 @@
-$item modify entity @s weapon.offhand {function:set_components, components:{lore:[{text:"$(sender)",italic:false,color:gray,extra:[{text:" -> ",color:dark_gray},"$(recipient)"]}]}}
+$item modify entity @s weapon.offhand {type:set_components, components:{lore:[{text:"$(sender)",italic:false,color:gray,extra:[{text:" -> ",color:dark_gray},"$(recipient)"]}]}}

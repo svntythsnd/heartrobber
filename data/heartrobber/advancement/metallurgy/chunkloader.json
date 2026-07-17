@@ -29,11 +29,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.chunkloader.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:rose_gold_nugget",
-      "heartrobber:chunkloader"
-    ]
   }
 }

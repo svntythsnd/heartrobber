@@ -7,7 +7,11 @@
           {
             "items": [
               "minecraft:repeating_command_block",
-              "minecraft:command_block"	
+              "minecraft:command_block",
+	      "minecraft:chainmail_boots",
+              "minecraft:chainmail_leggings",
+              "minecraft:chainmail_chestplate",
+              "minecraft:chainmail_helmet"
             ]
           }
         ]
@@ -22,6 +26,5 @@
       "heartrobber:chainmail/chainmail_chestplate",
       "heartrobber:chainmail/chainmail_helmet"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -22,11 +22,5 @@
     "title": {
       "translate": "advancements.heartrobber.metallurgy.rose_gold.title"
     }
-  },
-  "rewards": {
-    "recipes": [
-      "heartrobber:rose_gold_nugget",
-      "heartrobber:chunkloader"
-    ]
   }
 }

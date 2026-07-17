@@ -15,6 +15,5 @@
   },
   "rewards": {
     "function": "heartrobber:triggered/lock/unlock/main"
-  },
-  "sends_telemetry_event": false
+  }
 }

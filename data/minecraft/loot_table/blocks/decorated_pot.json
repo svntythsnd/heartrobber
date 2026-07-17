@@ -2,60 +2,54 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:dynamic",
-              "conditions": [
-                {
-                  "block": "minecraft:decorated_pot",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "cracked": "true"
-                  }
+              "condition": {
+                "blocks": "minecraft:decorated_pot",
+                "type": "minecraft:match_block",
+                "state": {
+                  "cracked": "true"
                 }
-              ],
+              },
               "name": "minecraft:sherds"
             },
             {
               "type": "minecraft:item",
               "name": "minecraft:decorated_pot",
-              "functions": [
+              "modifier": [
                 {
-                  "function": "minecraft:copy_components",
+                  "type": "minecraft:copy_components",
                   "source": "block_entity",
                   "include": [
                     "minecraft:pot_decorations"
                   ]
                 },
                 {
-                  "function": "minecraft:set_custom_data",
+                  "type": "minecraft:set_custom_data",
                   "tag": {"enhanced_pots:takes":true}
                 }
               ],
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
+              "condition": {
+                  "type": "minecraft:match_tool",
                   "predicate": {
                     "items": "minecraft:brush"
                   }
                 }
-              ]
             },
             {
               "type": "minecraft:item",
               "name": "minecraft:decorated_pot",
-              "functions": [
+              "modifer": [
                 {
-                  "function": "minecraft:copy_components",
+                  "type": "minecraft:copy_components",
                   "include": [
                     "minecraft:pot_decorations"
                   ],
-                  "source": "block_entity",
-                  "conditions": []
+                  "source": "block_entity"
                 }
               ]
             }

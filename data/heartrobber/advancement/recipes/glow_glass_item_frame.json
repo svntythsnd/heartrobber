@@ -13,6 +13,20 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "has_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 16
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "rewards": {
@@ -20,5 +34,10 @@
       "heartrobber:glow_glass_item_frame"
     ]
   },
-  "sends_telemetry_event": false
+  "requirements": [
+    [
+      "has",
+      "has_frame"
+    ]
+  ]
 }

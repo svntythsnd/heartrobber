@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "minecraft:test_instance_block"
+              "minecraft:structure_block"
             ]
           }
         ]
@@ -16,9 +16,8 @@
   },
   "rewards": {
     "recipes": [
-      "heartrobber:rose_gold_ingot",
-      "heartrobber:chunkloader"
+      "heartrobber:smithing/steel_ingot",
+      "heartrobber:smithing/steel_ingot_alt"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

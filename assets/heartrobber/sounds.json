@@ -164,6 +164,38 @@
       }
     ]
   },
+  "item.correction_fluid.clear_tag": {
+    "subtitle": "subtitles.heartrobber.item.correction_fluid.clear_tag",
+    "sounds": [
+      "heartrobber:item/correction_fluid/clear_tag1",
+      "heartrobber:item/correction_fluid/clear_tag2",
+      "heartrobber:item/correction_fluid/clear_tag3",
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag1",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag2",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag3",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag1",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag2",
+        "pitch": 0.95
+      },
+      {
+        "name": "heartrobber:item/correction_fluid/clear_tag3",
+        "pitch": 0.95
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [

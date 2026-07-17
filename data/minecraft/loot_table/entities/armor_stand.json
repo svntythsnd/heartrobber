@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:clock",
-	  "functions": [
+	  "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "item_model": "minecraft:air",
                 "custom_data": {
@@ -18,7 +18,7 @@
               }
             },
             {
-              "function": "minecraft:copy_custom_data",
+              "type": "minecraft:copy_custom_data",
               "source": "this",
               "ops": [
                 {
@@ -41,9 +41,9 @@
           ],
           "conditions": [
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "attacker",
                 "predicate": {
                   "type_specific/player": {

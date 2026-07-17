@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:clock",
-	  "functions": [
+	  "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "item_model": "heartrobber:crystallized_honey", 
                 "item_name": {"translate": "item.heartrobber.crystallized_honey", "fallback": "item.heartrobber.crystallized_honey"}, 

@@ -5,8 +5,28 @@
       "conditions": {
         "block": "minecraft:end_gateway"
       }
+    },
+    "has_relay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 3
+              }
+            }
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "end_gate",
+      "has_relay"
+    ]
+  ],
   "rewards": {
     "recipes": [
       "heartrobber:ender_relay",

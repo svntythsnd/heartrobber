@@ -34,16 +34,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_the_recipe": {
+    "has_the_recipes": {
       "conditions": {
-        "recipe": "minecraft:flint_and_steel"
+        "recipes": "minecraft:flint_and_steel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
+      "has_the_recipes",
       "has_flint",
       "has_obsidian",
       "has_steel"

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 21
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.nether.correction_fluid.description"
+    },
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "item_model": "heartrobber:correction_fluid",
+        "custom_model_data": {
+          "floats": [2]
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.nether.correction_fluid.title"
+    }
+  }
+}

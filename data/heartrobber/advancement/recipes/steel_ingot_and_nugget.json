@@ -6,7 +6,8 @@
         "items": [
           {
             "items": [
-              "minecraft:command_block"
+              "minecraft:command_block",
+              "minecraft:repeating_command_block"
             ]
           }
         ]
@@ -16,8 +17,8 @@
   },
   "rewards": {
     "recipes": [
-      "heartrobber:steel_ingot"
+      "heartrobber:steel_ingot",
+      "heartrobber:steel_nugget"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
