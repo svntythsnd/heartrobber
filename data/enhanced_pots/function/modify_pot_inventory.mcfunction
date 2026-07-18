@@ -1,2 +1,1 @@
-$say $(components)
 $data modify entity @n[type=item,nbt={Age:0s,Item:{id:"$(id)"}}] Item set value {id:"$(id)",count:$(count),components:$(components)}

@@ -3,7 +3,7 @@
     "end_gate": {
       "trigger": "minecraft:enter_block",
       "conditions": {
-        "block": "minecraft:end_gateway"
+        "blocks": "minecraft:end_gateway"
       }
     },
     "has_relay": {
