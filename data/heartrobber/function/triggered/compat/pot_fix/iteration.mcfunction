@@ -1,0 +1,1 @@
+execute if data storage heartrobber:temp compat_queue[0] unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".left run function heartrobber:triggered/compat/pot_fix/filter

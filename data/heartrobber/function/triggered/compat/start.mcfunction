@@ -7,3 +7,5 @@ data modify storage heartrobber:temp compat_queue append from entity @s Inventor
 function heartrobber:triggered/compat/fix_byte/iteration
 data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":6b}}}]
 function heartrobber:triggered/compat/card_update/iteration
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{id:"minecraft:decorated_pot"}]
+function heartrobber:triggered/compat/pot_fix/iteration

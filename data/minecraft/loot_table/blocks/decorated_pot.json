@@ -43,7 +43,7 @@
             {
               "type": "minecraft:item",
               "name": "minecraft:decorated_pot",
-              "modifer": [
+              "modifier": [
                 {
                   "type": "minecraft:copy_components",
                   "include": [

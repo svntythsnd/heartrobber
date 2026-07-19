@@ -1,0 +1,5 @@
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".left run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".left set value {id:"minecraft:brick"}
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".right run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".right set value {id:"minecraft:brick"}
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".front run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".front set value {id:"minecraft:brick"}
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".back run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".back set value {id:"minecraft:brick"}
+function heartrobber:triggered/compat/pot_fix/finalize with storage heartrobber:temp compat_queue[0]
