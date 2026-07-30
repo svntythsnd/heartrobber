@@ -26,8 +26,18 @@
       }
     ]
   },
-  "trim_palette_replacements": {
-    "minecraft:trim/iron": "minecraft:trim/iron_darker",
-    "heartrobber:trim/steel": "heartrobber:trim/steel_darker"
-  }
+  "trim_overrides": [
+    {
+      "when": {
+         "material": "minecraft:iron"
+      },
+      "palette": "minecraft:trim/iron_darker"
+    },
+    {
+      "when": {
+         "material": "heartrobber:steel"
+      },
+      "palette": "heartrobber:trim/steel_darker"
+    }
+  ]
 }
