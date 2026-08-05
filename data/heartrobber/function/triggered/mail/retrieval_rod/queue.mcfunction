@@ -1,3 +1,4 @@
+swing @s mainhand
 playsound heartrobber:item.retrieval_rod.retrieve neutral @a
 advancement grant @s only heartrobber:metallurgy/retrieve
 data modify storage heartrobber:mail queue set value []

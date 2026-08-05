@@ -1,2 +1,2 @@
-execute anchored eyes positioned ^ ^ ^1.1 as @n[type=#heartrobber:item_frame,distance=..0.5,nbt={Fixed:1b}] at @s run function heartrobber:triggered/lock/unlock/pov
+execute anchored eyes positioned ^ ^ ^1.1 if entity @n[type=#heartrobber:item_frame,distance=..1,nbt={Fixed:1b}] run function heartrobber:triggered/lock/unlock/middle
 advancement revoke @s only heartrobber:unlock
