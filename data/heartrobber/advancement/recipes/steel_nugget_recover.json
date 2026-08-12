@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_gear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#heartrobber:gear/steel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:steel_nugget_from_blasting",
+      "heartrobber:steel_nugget_from_smelting"
+    ]
+  }
+}

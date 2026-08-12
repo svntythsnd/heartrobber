@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.1,
+  "ingredient": "#heartrobber:gear/steel",
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "rarity": "common"
+    }
+  }
+}
