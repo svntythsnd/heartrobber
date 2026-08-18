@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ { Tags: ["pot_marker"] }
+execute unless data block ~ ~ ~ LootTable run summon marker ~ ~ ~ { Tags: ["pot_marker"] }

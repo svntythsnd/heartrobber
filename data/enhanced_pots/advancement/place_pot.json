@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "place_player_head": {
+    "place_pot": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": {
@@ -14,8 +14,23 @@
           "properties": {}
         }
       }
+    },
+    "interact_with_pot": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:decorated_pot"
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "place_pot",
+      "interact_with_pot"
+    ]
+  ],
   "rewards": {
     "function": "enhanced_pots:place_pot"
   }

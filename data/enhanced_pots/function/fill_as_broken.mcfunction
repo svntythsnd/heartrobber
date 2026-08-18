@@ -1,0 +1,5 @@
+data modify storage enhanced_pots:broken_pot_data item set from entity @n[type=item,tag=enhanced_pots.reserved_item] Item
+execute if data entity @n[type=item,tag=enhanced_pots.reserved_item] Item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @n[type=item,tag=enhanced_pots.reserved_item] Item.components."minecraft:item_model"
+execute unless data entity @n[type=item,tag=enhanced_pots.reserved_item] Item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @n[type=item,tag=enhanced_pots.reserved_item] Item.id
+data modify storage enhanced_pots:broken_pot_data item merge value {components:{}}
+function enhanced_pots:fill_broken_pot with storage enhanced_pots:broken_pot_data item

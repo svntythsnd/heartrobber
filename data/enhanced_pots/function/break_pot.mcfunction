@@ -13,6 +13,6 @@ execute store result storage enhanced_pots:broken_pot_data item.count int 1 run 
 execute unless entity @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] if score @s enhanced_pots.item_count matches 1.. run function enhanced_pots:modify_pot_inventory with storage enhanced_pots:broken_pot_data item
 
 # explode pot if hit with a flaming arrow
-execute if data entity @s {data:{item:[{id:"minecraft:gunpowder"}]}} at @n[type=minecraft:arrow,distance=..2] unless data entity @s {Fire: -1s} run function enhanced_pots:gunpowder/explode
+execute if data entity @s {data:{item:[{id:"minecraft:gunpowder"}]}} at @n[type=minecraft:arrow,distance=..2] unless data entity @s {Fire: -1s} run function enhanced_pots:gunpowder/explod
 
 kill @s
