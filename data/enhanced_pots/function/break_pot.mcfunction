@@ -1,18 +1,9 @@
-# move the items into the pot item entity
-data modify storage enhanced_pots:broken_pot_data item set from entity @s data.item
-execute if data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.components."minecraft:item_model"
-execute unless data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.id
-data modify storage enhanced_pots:broken_pot_data item merge value {components:{}}
-execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count
-execute store result storage enhanced_pots:broken_pot_data max_stack_size byte 1 run scoreboard players get @s enhanced_pots.max_items
-execute if score @s enhanced_pots.item_count matches 16.. as @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] run function enhanced_pots:pre_fill with storage enhanced_pots:broken_pot_data
-execute if score @s enhanced_pots.item_count matches ..15 as @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] run function enhanced_pots:fill_broken_pot with storage enhanced_pots:broken_pot_data item
-
-# if the pot was shattered with a tool, summon the pot's items from the armor stand's item_count
-execute store result storage enhanced_pots:broken_pot_data item.count int 1 run scoreboard players get @s enhanced_pots.item_count
-execute unless entity @n[type=minecraft:item,nbt={Item:{id:"minecraft:decorated_pot",components:{"minecraft:custom_data":{"enhanced_pots:takes":true}}},Age:0s},distance=..1] if score @s enhanced_pots.item_count matches 1.. run function enhanced_pots:modify_pot_inventory with storage enhanced_pots:broken_pot_data item
+execute unless score @s enhanced_pots.item_count matches 1.. run data remove entity @n[type=item,nbt={Item:{id:"minecraft:decorated_pot"},Age:0s},distance=..1] Item.components."minecraft:custom_data"
+execute if score @s enhanced_pots.item_count matches 1.. run function enhanced_pots:break_pot_with_items
 
 # explode pot if hit with a flaming arrow
-execute if data entity @s {data:{item:[{id:"minecraft:gunpowder"}]}} at @n[type=minecraft:arrow,distance=..2] unless data entity @s {Fire: -1s} run function enhanced_pots:gunpowder/explod
+execute if data entity @s {data:{item:{id:"minecraft:gunpowder"}}} if entity @n[type=minecraft:arrow,distance=..2,nbt=!{Fire:0s}] run function enhanced_pots:gunpowder/explode
+
+execute positioned ~-0.5 ~1.245 ~-0.5 run kill @n[tag=pot_contents_flower,distance=..0.01]
 
 kill @s

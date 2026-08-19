@@ -2,5 +2,4 @@ scoreboard objectives add enhanced_pots.explosion_ratio dummy
 scoreboard objectives add enhanced_pots.explosion_radius dummy
 scoreboard objectives add enhanced_pots.item_count dummy
 scoreboard objectives add enhanced_pots.virtual_count dummy
-scoreboard objectives add enhanced_pots.max_items dummy
 scoreboard objectives add enhanced_pots.broke_pot minecraft.mined:minecraft.decorated_pot

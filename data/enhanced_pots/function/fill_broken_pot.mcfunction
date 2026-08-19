@@ -1,2 +1,3 @@
 $data modify entity @s Item.components merge value {"minecraft:container":[{item:{id:"$(id)",count:$(count),components:$(components)}, slot: 0}],"minecraft:item_model":"$(model)","minecraft:max_stack_size":1,"enchantment_glint_override":true,"item_name":{"translate":"item.enhanced_pots.filled_pot","fallback":"item.enhanced_pots.filled_pot"}}
-$execute as @e[type=minecraft:item,nbt={Item:{id:"$(id)"},Age:0s},distance=..1] run kill @s
+$kill @e[type=minecraft:item,nbt={Item:{id:"$(id)"},Age:0s},tag=!enhanced_pots.true_pot,distance=..1]
+tag @s remove enhanced_pots.true_pot
