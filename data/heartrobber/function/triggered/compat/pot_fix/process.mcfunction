@@ -2,4 +2,5 @@ execute unless data storage heartrobber:temp compat_queue[0].components."minecra
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".right run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".right set value {id:"minecraft:brick"}
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".front run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".front set value {id:"minecraft:brick"}
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".back run data modify storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".back set value {id:"minecraft:brick"}
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:max_stack_size" run data modify storage heartrobber:temp compat_queue[0].components."minecraft:max_stack_size" set value 16
 function heartrobber:triggered/compat/pot_fix/finalize with storage heartrobber:temp compat_queue[0]

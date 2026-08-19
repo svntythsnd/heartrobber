@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_decorated_pot",
+  "back": "#minecraft:decorated_pot_ingredients",
+  "front": "#minecraft:decorated_pot_ingredients",
+  "left": "#minecraft:decorated_pot_ingredients",
+  "right": "#minecraft:decorated_pot_ingredients",
+  "result": {
+    "id": "minecraft:decorated_pot",
+    "components": {
+      "max_stack_size": 16
+    }
+  }
+}

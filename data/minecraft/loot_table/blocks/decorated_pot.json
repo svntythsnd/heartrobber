@@ -29,6 +29,12 @@
                   "source": "block_entity"
                 },
                 {
+                  "type": "minecraft:set_components",
+                  "components": {
+                    "minecraft:max_stack_size": 16
+                  }
+                },
+                {
                   "type": "minecraft:set_custom_data",
                   "tag": {
                     "enhanced_pots:takes": true

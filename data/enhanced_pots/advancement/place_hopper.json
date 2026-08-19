@@ -1,0 +1,146 @@
+{
+  "criteria": {
+    "hopper_on_pot": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "down"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hopper_east_pot": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "east"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hopper_west_pot": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "west"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetX": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hopper_south_pot": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "south"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetZ": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hopper_north_pot": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "minecraft:hopper",
+              "state": {
+                "facing": "north"
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hopper_on_pot",
+      "hopper_east_pot",
+      "hopper_west_pot",
+      "hopper_north_pot",
+      "hopper_south_pot"
+    ]
+  ],
+  "rewards": {
+    "function": "enhanced_pots:place_pot"
+  }
+}

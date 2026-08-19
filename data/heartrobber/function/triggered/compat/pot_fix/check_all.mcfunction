@@ -3,4 +3,5 @@ execute unless data storage heartrobber:temp compat_queue[0].components."minecra
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".right run scoreboard players set _ heartrobber_compare 0
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".front run scoreboard players set _ heartrobber_compare 0
 execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:pot_decorations".back run scoreboard players set _ heartrobber_compare 0
+execute unless data storage heartrobber:temp compat_queue[0].components."minecraft:max_stack_size" run scoreboard players set _ heartrobber_compare 0
 return run execute if score _ heartrobber_compare matches 0
