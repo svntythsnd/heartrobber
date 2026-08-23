@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#heartrobber:stew_effects/blindness",
+    "#heartrobber:stew_effects/fire_resistance",
+    "#heartrobber:stew_effects/jump_boost",
+    "#heartrobber:stew_effects/nausea",
+    "#heartrobber:stew_effects/night_vision",
+    "#heartrobber:stew_effects/poison",
+    "#heartrobber:stew_effects/regeneration",
+    "#heartrobber:stew_effects/saturation",
+    "#heartrobber:stew_effects/weakness",
+    "#heartrobber:stew_effects/wither"
+  ]
+}

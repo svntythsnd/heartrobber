@@ -20,6 +20,7 @@ execute as @a run function heartrobber:tick/reconcile_advancements
 execute as @e[type=experience_orb] run function heartrobber:tick/clumps
 execute as @a[level=0] run function heartrobber:tick/adjust_xp_float_error
 function heartrobber:tick/throwables
+function heartrobber:tick/intercept_mooshroom
 function heartrobber:tick/dispenser
 function heartrobber:tick/clear_cache
 function heartrobber:tick/take_recipes

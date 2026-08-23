@@ -1,0 +1,2 @@
+execute as @e[type=mooshroom,tag=!heartrobber_mooshroom_seen,nbt={Type:red}] unless data entity @s data."heartrobber:ignore_mooshroom" if predicate heartrobber:natural_brown_mooshroom run data modify entity @s Type set value brown
+tag @e[type=mooshroom,tag=!heartrobber_mooshroom_seen] add heartrobber_mooshroom_seen
