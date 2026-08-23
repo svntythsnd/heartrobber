@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "crafted_molasses_sugar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:sugar_from_honey_bottle"
+      }
+    }
+  }
+}

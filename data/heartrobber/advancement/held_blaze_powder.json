@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "held_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "blaze_powder"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "heartrobber:triggered/brewing_root/powder"
+  }
+}

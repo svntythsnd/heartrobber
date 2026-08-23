@@ -1,0 +1,1 @@
+advancement grant @s[advancements={heartrobber:held_blaze_powder=true}] only heartrobber:brewing/root

@@ -138,12 +138,18 @@
       "trigger": "minecraft:consume_item"
     },
     "cookie": {
+      "trigger": "minecraft:tick",
       "conditions": {
-        "item": {
-          "items": "minecraft:cookie"
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "heartrobber_ate_cookie": {
+              "min": 1
+            }
+          }
         }
-      },
-      "trigger": "minecraft:consume_item"
+      }
     },
     "crystallized_honey": {
       "conditions": {
@@ -199,11 +205,17 @@
     },
     "honey_bottle": {
       "conditions": {
-        "item": {
-          "items": "minecraft:honey_bottle"
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "heartrobber_ate_honey": {
+              "min": 1
+            }
+          }
         }
       },
-      "trigger": "minecraft:consume_item"
+      "trigger": "minecraft:tick"
     },
     "melon_slice": {
       "conditions": {
@@ -332,6 +344,80 @@
         }
       },
       "trigger": "minecraft:consume_item"
+    },
+    "cake": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "heartrobber_ate_cake": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "molasses": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 22
+            }
+          }
+        }
+      }
+    },
+    "builders_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 26
+            }
+          }
+        }
+      }
+    },
+    "english_tea": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 27
+            }
+          }
+        }
+      }
+    },
+    "mead": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 28
+            }
+          }
+        }
+      }
+    },
+    "chocolate": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 30
+            }
+          }
+        }
+      }
     }
   },
   "display": {
@@ -347,131 +433,6 @@
       "translate": "advancements.husbandry.balanced_diet.title"
     }
   },
-  "requirements": [
-    [
-      "apple"
-    ],
-    [
-      "mushroom_stew"
-    ],
-    [
-      "bread"
-    ],
-    [
-      "porkchop"
-    ],
-    [
-      "cooked_porkchop"
-    ],
-    [
-      "golden_apple"
-    ],
-    [
-      "enchanted_golden_apple"
-    ],
-    [
-      "cod"
-    ],
-    [
-      "salmon"
-    ],
-    [
-      "tropical_fish"
-    ],
-    [
-      "pufferfish"
-    ],
-    [
-      "cooked_cod"
-    ],
-    [
-      "cooked_salmon"
-    ],
-    [
-      "cookie"
-    ],
-    [
-      "melon_slice"
-    ],
-    [
-      "beef"
-    ],
-    [
-      "cooked_beef"
-    ],
-    [
-      "chicken"
-    ],
-    [
-      "cooked_chicken"
-    ],
-    [
-      "rotten_flesh"
-    ],
-    [
-      "spider_eye"
-    ],
-    [
-      "carrot"
-    ],
-    [
-      "potato"
-    ],
-    [
-      "baked_potato"
-    ],
-    [
-      "poisonous_potato"
-    ],
-    [
-      "golden_carrot"
-    ],
-    [
-      "pumpkin_pie"
-    ],
-    [
-      "rabbit"
-    ],
-    [
-      "cooked_rabbit"
-    ],
-    [
-      "rabbit_stew"
-    ],
-    [
-      "mutton"
-    ],
-    [
-      "cooked_mutton"
-    ],
-    [
-      "chorus_fruit"
-    ],
-    [
-      "beetroot"
-    ],
-    [
-      "beetroot_soup"
-    ],
-    [
-      "dried_kelp"
-    ],
-    [
-      "suspicious_stew"
-    ],
-    [
-      "sweet_berries"
-    ],
-    [
-      "honey_bottle"
-    ],
-    [
-      "glow_berries"
-    ],
-    [
-      "crystallized_honey"
-    ]
-  ],
   "rewards": {
     "experience": 100
   },

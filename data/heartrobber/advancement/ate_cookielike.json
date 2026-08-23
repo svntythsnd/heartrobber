@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "ate_honey": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie"
+        }
+      }
+    }
+  }
+}

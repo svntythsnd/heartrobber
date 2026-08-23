@@ -1,0 +1,1 @@
+execute as @e[type=#heartrobber:throwables] if data entity @s Item.components."minecraft:custom_data"."heartrobber:thrown_item" at @s run function heartrobber:triggered/throwables

@@ -3,53 +3,42 @@
   "pools": [
     {
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "block": "minecraft:large_fern",
-          "type": "minecraft:block_state_property",
-          "properties": {
-            "half": "lower"
-          }
-        },
-        {
-          "type": "minecraft:location_check",
-          "offsetY": 1,
-          "predicate": {
-            "block": {
-              "blocks": "minecraft:large_fern",
-              "state": {
-                "half": "upper"
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "blocks": "minecraft:large_fern",
+            "type": "minecraft:match_block",
+            "state": {
+              "half": "lower"
+            }
+          },
+          {
+            "type": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:large_fern",
+                "state": {
+                  "half": "upper"
+                }
               }
             }
           }
-        }
-      ],
+        ]
+      },
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "condition": {
-                  "type": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:shears"
-                  }
-                },
+              "condition": "minecraft:tool/can_shear",
               "name": "minecraft:large_fern"
             },
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "type": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "type": "minecraft:random_chance"
-                }
-              ],
-              "name": "minecraft:wheat_seeds"
+              "type": "minecraft:loot_table",
+              "value": "heartrobber:seed_producing"
             }
           ]
         }
@@ -58,53 +47,42 @@
     },
     {
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "block": "minecraft:large_fern",
-          "type": "minecraft:block_state_property",
-          "properties": {
-            "half": "upper"
-          }
-        },
-        {
-          "type": "minecraft:location_check",
-          "offsetY": -1,
-          "predicate": {
-            "block": {
-              "blocks": "minecraft:large_fern",
-              "state": {
-                "half": "lower"
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "blocks": "minecraft:large_fern",
+            "type": "minecraft:match_block",
+            "state": {
+              "half": "upper"
+            }
+          },
+          {
+            "type": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:large_fern",
+                "state": {
+                  "half": "lower"
+                }
               }
             }
           }
-        }
-      ],
+        ]
+      },
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "condition": {
-                  "type": "minecraft:match_tool",
-                  "predicate": {
-                    "items": "minecraft:shears"
-                  }
-                },
+              "condition": "minecraft:tool/can_shear",
               "name": "minecraft:large_fern"
             },
             {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "type": "minecraft:survives_explosion"
-                },
-                {
-                  "chance": 0.125,
-                  "type": "minecraft:random_chance"
-                }
-              ],
-              "name": "minecraft:wheat_seeds"
+              "type": "minecraft:loot_table",
+              "value": "heartrobber:seed_producing"
             }
           ]
         }

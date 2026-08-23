@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:lingering_potion",
+    "potion_contents": {
+      "potions": "minecraft:water"
+    }
+  },
+  "output": {
+    "components": {
+      "potion_contents": {
+        "custom_effects": [
+          {
+            "id": "slowness",
+            "amplifier": 4,
+            "duration": 1000
+          }
+        ],
+	"custom_name": "heartrobber.molasses",
+        "custom_color": 3611925
+      },
+      "potion_duration_scale": 0.1,
+      "item_model": "heartrobber:extremely_tactical_molasses",
+      "custom_data": {
+        "heartrobber:type": 24
+      },
+      "max_stack_size": 16
+    },
+    "id": "minecraft:lingering_potion"
+  },
+  "reagent": {
+    "item": "#heartrobber:sugar_sources"
+  }
+}

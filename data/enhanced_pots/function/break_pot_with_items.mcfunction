@@ -1,4 +1,5 @@
 # move the items into the pot item entity
+execute if entity @s[tag=enhanced_pots.coagulating] run data remove entity @s data.item.components."minecraft:max_stack_size"
 data modify storage enhanced_pots:broken_pot_data item set from entity @s data.item
 execute if data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.components."minecraft:item_model"
 execute unless data entity @s data.item.components."minecraft:item_model" run data modify storage enhanced_pots:broken_pot_data item.model set from entity @s data.item.id

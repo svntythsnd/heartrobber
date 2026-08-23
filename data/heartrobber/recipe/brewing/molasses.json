@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:glass_bottle"
+  },
+  "output": {
+    "components": {
+      "item_model": "heartrobber:molasses", 
+      "item_name": {"translate": "item.heartrobber.molasses", "fallback": "item.heartrobber.molasses"}, 
+      "custom_data": {
+        "heartrobber:type": 22
+      },
+      "consumable": {
+        "animation": "drink",
+        "sound": "item.honey_bottle.drink",
+        "has_consume_particles": false
+      }
+    },
+    "id": "minecraft:honey_bottle"
+  },
+  "reagent": {
+    "item": "#heartrobber:sugar_sources"
+  }
+}

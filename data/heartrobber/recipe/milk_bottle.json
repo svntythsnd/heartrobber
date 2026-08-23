@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "count": 3,
+    "components": {
+      "potion_contents": {
+        "potion": "luck",
+        "custom_name": "heartrobber.milk",
+        "custom_effects": [
+          {
+            "id": "luck",
+            "show_particles": false,
+            "show_icon": false
+          }
+        ]
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "potion_contents"
+        ]
+      },
+      "item_model": "heartrobber:milk_bottle",
+      "consumable": {
+        "animation": "drink",
+        "sound": "entity.generic.drink",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "clear_all_effects"
+          }
+        ]
+      },
+      "max_stack_size": 16,
+      "custom_data": {
+        "heartrobber:type": 25
+      }
+    }
+  }
+}

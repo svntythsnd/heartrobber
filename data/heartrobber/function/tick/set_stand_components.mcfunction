@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:brewing_stand"},Age:0s}] run function heartrobber:triggered/set_stand_components

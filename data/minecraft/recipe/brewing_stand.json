@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "#minecraft:stone_crafting_materials",
+    "B": "minecraft:blaze_rod"
+  },
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:brewing_stand",
+    "components": {
+      "block_entity_data": {
+         "id": "minecraft:brewing_stand",
+         "Fuel": 0,
+         "total_fuel": 20
+      },
+      "lore": [
+        {
+          "translate": "gui.heartrobber.brewing_stand_fuel",
+          "italic": false,
+          "color": "gray",
+          "extra": [
+            {
+              "text": ": 0 / 20"
+            }
+          ]
+        }
+      ],
+      "max_stack_size": 1
+    }
+  }
+}

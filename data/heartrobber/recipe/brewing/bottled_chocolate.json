@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:potion",
+    "potion_contents": {
+      "potions": "minecraft:luck"
+    }
+  },
+  "output": {
+    "components": {
+      "potion_contents": {
+	"custom_name": "heartrobber.chocolate"
+      },
+      "item_model": "heartrobber:bottled_chocolate",
+      "use_remainder": "minecraft:glass_bottle",
+      "custom_data": {
+        "heartrobber:type": 29,
+        "heartrobber:on_throw": "heartrobber:throwables/bottled_solid",
+        "heartrobber:thrown_item": {
+          "id": "minecraft:cookie",
+          "components": {
+            "item_name": {"translate": "item.heartrobber.chocolate", "fallback": "item.heartrobber.chocolate"},
+            "item_model": "heartrobber:chocolate",
+            "custom_data": {
+              "heartrobber:type": 30
+            },
+            "food": {
+              "nutrition": 6,
+              "saturation": 2.0
+            }
+          }
+        }
+      },
+      "tooltip_display": {
+        "hidden_components": [
+          "potion_contents"
+        ]
+      }
+    },
+    "id": "minecraft:splash_potion"
+  },
+  "reagent": {
+    "item": "minecraft:cocoa_beans"
+  }
+}

@@ -1,0 +1,1 @@
+$item modify entity @s weapon.offhand {type:set_components,components:$(components)}

@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "criteria": {
+    "coagulation": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.enhanced_pots.husbandry.coagulation.description"
+    },
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "advancements.enhanced_pots.husbandry.coagulation.title"
+    }
+  }
+}

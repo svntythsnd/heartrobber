@@ -20,3 +20,12 @@
 19: envelope
 20: retrieval_rod
 21: correction_fluid
+22: molasses
+23: tactical_molasses
+24: extremely_tactical_molasses
+25: milk_bottle
+26: builders_tea
+27: english_tea
+28: mead
+29: bottled_chocolate
+30: chocolate

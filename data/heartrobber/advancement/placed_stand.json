@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "held_blaze_powder": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:brewing_stand"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "heartrobber:triggered/brewing_root/stand"
+  }
+}

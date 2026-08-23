@@ -1,3 +1,5 @@
+execute if entity @s[tag=enhanced_pots.coagulating] run function enhanced_pots:coagulation/tick
+
 # item added/removed
 
 execute store result score @s heartrobber_compare run data get block ~ ~ ~ item.count
@@ -17,3 +19,8 @@ execute unless data block ~ ~ ~ item.components run data remove entity @s data.i
 
 function enhanced_pots:flowers/tick
 execute if data entity @s {data:{item:{id:"minecraft:gunpowder"}}} run function enhanced_pots:gunpowder/tick
+
+execute unless entity @s[tag=enhanced_pots.coagulating] if predicate enhanced_pots:coagulation if items block ~ ~ ~ contents honey_bottle unless data block ~ ~ ~ item.components."minecraft:custom_data"."heartrobber:type" if score @s enhanced_pots.item_count matches 4 run function enhanced_pots:coagulation/start
+execute if entity @s[tag=enhanced_pots.coagulating] if block ~ ~-1 ~ hopper run data modify block ~ ~-1 ~ TransferCooldown set value 8
+execute if entity @s[tag=enhanced_pots.coagulating,scores={enhanced_pots.coagulating_time=0}] run function enhanced_pots:coagulation/end
+execute if entity @s[tag=enhanced_pots.coagulating] unless predicate enhanced_pots:coagulation run function enhanced_pots:coagulation/stop

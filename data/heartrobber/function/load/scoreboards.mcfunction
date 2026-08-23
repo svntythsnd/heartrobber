@@ -11,3 +11,9 @@ scoreboard objectives add heartrobber_left minecraft.custom:minecraft.leave_game
 scoreboard objectives add heartrobber_mail_slot dummy
 scoreboard objectives add heartrobber_mail_cooldown dummy
 scoreboard objectives add heartrobber_mail_seal_cooldown dummy
+scoreboard objectives add heartrobber_molasses_count dummy
+scoreboard objectives add heartrobber_molasses_deposited dummy
+scoreboard objectives add heartrobber_yaw_1000 dummy
+scoreboard objectives add heartrobber_ate_honey dummy
+scoreboard objectives add heartrobber_ate_cookie dummy
+scoreboard objectives add heartrobber_ate_cake minecraft.custom:minecraft.eat_cake_slice

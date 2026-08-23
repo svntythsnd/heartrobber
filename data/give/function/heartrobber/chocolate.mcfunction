@@ -1,0 +1,1 @@
+give @s cookie[item_name={translate:item.heartrobber.chocolate,fallback:item.heartrobber.chocolate},item_model="heartrobber:chocolate",custom_data={"heartrobber:type":30b},food={nutrition:6,saturation:2.0}]

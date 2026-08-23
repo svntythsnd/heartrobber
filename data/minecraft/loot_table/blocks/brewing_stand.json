@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewing_stand",
+          "modifier": [
+            {
+              "type": "minecraft:copy_custom_data",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Fuel",
+                  "target": "heartrobber:stand_fuel",
+                  "op": "replace"
+                },
+                {
+                  "source": "total_fuel",
+                  "target": "heartrobber:max_stand_fuel",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

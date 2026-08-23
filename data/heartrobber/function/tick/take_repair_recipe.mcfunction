@@ -1,1 +1,0 @@
-recipe take @a minecraft:repair_item

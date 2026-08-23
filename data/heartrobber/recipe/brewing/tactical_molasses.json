@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:splash_potion",
+    "potion_contents": {
+      "potions": "minecraft:water"
+    }
+  },
+  "output": {
+    "components": {
+      "potion_contents": {
+        "custom_effects": [
+          {
+            "id": "slowness",
+            "amplifier": 4,
+            "duration": 160
+          }
+        ],
+	"custom_name": "heartrobber.molasses",
+        "custom_color": 3611925
+      },
+      "item_model": "heartrobber:tactical_molasses",
+      "custom_data": {
+        "heartrobber:type": 23
+      },
+      "max_stack_size": 16
+    },
+    "id": "minecraft:splash_potion"
+  },
+  "reagent": {
+    "item": "#heartrobber:sugar_sources"
+  }
+}

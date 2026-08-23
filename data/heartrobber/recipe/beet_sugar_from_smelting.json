@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "minecraft:beetroot",
+  "experience": 0.1,
+  "result": {
+    "id": "minecraft:sugar"
+  }
+}

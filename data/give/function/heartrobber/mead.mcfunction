@@ -1,0 +1,1 @@
+give @s potion[potion_contents={custom_effects:[{id:"minecraft:strength",duration:1800},{id:"minecraft:resistance",duration:1800},{id:"minecraft:slowness",duration:600},{id:"minecraft:nausea",duration:200}],custom_name:heartrobber.mead},item_model="heartrobber:mead",custom_data={"heartrobber:type":28b},food={nutrition:4,saturation:0.6,can_always_eat:true},max_stack_size=16]

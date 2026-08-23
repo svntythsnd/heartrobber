@@ -1,0 +1,1 @@
+give @s honey_bottle[item_model="heartrobber:molasses",item_name={translate:item.heartrobber.molasses,fallback:item.heartrobber.molasses},custom_data={"heartrobber:type":22b},consumable={animation:drink,sound:item.honey_bottle.drink,has_consume_particles:false}]

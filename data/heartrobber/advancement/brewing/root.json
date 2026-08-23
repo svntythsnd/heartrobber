@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.brewing.root.title"
+    },
+    "description": {
+      "translate": "advancements.heartrobber.brewing.root.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:block/soul_soil"
+  },
+  "criteria": {
+    "held_powder_and_placed_stand": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

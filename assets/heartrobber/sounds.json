@@ -43,6 +43,38 @@
       }
     ]
   },
+  "item.bottled_solid.release": {
+    "subtitle": "subtitles.heartrobber.item.bottled_solid.release",
+    "sounds": [
+      "heartrobber:item/bottled_solid/release1",
+      "heartrobber:item/bottled_solid/release2",
+      "heartrobber:item/bottled_solid/release3",
+      {
+        "name": "heartrobber:item/bottled_solid/release1",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:item/bottled_solid/release2",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:item/bottled_solid/release3",
+        "pitch": 0.9
+      },
+      {
+        "name": "heartrobber:item/bottled_solid/release1",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/bottled_solid/release2",
+        "pitch": 1.1
+      },
+      {
+        "name": "heartrobber:item/bottled_solid/release3",
+        "pitch": 1.1
+      }
+    ]
+  },
   "item.lock.lock": {
     "subtitle": "subtitles.heartrobber.item.lock.lock",
     "sounds": [
@@ -195,6 +227,26 @@
         "pitch": 0.95
       }
     ]
+  },
+  "item.correction_fluid.clean_container": {
+    "sounds": [
+      {
+        "name": "random/pop",
+        "pitch": 1.6,
+        "volume": 0.2
+      },
+      {
+        "name": "random/pop",
+        "pitch": 1.8,
+        "volume": 0.2
+      },
+      {
+        "name": "random/pop",
+        "pitch": 2.0,
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.entity.item.pickup"
   },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",

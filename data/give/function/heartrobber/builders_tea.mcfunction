@@ -1,0 +1,1 @@
+give @s potion[potion_contents={custom_effects:[{id:"minecraft:haste",duration:3600},{id:"minecraft:regeneration",duration:100}],custom_name:"heartrobber.builders_tea"},item_model="heartrobber:builders_tea",custom_data={"heartrobber:type":26b},food={nutrition:1,saturation:1.2,can_always_eat:true},max_stack_size=16]

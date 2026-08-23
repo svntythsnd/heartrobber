@@ -1,0 +1,33 @@
+{
+  "parent": "heartrobber:brewing/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "heartrobber:builders_tea"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.brewing.builders_tea.title"
+    },
+    "description": {
+      "translate": "advancements.heartrobber.brewing.builders_tea.description"
+    }
+  },
+  "criteria": {
+    "held_molasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 26
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

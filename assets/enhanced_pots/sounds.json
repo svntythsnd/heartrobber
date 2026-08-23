@@ -1,0 +1,91 @@
+{
+  "block.decorated_pot.coagulating": {
+    "sounds": [
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating1",
+        "volume": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating2",
+        "volume": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating3",
+        "volume": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating4",
+        "volume": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating1",
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating2",
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating3",
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating4",
+        "volume": 0.9,
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating1",
+        "pitch": 1.1
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating2",
+        "pitch": 1.1
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating3",
+        "pitch": 1.1
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulating4",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.enhanced_pots.block.decorated_pot.coagulating"
+  },
+  "block.decorated_pot.coagulate": {
+    "sounds": [
+      "enhanced_pots:block/decorated_pot/coagulate1",
+      "enhanced_pots:block/decorated_pot/coagulate2",
+      "enhanced_pots:block/decorated_pot/coagulate3",
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate1",
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate2",
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate3",
+        "pitch": 0.9
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate1",
+        "pitch": 1.1
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate2",
+        "pitch": 1.1
+      },
+      {
+        "name": "enhanced_pots:block/decorated_pot/coagulate3",
+        "pitch": 1.1
+      }
+    ],
+    "subtitle": "subtitles.enhanced_pots.block.decorated_pot.coagulate"
+  }
+}

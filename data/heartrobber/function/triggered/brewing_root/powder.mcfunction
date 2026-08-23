@@ -1,0 +1,1 @@
+advancement grant @s[advancements={heartrobber:placed_stand=true}] only heartrobber:brewing/root

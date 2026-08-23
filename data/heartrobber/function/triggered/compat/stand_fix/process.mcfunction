@@ -1,0 +1,2 @@
+function heartrobber:macro/set_stand_components {fuel:0,total_fuel:20,source:"storage heartrobber:temp compat_queue[0].components"}
+function heartrobber:triggered/compat/finalize with storage heartrobber:temp compat_queue[0]

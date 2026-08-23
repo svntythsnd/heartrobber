@@ -7,10 +7,14 @@
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:match_block",
-              "blocks": "minecraft:hopper",
-              "state": {
-                "facing": "down"
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "hopper",
+                  "state": {
+                    "facing": "down"
+                  }
+                }
               }
             },
             {
@@ -33,10 +37,14 @@
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:match_block",
-              "blocks": "minecraft:hopper",
-              "state": {
-                "facing": "east"
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "hopper",
+                  "state": {
+                    "facing": "east"
+                  }
+                }
               }
             },
             {
@@ -59,10 +67,14 @@
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:match_block",
-              "blocks": "minecraft:hopper",
-              "state": {
-                "facing": "west"
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "hopper",
+                  "state": {
+                    "facing": "west"
+                  }
+                }
               }
             },
             {
@@ -85,10 +97,14 @@
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:match_block",
-              "blocks": "minecraft:hopper",
-              "state": {
-                "facing": "south"
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "hopper",
+                  "state": {
+                    "facing": "south"
+                  }
+                }
               }
             },
             {
@@ -111,10 +127,14 @@
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:match_block",
-              "blocks": "minecraft:hopper",
-              "state": {
-                "facing": "north"
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "hopper",
+                  "state": {
+                    "facing": "north"
+                  }
+                }
               }
             },
             {

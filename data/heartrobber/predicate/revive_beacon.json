@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "contents": {
+            "count": 3,
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:any_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:beacon",
+              "nbt": "{\"Levels\":1}"
+            }
+          }
+        },
+        {
+          "type": "minecraft:location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:beacon",
+              "nbt": "{\"Levels\":2}"
+            }
+          }
+        },
+        {
+          "type": "minecraft:location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:beacon",
+              "nbt": "{\"Levels\":3}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:petrified_oak_slab",
+          "state": {
+            "type": "bottom"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:petrified_oak_slab",
+          "state": {
+            "type": "top"
+          }
+        }
+      }
+    }
+  ]
+}

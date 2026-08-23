@@ -1,4 +1,4 @@
-execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/geolocator_mainhand at @s run function heartrobber:triggered/geolocator
-execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/clock_mainhand at @s run function heartrobber:triggered/clock
-execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/geolocator_offhand unless function heartrobber:triggered/holdable/clock_mainhand at @s run function heartrobber:triggered/geolocator
-execute as @a[gamemode=!spectator] if function heartrobber:triggered/holdable/clock_offhand unless function heartrobber:triggered/holdable/geolocator_mainhand at @s run function heartrobber:triggered/clock
+execute if function heartrobber:triggered/holdables/has/geolocator_mainhand at @s if function heartrobber:triggered/holdables/geolocator run return 0
+execute if function heartrobber:triggered/holdables/has/clock_mainhand at @s if function heartrobber:triggered/holdables/clock run return 0
+execute if function heartrobber:triggered/holdables/has/geolocator_offhand unless function heartrobber:triggered/holdables/has/clock_mainhand at @s if function heartrobber:triggered/holdables/geolocator run return 0
+execute if function heartrobber:triggered/holdables/has/clock_offhand unless function heartrobber:triggered/holdables/has/geolocator_mainhand at @s run function heartrobber:triggered/holdables/clock

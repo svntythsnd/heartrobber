@@ -1,0 +1,1 @@
+give @s splash_potion[potion_contents={custom_effects:[{id:slowness,amplifier:4,duration:160}],custom_name:heartrobber.molasses,custom_color:3611925},item_model="heartrobber:tactical_molasses",custom_data={"heartrobber:type":23b},max_stack_size=16]

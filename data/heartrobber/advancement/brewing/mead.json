@@ -1,0 +1,33 @@
+{
+  "parent": "heartrobber:brewing/molasses",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:item_model": "heartrobber:mead"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.brewing.mead.title"
+    },
+    "description": {
+      "translate": "advancements.heartrobber.brewing.mead.description"
+    }
+  },
+  "criteria": {
+    "held_molasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 28
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

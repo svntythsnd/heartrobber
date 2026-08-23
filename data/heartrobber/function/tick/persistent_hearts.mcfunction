@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Age:0s,Item:{components:{"minecraft:custom_data":{"heartrobber:type":0b}}}}] run data modify entity @s Age set value -32768s

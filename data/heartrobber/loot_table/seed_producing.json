@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 136
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 3,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#heartrobber:beetroot_yielding"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "weight": 2,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#minecraft:is_jungle"
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans",
+          "weight": 1,
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": "#minecraft:is_jungle"
+            }
+          }
+        }
+      ],
+      "rolls": 1,
+      "modifier": [
+        {
+          "type": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:uniform_bonus_count",
+          "parameters": {
+            "bonusMultiplier": 2
+          }
+        },
+        {
+          "type": "minecraft:explosion_decay"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/decorated_pot"
+}

@@ -1,0 +1,19 @@
+{
+  "parent": "heartrobber:brewing/molasses",
+  "display": {
+    "icon": {
+      "id": "sugar"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.brewing.molasses_sugar.title"
+    },
+    "description": {
+      "translate": "advancements.heartrobber.brewing.molasses_sugar.description"
+    }
+  },
+  "criteria": {
+    "crafted_molasses_sugar": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

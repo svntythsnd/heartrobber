@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "picked_up_molasses": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 22
+            }
+          }
+        }
+      }
+    }
+  }
+}

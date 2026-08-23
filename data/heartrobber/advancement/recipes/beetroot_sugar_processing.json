@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beetroot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:beet_sugar_from_smelting",
+      "heartrobber:beet_sugar_from_smoking",
+      "heartrobber:beet_sugar_from_campfire_cooking"
+    ]
+  }
+}

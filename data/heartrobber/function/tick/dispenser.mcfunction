@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:cocoa_beans",count:1},Age:1s},sort=random] unless data entity @s Owner at @s run function heartrobber:triggered/dispenser/cocoa_beans
+execute as @e[type=item,nbt={Item:{id:"minecraft:bucket",count:1},Age:1s}] unless data entity @s Owner at @s if entity @n[type=cow,distance=..1] run function heartrobber:triggered/dispenser/milk_cow
+execute as @e[type=item,nbt={Item:{id:"minecraft:bucket",count:1},Age:1s}] unless data entity @s Owner at @s if entity @n[type=goat,distance=..1] run function heartrobber:triggered/dispenser/milk_goat
