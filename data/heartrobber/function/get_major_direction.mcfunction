@@ -5,10 +5,12 @@ execute store result score @s heartrobber_compare2 run data get entity @s Motion
 # z
 execute store result score @s heartrobber_compare3 run data get entity @s Motion[2] 1000
 
-# y² - x² - z² > 0 means motion is mostly in y, reject
+# 1/2 y² - x² - z² > 0 means motion is mostly in y, reject
 
 scoreboard players operation @s heartrobber_compare4 = @s heartrobber_compare2
 scoreboard players operation @s heartrobber_compare4 *= @s heartrobber_compare2
+scoreboard players set @s heartrobber_compare2 2
+scoreboard players operation @s heartrobber_compare4 /= @s heartrobber_compare2
 
 scoreboard players operation @s heartrobber_compare2 = @s heartrobber_compare
 scoreboard players operation @s heartrobber_compare2 *= @s heartrobber_compare
