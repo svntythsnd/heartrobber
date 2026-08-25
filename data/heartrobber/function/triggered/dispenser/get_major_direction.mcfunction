@@ -2,6 +2,8 @@
 execute store result score @s heartrobber_compare run data get entity @s Motion[0] 1000
 # y
 execute store result score @s heartrobber_compare2 run data get entity @s Motion[1] 1000
+# The only way dispensed items can have a negative or zero Y component is if they were dropped downwards
+execute as @s[scores={heartrobber_compare2=..0}] run return 6
 # z
 execute store result score @s heartrobber_compare3 run data get entity @s Motion[2] 1000
 
@@ -20,8 +22,8 @@ scoreboard players operation @s heartrobber_compare2 = @s heartrobber_compare3
 scoreboard players operation @s heartrobber_compare2 *= @s heartrobber_compare3
 scoreboard players operation @s heartrobber_compare4 -= @s heartrobber_compare2
 
-# up: 5, down: 6
-execute as @s[scores={heartrobber_compare4=1..}] run return run function heartrobber:get_y_direction
+# down possibility has already been eliminated
+execute as @s[scores={heartrobber_compare4=1..}] run return 5
 
 # -x
 execute store result score @s heartrobber_compare4 run data get entity @s Motion[0] -1000

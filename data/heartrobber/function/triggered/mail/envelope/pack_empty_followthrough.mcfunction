@@ -1,5 +1,5 @@
 swing @s offhand
-playsound heartrobber:item.envelope.close neutral @a
+playsound heartrobber:item.envelope.close player @a
 data modify storage heartrobber:mail temp.recipient set from entity @s equipment.offhand.components."minecraft:custom_name"
 item modify entity @s weapon.offhand {type:set_components,components:{max_stack_size:1,item_model:"heartrobber:envelope",custom_data:{"heartrobber:type":19b,"heartrobber:sent":false,"heartrobber:envelope":{id:"minecraft:air",components:{},count:1}},item_name:{"translate":"item.heartrobber.envelope", "fallback":"item.heartrobber.envelope"},"!custom_name":{}}}
 loot spawn ~ ~ ~ loot heartrobber:player_head

@@ -10,6 +10,6 @@ item replace entity @s weapon.mainhand with air
 advancement grant @s only heartrobber:metallurgy/send
 advancement grant @s only heartrobber:recipes/retrieval_rod
 swing @s mainhand
-playsound heartrobber:item.envelope.send neutral @a
+playsound heartrobber:item.envelope.send player @a
 advancement revoke @s only heartrobber:using_unsent_envelope
 function heartrobber:triggered/mail/send with storage heartrobber:mail temp

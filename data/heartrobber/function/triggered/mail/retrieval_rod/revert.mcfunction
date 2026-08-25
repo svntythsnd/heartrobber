@@ -1,1 +1,0 @@
-$execute if data storage heartrobber:mail envelopes[{sender:"$(sender)"}] run function heartrobber:triggered/mail/retrieval_rod/queue with storage heartrobber:mail temp
