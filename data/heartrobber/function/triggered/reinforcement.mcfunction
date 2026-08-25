@@ -12,5 +12,5 @@ item modify entity @s weapon.mainhand {type:set_count,add:true,count:-1}
 function heartrobber:macro/reinforcement_components with storage heartrobber:xptemp
 function heartrobber:macro/set_xp_lore with storage heartrobber:xptemp
 swing @s mainhand
-playsound heartrobber:item.wise_reinforcement.use neutral @a
+playsound heartrobber:item.wise_reinforcement.use player @a
 advancement revoke @s only heartrobber:using_wise_reinforcement

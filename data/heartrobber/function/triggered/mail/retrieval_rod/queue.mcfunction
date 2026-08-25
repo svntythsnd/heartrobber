@@ -1,5 +1,5 @@
 swing @s mainhand
-playsound heartrobber:item.retrieval_rod.retrieve neutral @a
+playsound heartrobber:item.retrieval_rod.retrieve player @a
 advancement grant @s only heartrobber:metallurgy/retrieve
 data modify storage heartrobber:mail queue set value []
 $data modify storage heartrobber:mail queue append from storage heartrobber:mail envelopes[{sender:"$(sender)"}]
