@@ -1,0 +1,1 @@
+$data modify storage heartrobber:temp validate_string.char set string heartrobber:temp validate_string.source $(this) $(next)

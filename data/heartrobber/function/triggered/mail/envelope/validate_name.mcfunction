@@ -1,0 +1,1 @@
+return run function heartrobber:validate_string {source:'entity @s SelectedItem.components."minecraft:custom_name"'} 

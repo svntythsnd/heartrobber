@@ -7,10 +7,9 @@ execute store result score @s heartrobber_compare2 run data get storage heartrob
 scoreboard players operation @s heartrobber_compare += @s heartrobber_compare2
 execute store result storage heartrobber:mail temp.due int 1 run scoreboard players get @s heartrobber_compare
 item replace entity @s weapon.mainhand with air
-data modify storage heartrobber:mail envelopes prepend from storage heartrobber:mail temp
-function heartrobber:triggered/mail/send with storage heartrobber:mail temp
 advancement grant @s only heartrobber:metallurgy/send
 advancement grant @s only heartrobber:recipes/retrieval_rod
 swing @s mainhand
 playsound heartrobber:item.envelope.send neutral @a
 advancement revoke @s only heartrobber:using_unsent_envelope
+function heartrobber:triggered/mail/send with storage heartrobber:mail temp
