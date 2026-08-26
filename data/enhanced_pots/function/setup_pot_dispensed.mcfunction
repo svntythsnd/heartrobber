@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ LootTable run summon marker ~ ~ ~ { Tags: ["pot_marker", "enhanced_pots.dispensed_marker"] }

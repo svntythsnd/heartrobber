@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "type": "minecraft:item",
+      "name": "minecraft:decorated_pot",
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "modifier": [
+            {
+              "type": "minecraft:copy_components",
+              "include": [
+                "minecraft:pot_decorations"
+              ],
+              "source": "block_entity"
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 16
+              }
+            },
+            {
+              "type": "minecraft:set_custom_data",
+              "tag": {
+                "enhanced_pots:takes": true
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/decorated_pot"
+}
