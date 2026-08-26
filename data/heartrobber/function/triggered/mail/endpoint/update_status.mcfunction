@@ -1,0 +1,2 @@
+$execute if block ~ ~ ~ #heartrobber:closes_endpoint run return run data modify storage heartrobber:mail endpoints."$(endpoint_id)".open set value false
+$data modify storage heartrobber:mail endpoints."$(endpoint_id)".open set value true

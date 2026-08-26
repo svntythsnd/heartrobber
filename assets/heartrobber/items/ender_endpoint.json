@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "heartrobber:block/chunkloader_on"
+    "model": "heartrobber:block/ender_endpoint"
   }
 }
