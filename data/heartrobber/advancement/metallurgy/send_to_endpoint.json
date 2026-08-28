@@ -1,0 +1,19 @@
+{
+  "parent": "heartrobber:metallurgy/place_endpoint",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.send_to_endpoint.description"
+    },
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.send_to_endpoint.title"
+    }
+  }
+}
