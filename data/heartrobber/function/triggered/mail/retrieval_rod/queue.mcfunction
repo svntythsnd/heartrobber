@@ -1,3 +1,4 @@
+$execute unless data storage heartrobber:mail envelopes[{sender:"$(sender)"}] run return 0
 swing @s mainhand
 playsound heartrobber:item.retrieval_rod.retrieve player @a
 advancement grant @s only heartrobber:metallurgy/retrieve

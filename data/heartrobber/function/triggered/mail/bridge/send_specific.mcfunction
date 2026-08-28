@@ -1,0 +1,1 @@
+return run function heartrobber:triggered/mail/send_specific with storage heartrobber:mail queue[0]

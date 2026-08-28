@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allay_spawn_egg",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "heartrobber:ender_endpoint",
+                "item_name": {
+                  "translate": "block.heartrobber.ender_endpoint",
+                  "fallback": "block.heartrobber.ender_endpoint"
+                },
+                "max_stack_size": 1,
+                "entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "heartrobber_endpointPlace"
+                  ]
+                },
+                "custom_data": {
+                  "heartrobber:type": 31,
+                  "heartrobber:copy_endpoint_id": {}
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

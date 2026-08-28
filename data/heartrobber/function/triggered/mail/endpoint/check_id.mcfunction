@@ -1,0 +1,1 @@
+$return run execute unless data storage heartrobber:mail endpoints."$(endpoint_id)"

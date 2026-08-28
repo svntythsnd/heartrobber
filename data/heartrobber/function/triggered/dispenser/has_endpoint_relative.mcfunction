@@ -1,0 +1,1 @@
+return run function heartrobber:triggered/dispenser/backtrack_into_dispenser {function:"heartrobber:triggered/dispenser/has_endpoint"}
