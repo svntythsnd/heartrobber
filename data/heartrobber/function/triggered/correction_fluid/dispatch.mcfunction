@@ -1,5 +1,5 @@
 execute if items entity @s weapon.offhand written_book if function heartrobber:triggered/correction_fluid/dispatch/book run return 0
-execute if items entity @s weapon.offhand filled_map if function heartrobber:triggered/correction_fluid/dispatch/map run return 0
+execute if items entity @s weapon.offhand #heartrobber:maps if function heartrobber:triggered/correction_fluid/dispatch/map run return 0
 execute if items entity @s weapon.offhand #candles unless items entity @s weapon.offhand candle if function heartrobber:triggered/correction_fluid/dispatch/candle run return 1
 execute if items entity @s weapon.offhand #shulker_boxes unless items entity @s weapon.offhand shulker_box if function heartrobber:triggered/correction_fluid/dispatch/shulker_box run return 1
 execute if items entity @s weapon.offhand #bundles unless items entity @s weapon.offhand bundle if function heartrobber:triggered/correction_fluid/dispatch/bundle run return 1
