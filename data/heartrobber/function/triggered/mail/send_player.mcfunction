@@ -2,6 +2,7 @@ data remove storage heartrobber:mail temp.leading_char
 data remove storage heartrobber:mail temp.leading_rec_char
 data remove storage heartrobber:mail temp.truncated_recipient
 data remove storage heartrobber:mail temp.slot
+data remove storage heartrobber:mail temp.dim
 data remove storage heartrobber:mail temp.x
 data remove storage heartrobber:mail temp.y
 data remove storage heartrobber:mail temp.z
