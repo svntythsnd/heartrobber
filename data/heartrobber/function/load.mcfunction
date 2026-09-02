@@ -1,4 +1,11 @@
 function heartrobber:load/scoreboards
 function heartrobber:load/storage
+function heartrobber:load/schema_update
+function heartrobber:load/set_version
 
-tellraw @a [{"text":"| ","color":"dark_gray"},{"text":"[","color":"dark_aqua"},{"text":"heartrobber","color":"aqua","click_event":{"action":"open_url","url":"https://modrinth.com/datapack/heartrobber"}},{"text":"]","color":"dark_aqua"},"\n",{"text":"| v","color":"dark_gray"},{"text":"1.8.4","color":"gray"}," ",{"text":"•","color":"dark_gray"}," ",{"text":"by","color":"gray"}," ",{"text":"flakalet","bold":true,"color":"blue"},"\n",{"text":"|","color":"dark_gray"},{"text":" loaded successfully!","color":"gray"},"\n",{"text":"|","color":"dark_gray"},{"text":" use","color":"gray"},{"text":" ","bold":true,"color":"white"},{"text":"/function heartrobber:v","bold":true,"color":"white","click_event":{"action":"suggest_command","command":"/function heartrobber:v"}},{"text":" to get version","color":"gray"},"\n",{"text":"|","color":"dark_gray"},{"text":" use","color":"gray"},{"text":" /function give:<namespace>/<id>","bold":true,"color":"white","click_event":{"action":"suggest_command","command":"/function give:"}},{"text":" ","bold":true,"color":"white"},{"text":"to get custom items","color":"gray"},"\n",{"text":"|","color":"dark_gray"},{"text":" ","color":"gray"},{"text":"change mail delivery timeout...","bold":true,"color":"white","click_event":{"action":"suggest_command","command":"/data modify storage heartrobber:config letterCooldown set value <No. days>"}}]
+execute store result storage heartrobber:temp version.maj int 1 run scoreboard players get maj heartrobber_version
+execute store result storage heartrobber:temp version.min int 1 run scoreboard players get min heartrobber_version
+execute store success score _ heartrobber_compare store result storage heartrobber:temp version.patch int 1 run scoreboard players get patch heartrobber_version
+data merge storage heartrobber:temp {version:{dot:"."}}
+execute if score _ heartrobber_compare matches 0 run data merge storage heartrobber:temp {version:{dot:"",patch:""}}
+function heartrobber:load_tellraw with storage heartrobber:temp version
