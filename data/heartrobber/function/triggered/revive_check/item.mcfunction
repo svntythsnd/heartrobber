@@ -7,5 +7,5 @@ execute at @a[tag=heartrobber_spectatorview] run particle dust{scale:0.3f, color
 #
 execute align xyz positioned ~0.5 ~2.5 ~0.5 run tag @p[tag=heartrobber_spectatorview,distance=..1] add heartrobber_respawn
 execute as @p[tag=heartrobber_respawn] run function heartrobber:triggered/revive_check/player
-execute at @p[tag=heartrobber_respawn] run kill @s
+execute at @p[tag=heartrobber_respawn] run kill
 tag @a[tag=heartrobber_respawn] remove heartrobber_respawn

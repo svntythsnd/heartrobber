@@ -11,6 +11,6 @@ data modify storage heartrobber:mail envelopes prepend from storage heartrobber:
 function heartrobber:triggered/mail/send with storage heartrobber:mail temp
 advancement grant @s only heartrobber:metallurgy/send
 advancement grant @s only heartrobber:recipes/retrieval_rod
-swing @s mainhand
+swing
 playsound heartrobber:item.envelope.send player @a
 advancement revoke @s only heartrobber:using_unsent_envelope

@@ -1,0 +1,1 @@
+$data modify storage heartrobber:math result set compute default float {type:mul,inputs:$(inputs)}

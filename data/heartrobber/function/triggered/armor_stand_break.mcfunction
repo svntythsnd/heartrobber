@@ -4,4 +4,4 @@ data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] 
 data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[0] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".NoBasePlate
 data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[1] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".ShowArms
 data modify entity @n[type=item,nbt={Item:{id:"minecraft:armor_stand"},Age:0s}] Item.components."minecraft:custom_model_data".flags[2] set from entity @s Item.components."minecraft:custom_data"."heartrobber:armor_stand".Small
-kill @s
+kill

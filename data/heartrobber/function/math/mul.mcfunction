@@ -1,0 +1,1 @@
+function heartrobber:math/internal/mul with storage heartrobber:math

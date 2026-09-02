@@ -1,7 +1,23 @@
 {
   "pack": {
-    "min_format": 97,
-    "max_format": 118,
-    "description": "§3[§bheartrobber§3]\n§8v§71.7.26 §8• §7by §9§lflakalet"
+    "min_format": [97,1],
+    "max_format": 119,
+    "description": "§3[§bheartrobber§3]\n§8v§71.7.27 §8• §7by §9§lflakalet"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/repair_item"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/honey_block"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/redstone/honey_block"
+      }
+    ]
   }
 }

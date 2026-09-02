@@ -23,5 +23,4 @@ function heartrobber:tick/throwables
 function heartrobber:tick/intercept_mooshroom
 function heartrobber:tick/dispenser
 function heartrobber:tick/clear_cache
-function heartrobber:tick/take_recipes
 function heartrobber:tick/persistent_hearts

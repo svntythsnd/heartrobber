@@ -5,5 +5,5 @@ execute as @s[scores={heartrobber_compare=1}] run setblock ~ ~ ~ cocoa[facing=ea
 execute as @s[scores={heartrobber_compare=2}] run setblock ~ ~ ~ cocoa[facing=south]
 execute as @s[scores={heartrobber_compare=3}] run setblock ~ ~ ~ cocoa[facing=west]
 execute as @s[scores={heartrobber_compare=4}] run setblock ~ ~ ~ cocoa[facing=north]
-kill @s
+kill
 playsound block.wood.place block @a
