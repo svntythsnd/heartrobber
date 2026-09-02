@@ -4,4 +4,4 @@ execute if data entity @n[type=mooshroom,nbt={Type:brown}] stew_effects run retu
 execute unless function heartrobber:dispensed_horizontally run return 0
 execute unless function heartrobber:triggered/dispenser/flower_dispatch run return 0
 execute at @n[type=mooshroom,nbt={Type:brown}] run playsound entity.mooshroom.eat block @a
-kill @s
+kill

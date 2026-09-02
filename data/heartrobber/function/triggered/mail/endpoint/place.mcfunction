@@ -11,4 +11,4 @@ data modify entity @n[type=interaction,tag=heartrobber_endpoint,dy=0] data.endpo
 execute as @n[type=interaction,tag=heartrobber_endpoint,dy=0] run function heartrobber:triggered/mail/endpoint/set_custom_name with entity @s data
 execute align xyz positioned ~0.5 ~ ~0.5 run advancement grant @a[distance=..5] only heartrobber:metallurgy/place_endpoint
 setblock ~ ~ ~ air
-kill @s
+kill

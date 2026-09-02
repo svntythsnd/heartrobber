@@ -3,4 +3,4 @@ execute positioned ~ ~0.5 ~ unless entity @n[type=item_display,tag=heartrobber_r
 execute positioned ~ ~0.5 ~ unless entity @n[type=item_display,tag=heartrobber_relayBlock,distance=..0.01] run playsound block.stone.place block @a ~ ~ ~ 1 0.8
 execute unless block ~ ~0.5 ~ glass run kill @n[type=item,nbt={Age:0s},distance=..1]
 execute if block ~ ~0.5 ~ #air run loot spawn ~ ~ ~ loot heartrobber:ender_relay
-execute unless block ~ ~0.5 ~ glass run kill @s
+execute unless block ~ ~0.5 ~ glass run kill

@@ -1,3 +1,3 @@
 function heartrobber:triggered/mail/endpoint/just_drop
-execute on passengers run kill @s
-kill @s
+execute on passengers run kill
+kill

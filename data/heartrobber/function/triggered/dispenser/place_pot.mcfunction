@@ -9,4 +9,4 @@ data modify block ~ ~ ~ item set from entity @s Item.components."minecraft:conta
 data modify block ~ ~ ~ sherds set from entity @s Item.components."minecraft:pot_decorations"
 execute positioned ~ ~-0.5 ~ run function enhanced_pots:setup_pot_dispensed
 playsound block.decorated_pot.break block @a
-kill @s
+kill

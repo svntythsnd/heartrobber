@@ -4,4 +4,4 @@ execute positioned ~ ~0.5 ~ unless entity @n[type=item_display,tag=heartrobber_c
 execute unless block ~ ~0.5 ~ glass run kill @n[type=item,nbt={Age:0s},distance=..1]
 execute if block ~ ~0.5 ~ #air run loot spawn ~ ~ ~ loot heartrobber:chunkloader
 execute as @e[tag=heartrobber_working] at @s unless block ~ ~0.5 ~ glass run forceload remove ~ ~
-execute unless block ~ ~0.5 ~ glass run kill @s
+execute unless block ~ ~0.5 ~ glass run kill

@@ -4,5 +4,5 @@ scoreboard players remove @s heartrobber_compare 1
 scoreboard players set @s heartrobber_compare2 8
 scoreboard players operation @s heartrobber_compare %= @s heartrobber_compare2
 execute store result entity @s ItemRotation byte 1 run scoreboard players get @s heartrobber_compare
-swing @s mainhand
+swing
 playsound heartrobber:item.lock.lock player @a

@@ -1,5 +1,5 @@
 advancement revoke @s only heartrobber:using_unsent_envelope
-swing @s mainhand
+swing
 data modify storage heartrobber:mail temp.sender set from entity @s SelectedItem.components."minecraft:lore"[0].text
 data modify storage heartrobber:mail temp.leading_char set string storage heartrobber:mail temp.sender 0 1
 execute if data storage heartrobber:mail temp{leading_char:"$"} run return run function heartrobber:triggered/mail/envelope/open_from_endpoint

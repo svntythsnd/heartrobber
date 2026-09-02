@@ -6,4 +6,4 @@ execute if data entity @s {data:{item:{id:"minecraft:gunpowder"}}} if entity @n[
 
 execute positioned ~-0.5 ~1.245 ~-0.5 run kill @n[tag=pot_contents_flower,distance=..0.01]
 
-kill @s
+kill

@@ -6,4 +6,4 @@ scoreboard players operation @s heartrobber_compare += @s heartrobber_compare2
 execute store result entity @s Value short 1 run scoreboard players get @s heartrobber_compare
 data modify entity @s Count set value 1s
 
-execute on vehicle run kill @s
+execute on vehicle run kill

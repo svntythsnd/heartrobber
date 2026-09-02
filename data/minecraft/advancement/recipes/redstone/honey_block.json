@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "place": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}
