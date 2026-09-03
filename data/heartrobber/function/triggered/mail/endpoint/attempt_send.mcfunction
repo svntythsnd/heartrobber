@@ -1,2 +1,2 @@
-$execute in $(dim) positioned $(x) $(y) $(z) if block ~ ~ ~ dispenser run return run function heartrobber:triggered/dispenser/populate {source:"storage heartrobber:mail temp"}
+$execute in $(dim) positioned $(x) $(y) $(z) if block ~ ~ ~ dispenser if function heartrobber:triggered/mail/endpoint/populate positioned ~0.5 ~1 ~0.5 as @n[type=interaction,tag=heartrobber_endpoint] on passengers run return run data modify entity @s item.components."minecraft:item_model" set value "heartrobber:ender_endpoint_throttle"
 return 0

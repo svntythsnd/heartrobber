@@ -1,0 +1,1 @@
+return run function heartrobber:triggered/mail/endpoint/throttle with entity @s data

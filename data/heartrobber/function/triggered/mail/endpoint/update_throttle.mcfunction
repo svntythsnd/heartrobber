@@ -1,0 +1,2 @@
+execute if function heartrobber:triggered/mail/endpoint/bridge_throttle on passengers run return run data modify entity @s item.components."minecraft:item_model" set value "heartrobber:ender_endpoint_throttle"
+execute on passengers run data modify entity @s item.components."minecraft:item_model" set value "heartrobber:ender_endpoint"
