@@ -5,4 +5,5 @@ execute store result score @s heartrobber_compare run function heartrobber:trigg
 execute as @s[scores={heartrobber_compare=0}] run return 0
 execute unless function heartrobber:triggered/dispenser/flower_dispatch run return 0
 execute at @n[type=mooshroom,nbt={Type:brown}] run playsound entity.mooshroom.eat block @a
+execute at @n[type=mooshroom,nbt={Type:brown}] run particle entity_effect{color:0xFFFFFFFF} ~ ~1 ~ 0 0 0 1 3 normal
 kill
