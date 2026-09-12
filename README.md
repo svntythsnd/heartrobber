@@ -1,4 +1,5 @@
-by flakalet. Intended for 26.3*
+*by flakalet. Intended for 26.3\**
+
 put this both into your datapack directory and your resourcepack directory (or, if you're a server, link [this](https://github.com/svntythsnd/heartrobber/releases/latest/download/raw.zip) as your server resource pack)
 
 The `give:` module provides OP functions for getting canonical custom/modified items.
