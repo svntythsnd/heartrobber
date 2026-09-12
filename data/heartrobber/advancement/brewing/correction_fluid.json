@@ -1,5 +1,5 @@
 {
-  "parent": "heartrobber:brewing/root",
+  "parent": "heartrobber:brewing/molasses",
   "criteria": {
     "has": {
       "conditions": {
