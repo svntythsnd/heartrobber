@@ -1,0 +1,1 @@
+return run function heartrobber:triggered/mail/endpoint/attempt_send with storage heartrobber:mail temp

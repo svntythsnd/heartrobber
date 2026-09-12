@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "heartrobber:block/ender_endpoint"
+  }
+}

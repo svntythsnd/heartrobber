@@ -1,0 +1,19 @@
+{
+  "parent": "heartrobber:metallurgy/send_to_endpoint",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.receive_from_endpoint.description"
+    },
+    "icon": {
+      "id": "minecraft:dropper"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.receive_from_endpoint.title"
+    }
+  }
+}

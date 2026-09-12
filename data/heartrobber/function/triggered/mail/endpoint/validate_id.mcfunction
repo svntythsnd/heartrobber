@@ -1,0 +1,1 @@
+return run function heartrobber:validate_string {source:"entity @s data.endpoint_id"}

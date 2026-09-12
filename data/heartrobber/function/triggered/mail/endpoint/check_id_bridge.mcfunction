@@ -1,0 +1,1 @@
+return run function heartrobber:triggered/mail/endpoint/check_id with entity @s data

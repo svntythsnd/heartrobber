@@ -5,3 +5,4 @@ scoreboard objectives add enhanced_pots.virtual_count dummy
 scoreboard objectives add enhanced_pots.coagulating_time dummy
 scoreboard objectives add enhanced_pots.coagulation_sound dummy
 scoreboard objectives add enhanced_pots.broke_pot minecraft.mined:minecraft.decorated_pot
+scoreboard objectives add enhanced_pots.dispenser_check_time dummy

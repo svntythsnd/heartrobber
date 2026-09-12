@@ -1,0 +1,19 @@
+{
+  "parent": "heartrobber:metallurgy/place_endpoint",
+  "criteria": {
+    "has": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.metallurgy.inspect_endpoint.description"
+    },
+    "icon": {
+      "id": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.metallurgy.inspect_endpoint.title"
+    }
+  }
+}

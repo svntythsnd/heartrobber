@@ -1,0 +1,6 @@
+$execute as @s[scores={heartrobber_compare=1}] positioned ~-1 ~ ~ run return run function $(function)
+$execute as @s[scores={heartrobber_compare=2}] positioned ~ ~ ~-1 run return run function $(function)
+$execute as @s[scores={heartrobber_compare=3}] positioned ~1 ~ ~ run return run function $(function)
+$execute as @s[scores={heartrobber_compare=4}] positioned ~ ~ ~1 run return run function $(function)
+$execute as @s[scores={heartrobber_compare=5}] positioned ~ ~-1 ~ run return run function $(function)
+$execute as @s[scores={heartrobber_compare=6}] positioned ~ ~1 ~ run return run function $(function)

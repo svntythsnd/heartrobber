@@ -1,0 +1,72 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "texture_size": [10, 10],
+  "textures": {
+    "torch": "minecraft:block/redstone_torch_off",
+    "base": "heartrobber:block/endpoint_base",
+    "eye": "minecraft:block/end_portal_frame_eye"
+  },
+  "elements": [
+    {
+      "from": [4, 1, 4],
+      "to": [12, 4, 12],
+      "faces": {
+        "north": {"uv": [4, 0, 12, 3], "texture": "#eye"},
+        "east": {"uv": [4, 0, 12, 3], "texture": "#eye"},
+        "south": {"uv": [4, 0, 12, 3], "texture": "#eye"},
+        "west": {"uv": [4, 0, 12, 3], "texture": "#eye"},
+        "up": {"uv": [4, 4, 12, 12], "texture": "#eye", "cullface": "up"}
+      }
+    },
+    {
+      "from": [7, 4, 7],
+      "to": [9, 9, 9],
+      "faces": {
+        "north": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "east": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "south": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "west": {"uv": [7, 6, 9, 11], "texture": "#torch"},
+        "up": {"uv": [7, 6, 9, 8], "texture": "#torch"},
+        "down": {"uv": [0, 0, 0, 0], "texture": "#torch"}
+      }
+    },
+    {
+      "from": [3, 0, 3],
+      "to": [13, 1, 13],
+      "faces": {
+        "north": {"uv": [10, 9, 0, 10], "texture": "#base"},
+        "east": {"uv": [9, 10, 10, 0], "rotation": 90, "texture": "#base"},
+        "south": {"uv": [0, 0, 10, 1], "texture": "#base"},
+        "west": {"uv": [0, 0, 1, 10], "rotation": 90, "texture": "#base"},
+        "up": {"uv": [0, 10, 10, 0], "texture": "#base"},
+        "down": {"uv": [0, 0, 10, 10], "texture": "#base"}
+      }
+    }
+  ],
+  "display": {
+    "ground": {
+      "translation": [0, 3, 0],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "gui": {
+      "rotation": [30, 225, 0],
+      "translation": [0, 3.5, 0]
+    },
+    "head": {
+      "translation": [0, 14.5, 0]
+    },
+    "fixed": {
+      "translation": [0, 2, 0],
+      "scale": [0.8, 0.8, 0.8]
+    }
+  },
+  "groups": [
+    0, {
+      "name": "torch",
+      "origin": [0, 0, 0],
+      "color": 0,
+      "children": [1, 2, 3, 4, 5, 6, 7, 8]
+    }, 9
+  ]
+}

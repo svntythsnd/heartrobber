@@ -1,0 +1,3 @@
+$item replace entity @s weapon.mainhand with clock[item_model="heartrobber:empty_envelope",item_name={translate: "item.heartrobber.empty_envelope", fallback: "item.heartrobber.empty_envelope"},custom_data={"heartrobber:type": 18b},consumable={consume_seconds: 3.40282347e+38},food={saturation: 0, nutrition: 0, can_always_eat: true},custom_name="$(recipient)"]
+$summon item ~ ~ ~ {Item:{id:"$(id)",count:$(count),components:$(components)}}
+scoreboard players set @s heartrobber_mail_seal_cooldown 10

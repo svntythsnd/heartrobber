@@ -1,0 +1,1 @@
+execute unless score maj heartrobber_version matches 0.. run function heartrobber:load/1.8.5

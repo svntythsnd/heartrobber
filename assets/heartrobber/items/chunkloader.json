@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "heartrobber:item/chunkloader"
+    "model": "heartrobber:block/chunkloader"
   }
 }

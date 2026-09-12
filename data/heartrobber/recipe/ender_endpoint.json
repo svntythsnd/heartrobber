@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:repeating_command_block",
+    "|": "minecraft:redstone_torch",
+    "@": "minecraft:ender_eye"
+  },
+  "pattern": [
+    " | ",
+    "#@#",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:allay_spawn_egg",
+    "components": {
+      "item_model": "heartrobber:ender_endpoint", 
+      "item_name": {"translate": "block.heartrobber.ender_endpoint", "fallback": "block.heartrobber.ender_endpoint"}, 
+      "entity_data": {
+        "id":"minecraft:marker",
+        "Tags": ["heartrobber_endpointPlace"]
+      },
+      "custom_data": {
+        "heartrobber:type": 31
+      },
+      "max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+scoreboard players set @s heartrobber_compare 0data modify storage heartrobber:temp dispenser.item set value {id:"minecraft:air",count:1,components:{}}$data modify storage heartrobber:temp dispenser.item merge from $(source)return run function heartrobber:triggered/dispenser/populate/iteration
