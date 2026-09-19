@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_torchflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_torchflower",
+      "heartrobber:shelf_stews/suspicious_stew_from_torchflower"
+    ]
+  }
+}

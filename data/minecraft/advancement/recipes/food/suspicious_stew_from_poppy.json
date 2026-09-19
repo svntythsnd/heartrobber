@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_poppy",
+      "heartrobber:shelf_stews/suspicious_stew_from_poppy"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wither_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_rose"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_wither_rose",
+      "heartrobber:shelf_stews/suspicious_stew_from_wither_rose"
+    ]
+  }
+}

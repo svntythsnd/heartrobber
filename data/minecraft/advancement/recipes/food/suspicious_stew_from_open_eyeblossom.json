@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_open_eyeblossom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:open_eyeblossom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_open_eyeblossom",
+      "heartrobber:shelf_stews/suspicious_stew_from_open_eyeblossom"
+    ]
+  }
+}

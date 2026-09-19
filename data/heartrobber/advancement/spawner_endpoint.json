@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "egg_on_spawner": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "heartrobber:type": 31
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:spawner",
+                  "nbt": {
+                    "SpawnData": {
+                      "entity": {
+                        "id": "minecraft:marker"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "heartrobber:triggered/fix_spawner/endpoint"
+  }
+}

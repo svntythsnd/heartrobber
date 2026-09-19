@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_golden_dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_dandelion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_golden_dandelion",
+      "heartrobber:shelf_stews/suspicious_stew_from_golden_dandelion"
+    ]
+  }
+}

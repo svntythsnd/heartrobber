@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_azure_bluet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:azure_bluet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_azure_bluet",
+      "heartrobber:shelf_stews/suspicious_stew_from_azure_bluet"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_tulip"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_orange_tulip",
+      "heartrobber:shelf_stews/suspicious_stew_from_orange_tulip"
+    ]
+  }
+}

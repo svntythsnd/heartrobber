@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_allium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:allium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_allium",
+      "heartrobber:shelf_stews/suspicious_stew_from_allium"
+    ]
+  }
+}

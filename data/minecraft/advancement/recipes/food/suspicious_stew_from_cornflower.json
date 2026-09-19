@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cornflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cornflower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_cornflower",
+      "heartrobber:shelf_stews/suspicious_stew_from_cornflower"
+    ]
+  }
+}
