@@ -1,2 +1,2 @@
-execute as @e[type=item,nbt={Item:{id:"minecraft:honey_bottle"}}] at @s if predicate heartrobber:crystallization run tag @s add heartrobber_honeyCrystallize
+execute as @e[type=item,nbt={Item:{id:"minecraft:honey_bottle"}}] unless data entity @s Item.components."minecraft:custom_data"{"heartrobber:type":22b} at @s if predicate heartrobber:crystallization run tag @s add heartrobber_honeyCrystallize
 execute as @e[tag=heartrobber_honeyCrystallize] at @s run function heartrobber:triggered/honey_crystallize
