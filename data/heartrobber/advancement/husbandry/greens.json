@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "beet": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 1 
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "carrot": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 2
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "potato": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "heartrobber:type": 13
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "beet",
+      "carrot",
+      "potato"
+    ]
+  ],
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.husbandry.greens.description"
+    },
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "item_model": "heartrobber:beet_greens"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.husbandry.greens.title"
+    }
+  }
+}

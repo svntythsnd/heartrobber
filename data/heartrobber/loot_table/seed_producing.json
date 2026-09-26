@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 136
+          "weight": 137
         },
         {
           "type": "minecraft:item",
@@ -15,7 +15,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pumpkin_seeds",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",

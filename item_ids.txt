@@ -1,6 +1,7 @@
 <heartrobber:type>: <item_id>
 0: heart
-1-2: <free>
+1: beet_greens
+2: carrot_greens
 3: end_relay
 4: tag_and_inscriber
 5: card
@@ -11,7 +12,7 @@
 10: crystallized_honey
 11: armor_stand_drop_mediator
 12: creaking_essence
-13: <scrapped/free> biolocator
+13: potato_greens
 14: wise_reinforcement
 15: glass_item_frame
 16: glow_glass_item_frame
@@ -30,3 +31,5 @@
 29: bottled_chocolate
 30: chocolate
 31: ender_endpoint
+32: garden_salad
+33: berry_salad

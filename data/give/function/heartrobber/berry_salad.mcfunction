@@ -1,0 +1,1 @@
+give @s clock[item_model="heartrobber:berry_salad",max_stack_size=16,use_remainder="minecraft:bowl",item_name={translate:"item.heartrobber.berry_salad",fallback:"item.heartrobber.berry_salad"}, custom_data={"heartrobber:type":33b},consumable={},food={nutrition:9,saturation:7.2}]

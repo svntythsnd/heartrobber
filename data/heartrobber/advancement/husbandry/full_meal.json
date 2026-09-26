@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:husbandry/greens",
+  "criteria": {
+    "full_meal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.husbandry.full_meal.description"
+    },
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "item_model": "heartrobber:garden_salad"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.husbandry.full_meal.title"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:block",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  },
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "minecraft:carrots",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:binomial_with_bonus_count",
+            "parameters": {
+              "extra": 3,
+              "probability": 0.5714286
+            }
+          },
+          "name": "minecraft:carrot"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:test_block",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "custom_data": {
+                  "heartrobber:type": 2
+                },
+                "item_model": "heartrobber:carrot_greens",
+                "item_name": {
+                  "translate": "item.heartrobber.carrot_greens",
+                  "fallback": "item.heartrobber.carrot_greens"
+                },
+                "food": {
+                  "nutrition": 1,
+                  "saturation": 0.6
+                },
+                "consumable": {
+                  "consume_seconds": 0.8
+                },
+                "rarity": "common",
+                "compostable": {
+                  "layers": "minecraft:compostable/low_medium"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "minecraft:carrots",
+                "state": {
+                  "age": {
+                    "min": "4"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:negate",
+                "input": {
+                  "type": "minecraft:binomial",
+                  "n": 2,
+                  "p": 0.4
+                }
+              },
+              "add": true
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "minecraft:carrots",
+            "state": {
+              "age": {
+                "min": "2",
+                "max": "6"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/carrots"
+}

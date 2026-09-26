@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:block",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  },
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "minecraft:potatoes",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:binomial_with_bonus_count",
+            "parameters": {
+              "extra": 3,
+              "probability": 0.5714286
+            }
+          },
+          "name": "minecraft:potato"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "minecraft:potatoes",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.02
+          },
+          "name": "minecraft:poisonous_potato"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "custom_data": {
+                  "heartrobber:type": 13
+                },
+                "item_model": "heartrobber:potato_greens",
+                "item_name": {
+                  "translate": "item.heartrobber.potato_greens",
+                  "fallback": "item.heartrobber.potato_greens"
+                },
+                "food": {
+                  "nutrition": 1,
+                  "saturation": 0.6
+                },
+                "consumable": {
+                  "consume_seconds": 0.8,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "duration": 200
+                        }
+                      ],
+                      "probability": 0.8
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:nausea",
+                          "duration": 200
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "compostable": {
+                  "layers": "minecraft:compostable/medium"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "minecraft:potatoes",
+                "state": {
+                  "age": "4"
+                }
+              }
+            }
+          ],
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "minecraft:potatoes",
+            "state": {
+              "age": {
+                "min": "2",
+                "max": "6"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/potatoes"
+}

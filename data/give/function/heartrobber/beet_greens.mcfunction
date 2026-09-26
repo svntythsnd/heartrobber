@@ -1,0 +1,1 @@
+give @s test_block[custom_data={"heartrobber:type":1b},item_model="heartrobber:beet_greens",item_name={translate:item.heartrobber.beet_greens,fallback:item.heartrobber.beet_greens},food={nutrition:1,saturation:0.6},consumable={consume_seconds:0.8},rarity="common",compostable={layers:"minecraft:compostable/low_medium"}]

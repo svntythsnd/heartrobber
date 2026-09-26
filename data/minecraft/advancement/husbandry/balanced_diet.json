@@ -418,6 +418,66 @@
           }
         }
       }
+    },
+    "beet_greens": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 1
+            }
+          }
+        }
+      }
+    },
+    "carrot_greens": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 2
+            }
+          }
+        }
+      }
+    },
+    "potato_greens": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 13
+            }
+          }
+        }
+      }
+    },
+    "garden_salad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 32
+            }
+          }
+        }
+      }
+    },
+    "berry_salad": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "heartrobber:type": 33
+            }
+          }
+        }
+      }
     }
   },
   "display": {
