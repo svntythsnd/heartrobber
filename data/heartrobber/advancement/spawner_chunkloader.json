@@ -24,7 +24,8 @@
                   "nbt": {
                     "SpawnData": {
                       "entity": {
-                        "id": "minecraft:marker"
+                        "id": "minecraft:marker",
+                        "Tags": ["heartrobber_chunkloaderPlace"]
                       }
                     }
                   }

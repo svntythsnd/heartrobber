@@ -33,7 +33,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "entries": [
@@ -42,7 +42,7 @@
           "name": "minecraft:glass_bottle"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }

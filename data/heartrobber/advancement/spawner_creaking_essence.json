@@ -11,7 +11,7 @@
               "predicate": {
                 "predicates": {
                   "minecraft:custom_data": {
-                    "heartrobber:type": 3
+                    "heartrobber:type": 12
                   }
                 }
               }
@@ -24,8 +24,8 @@
                   "nbt": {
                     "SpawnData": {
                       "entity": {
-                        "id": "minecraft:marker",
-                        "Tags": ["heartrobber_relayPlace"]
+                        "id": "minecraft:creaking",
+                        "PersistenceRequired": 1
                       }
                     }
                   }
@@ -38,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "heartrobber:triggered/fix_spawner/ender_relay"
+    "function": "heartrobber:triggered/fix_spawner/creaking_essence"
   }
 }
