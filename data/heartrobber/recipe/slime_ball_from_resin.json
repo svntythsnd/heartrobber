@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "slime_ball",
+  "ingredients": [
+    "minecraft:resin_clump",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "minecraft:slime_ball"
+  }
+}
