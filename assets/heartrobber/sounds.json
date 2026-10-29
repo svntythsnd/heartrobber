@@ -248,6 +248,41 @@
     ],
     "subtitle": "subtitles.entity.item.pickup"
   },
+  "item.caramel.eat": {
+    "subtitle": "subtitles.entity.generic.eat",
+    "sounds": [
+      "heartrobber:item/caramel/eat1",
+      "heartrobber:item/caramel/eat2",
+      "heartrobber:item/caramel/eat3",
+      "heartrobber:item/caramel/eat4",      
+      "heartrobber:item/caramel/eat5",
+      "heartrobber:item/caramel/eat6",
+      {
+        "name": "heartrobber:item/caramel/eat1",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:item/caramel/eat2",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:item/caramel/eat3",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:item/caramel/eat4",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:item/caramel/eat5",
+        "pitch": 1.15
+      },
+      {
+        "name": "heartrobber:item/caramel/eat6",
+        "pitch": 1.15
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [

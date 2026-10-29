@@ -15,3 +15,11 @@ data modify storage heartrobber:temp compat_queue append from entity @s Inventor
 function heartrobber:triggered/compat/envelope_fix/iteration
 data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":31b}}}]
 function heartrobber:triggered/compat/endpoint_fix/iteration
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":0b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":1b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":2b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":10b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":13b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":32b}}}]
+data modify storage heartrobber:temp compat_queue append from entity @s Inventory[{components:{"minecraft:custom_data":{"heartrobber:type":33b}}}]
+function heartrobber:triggered/compat/food_sound_fix/iteration

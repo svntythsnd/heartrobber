@@ -17,7 +17,9 @@
       "custom_data": {
         "heartrobber:type": 32
       },
-      "consumable": {},
+      "consumable": {
+        "sound": "entity.generic.eat"
+      },
       "food": {
         "nutrition": 5,
         "saturation": 7.2

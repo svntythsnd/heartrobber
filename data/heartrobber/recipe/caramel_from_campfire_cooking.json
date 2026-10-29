@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "minecraft:sugar",
+  "experience": 0.1,
+  "cookingtime": 600,
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "item_model": "heartrobber:caramel",
+      "item_name": {"translate": "item.heartrobber.caramel", "fallback": "item.heartrobber.caramel"}, 
+      "custom_data": {
+        "heartrobber:type": 34
+      },
+      "consumable": {
+        "sound": {
+          "sound_id": "heartrobber:item.caramel.eat"
+        }
+      },
+      "food": {
+        "nutrition": 2,
+        "saturation": 0.4
+      }
+    }
+  }
+}

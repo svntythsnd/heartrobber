@@ -35,6 +35,7 @@
                 "item_model": "heartrobber:heart", 
                 "item_name": {"translate": "item.heartrobber.heart", "fallback": "item.heartrobber.heart"}, 
                 "consumable": {
+                  "sound": "entity.generic.eat",
                   "consume_seconds": 1
                 },
                 "food": {

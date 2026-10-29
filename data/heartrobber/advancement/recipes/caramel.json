@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_caramel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "heartrobber:type": 34
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has",
+      "has_caramel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "heartrobber:caramel_from_smelting",
+      "heartrobber:caramel_from_smoking",
+      "heartrobber:caramel_from_campfire_cooking"
+    ]
+  }
+}

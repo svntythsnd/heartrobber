@@ -1,0 +1,2 @@
+data modify storage heartrobber:temp compat_queue[0].components."minecraft:consumable".sound set value "entity.generic.eat"
+function heartrobber:triggered/compat/finalize with storage heartrobber:temp compat_queue[0]

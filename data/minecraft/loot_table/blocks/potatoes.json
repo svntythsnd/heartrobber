@@ -81,6 +81,7 @@
                   "saturation": 0.6
                 },
                 "consumable": {
+                  "sound": "entity.generic.eat",
                   "consume_seconds": 0.8,
                   "on_consume_effects": [
                     {
