@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "@": "minecraft:command_block",
+    "@": "minecraft:repeating_command_block",
     "#": "minecraft:paper"
   },
   "pattern": [

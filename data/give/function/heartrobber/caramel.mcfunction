@@ -1,1 +1,1 @@
-give @s clock[item_model="heartrobber:caramel",item_name={translate:"item.heartrobber.caramel",fallback:"item.heartrobber.caramel"},custom_data={"heartrobber:type":34b},consumable={sound:{sound_id:"heartrobber:item.caramel.eat"}},food={nutrition:2,saturation:0.4}]
+give @s clock[item_model="heartrobber:caramel",item_name={translate:"item.heartrobber.caramel",fallback:"item.heartrobber.caramel"},custom_data={"heartrobber:type":34b},consumable={sound:{sound_id:"heartrobber:item.caramel.eat"}},food={nutrition:2,saturation:1.2}]

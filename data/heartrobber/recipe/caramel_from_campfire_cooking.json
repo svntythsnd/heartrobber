@@ -18,7 +18,7 @@
       },
       "food": {
         "nutrition": 2,
-        "saturation": 0.4
+        "saturation": 1.2
       }
     }
   }
