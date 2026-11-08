@@ -7,3 +7,4 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"heartro
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"heartrobber:type":19b,"heartrobber:sent":true}},count:1},Age:1s}] unless data entity @s Owner at @s run function heartrobber:triggered/dispenser/open_envelope
 execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"heartrobber:type":18b}},count:1},Age:1s}] unless data entity @s Owner at @s run function heartrobber:triggered/dispenser/seal_envelope
 execute as @e[type=item,nbt={Item:{id:"minecraft:decorated_pot",count:1},Age:1s}] unless data entity @s Owner at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function heartrobber:triggered/dispenser/place_pot
+execute as @e[type=item] at @s if block ~ ~-0.1 ~ #heartrobber:shelves if block ~ ~0.1 ~ #heartrobber:shelves run function heartrobber:triggered/dispenser/push_out_of_shelf
