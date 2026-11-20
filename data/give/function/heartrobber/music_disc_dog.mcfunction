@@ -1,0 +1,1 @@
+give @s music_disc_cat[item_model="heartrobber:music_disc_dog",jukebox_playable="heartrobber:dog",custom_data={"heartrobber:type":35b}]

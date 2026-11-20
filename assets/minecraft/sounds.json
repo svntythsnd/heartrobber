@@ -1,0 +1,25 @@
+{
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/ancestry",
+        "stream": true
+      },
+      {
+        "name": "heartrobber:music/deeper_pt1",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.creative": {
+    "sounds": [
+      {
+        "name": "heartrobber:music/deeper_pt2",
+        "volume": 0.4,
+        "stream": true
+      }
+    ]
+  }
+}

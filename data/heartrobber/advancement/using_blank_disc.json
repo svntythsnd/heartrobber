@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "consume_trigger": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "count": 1,
+          "predicates": {
+            "custom_data": {
+              "heartrobber:type": 36
+            }
+          }
+        },
+        "player": {
+	  "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "minecraft:jukebox_playable": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards":  {
+    "function": "heartrobber:triggered/blank_disc"
+  }
+}

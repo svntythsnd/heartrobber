@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:jukebox_playable": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.music_disc.description"
+    },
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.music_disc.title"
+    }
+  }
+}
