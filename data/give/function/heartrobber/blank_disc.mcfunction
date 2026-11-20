@@ -1,0 +1,1 @@
+give @s clock[max_stack_size=16,item_model="heartrobber:blank_disc",item_name={translate:item.heartrobber.blank_disc,fallback:item.heartrobber.blank_disc},custom_data={"heartrobber:type":36b},consumable={"consume_seconds":3.40282347e+38}]

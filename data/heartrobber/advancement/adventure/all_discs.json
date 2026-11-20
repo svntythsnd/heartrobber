@@ -1,0 +1,257 @@
+{
+  "parent": "heartrobber:adventure/music_disc",
+  "criteria": {
+    "13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cat": {
+      "trigger": "minecraft:impossible"
+    },
+    "dog": {
+      "conditions": {
+        "items": [
+          {
+            "predicate": {
+              "custom_data": {
+                "heartrobber:type": 35
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blocks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_blocks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chirp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_chirp"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "far": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_far"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+,    "mall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_mall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mellohi": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_mellohi"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_stal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "strad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_strad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ward": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_ward"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_11"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wait": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_wait"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_otherside"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pigstep": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_pigstep"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_5"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_relic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creator_music_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_creator_music_box"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "precipice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_precipice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tears": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_tears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lava_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_lava_chicken"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bounce": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_bounce"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "flurry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_flurry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "description": {
+      "translate": "advancements.heartrobber.adventure.all_discs.description"
+    },
+    "icon": {
+      "id": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.all_discs.title"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

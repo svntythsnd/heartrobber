@@ -283,6 +283,26 @@
       }
     ]
   },
+  "item.blank_disc.copy": {
+    "subtitle": "subtitles.heartrobber.item.blank_disc.copy",
+    "sounds": [
+      "heartrobber:item/blank_disc/copy1",
+      "heartrobber:item/blank_disc/copy2",
+      "heartrobber:item/blank_disc/copy3",
+      {
+        "name": "heartrobber:item/blank_disc/copy1",
+        "pitch": 0.8
+      },
+      {
+        "name": "heartrobber:item/blank_disc/copy2",
+        "pitch": 0.8
+      },
+      {
+        "name": "heartrobber:item/blank_disc/copy3",
+        "pitch": 0.8
+      }
+    ]
+  },
   "block.ender_relay.charge": {
     "subtitle": "subtitles.heartrobber.block.ender_relay.charge",
     "sounds": [
@@ -491,5 +511,13 @@
       }
     ],
     "subtitle": "subtitles.heartrobber.item.heart.revive"
+  },
+  "music_disc.dog": {
+    "sounds": [
+      {
+        "name": "heartrobber:records/dog",
+        "stream": true
+      }
+    ]
   }
 }

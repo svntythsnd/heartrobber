@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:adventure/music_disc",
+  "criteria": {
+    "none": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.adventure.blank_disc.description"
+    },
+    "icon": {
+      "id": "minecraft:clock",
+      "components": {
+        "item_model": "heartrobber:blank_disc"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.adventure.blank_disc.title"
+    }
+  }
+}

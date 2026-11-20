@@ -34,3 +34,5 @@
 32: garden_salad
 33: berry_salad
 34: caramel
+35: music_disc_dog
+36: blank_disc

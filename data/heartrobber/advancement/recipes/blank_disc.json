@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:jukebox_playable": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "heartrobber:blank_disc_from_smelting",
+      "heartrobber:blank_disc_from_blasting"
+    ]
+  }
+}
