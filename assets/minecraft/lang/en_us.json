@@ -184,5 +184,10 @@
   "advancements.heartrobber.nether.reviver.description": "Set up a Ray Condensing Beacon by placing an upright and above it an upside down Ray Condenser on top of a Beacon and placing 3 Hearts in the space between them",
   "advancements.heartrobber.story.steel.title": "Steelworks",
   "advancements.heartrobber.story.steel.description": "Obtain a powerful alloy by combining Iron and Coal",
-  "advancements.minecraft.husbandry.tactical_fishing.description": "Catch a fish... without a Fishing Rod!"
+  "advancements.minecraft.husbandry.tactical_fishing.description": "Catch a fish... without a Fishing Rod!",
+  "messages.heartrobber.by": "by",
+  "messages.heartrobber.loaded_successfully": "loaded successfully!",
+  "messages.heartrobber.version": "use %s to get version",
+  "messages.heartrobber.items": "use %s to get custom and modified items",
+  "messages.heartrobber.timeout": "change mail delivery timeout..."
 }

@@ -183,5 +183,10 @@
   "advancements.heartrobber.nether.reviver.title": "Возродитель",
   "advancements.heartrobber.nether.reviver.description": "Настройте лучеконденсирующий маяк, поставив на маяк прямой лучевой коллектор и перевёрнутый над ним, а также кинув 3 сердца между ними",
   "advancements.heartrobber.story.steel.title": "Азовсталь",
-  "advancements.heartrobber.story.steel.description": "Получите мощный сплав объединением железа и угля"
+  "advancements.heartrobber.story.steel.description": "Получите мощный сплав объединением железа и угля",
+  "messages.heartrobber.by": "от",
+  "messages.heartrobber.loaded_successfully": "удачная загрузка!",
+  "messages.heartrobber.version": "используйте %s, чтобы узнать версию",
+  "messages.heartrobber.items": "используйте %s, чтобы получить добавленные и модифицированные предметы",
+  "messages.heartrobber.timeout": "изменить временное ограничение ожидания почты..."
 }

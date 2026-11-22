@@ -184,5 +184,10 @@
   "advancements.heartrobber.nether.reviver.title": "Відроджувач",
   "advancements.heartrobber.nether.reviver.description": "Налаштуйте променеконденсуючий маяк, поставивши на маяк прямий променевий колектор і перевернутий над ним, а також кинувши 3 серця між ними",
   "advancements.heartrobber.story.steel.title": "Азовсталь",
-  "advancements.heartrobber.story.steel.description": "Отримайте потужний сплав об'єднанням заліза та вугілля"
+  "advancements.heartrobber.story.steel.description": "Отримайте потужний сплав об'єднанням заліза та вугілля",
+  "messages.heartrobber.by": "від",
+  "messages.heartrobber.loaded_successfully": "успішне завантаження!",
+  "messages.heartrobber.version": "використовуйте %s, щоб дізнатися версію",
+  "messages.heartrobber.items": "використовуйте %s, щоб отримати додані та модифіковані предмети",
+  "messages.heartrobber.timeout": "змінити часове обмеження очікування пошти..."
 }
