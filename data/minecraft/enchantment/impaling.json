@@ -15,15 +15,42 @@
           }
         },
         "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "fluid": {
-                "fluids": "minecraft:water"
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_in_water": true
+                }
               }
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:inverted",
+                  "term": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#heartrobber:no_precipitation"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:weather_check",
+                  "raining": true
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "can_see_sky": true
+                  }
+                }
+              ]
             }
-          }
+          ]
         }
       }
     ]
