@@ -202,6 +202,24 @@
           }
         },
         {
+         "if_true": {
+           "type": "minecraft:all_of",
+           "predicates": [
+              {
+                "type": "minecraft:matching_block_tag",
+                "tag": "minecraft:concrete_powders"
+              },
+              {
+                "type": "minecraft:matching_biomes",
+                "biomes": "#minecraft:is_badlands"
+              }
+            ]
+          },
+          "then": {
+            "id": "minecraft:red_sand"
+          }
+        },
+        {
           "if_true": {
             "type": "minecraft:matching_block_tag",
             "tag": "minecraft:concrete_powders"
@@ -212,6 +230,7 @@
         }
       ]
     },
+    "item_damage_per_use": 1,
     "sound": {
       "sound_id": "heartrobber:item.hammer.crush"
     }

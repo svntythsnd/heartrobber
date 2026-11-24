@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:prismarine_shard",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:binomial",
+                    "n": 7,
+                    "p": 0.3
+                  },
+                  "add": true
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:binomial_with_bonus_count",
+                  "parameters": {
+                    "extra": 0,
+                    "probability": 0.4
+                  }
+                },
+                {
+                  "type": "minecraft:limit_count",
+                  "limit": {
+                    "max": 8
+                  }
+                }
+              ],
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:inverted",
+                    "term": "minecraft:tool/can_silk_touch"
+                  },
+                  {
+                    "type": "minecraft:match_tool",
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:custom_data": {
+                          "heartrobber:type": 37
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dark_prismarine"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/dark_prismarine"
+}
