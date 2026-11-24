@@ -6,3 +6,7 @@ advancement revoke @s only heartrobber:ate_cookielike
 advancement revoke @s only heartrobber:ate_chocolate
 execute if items entity @s container.* music_disc_cat[!custom_data~{"heartrobber:type":35b}] run advancement grant @s only heartrobber:adventure/all_discs cat
 execute if function heartrobber:triggered/reconcile_foods/main_dish if function heartrobber:triggered/reconcile_foods/side_dish if function heartrobber:triggered/reconcile_foods/beverage run advancement grant @s only heartrobber:husbandry/full_meal
+execute if score @s heartrobber_hammer_cobblestone matches 1.. if items entity @s weapon.mainhand *[custom_data~{"heartrobber:type":37b}] run advancement grant @s only heartrobber:story/crush_cobble
+execute if score @s heartrobber_hammer_gravel matches 1.. if items entity @s weapon.mainhand *[custom_data~{"heartrobber:type":37b}] run advancement grant @s only heartrobber:story/crush_gravel
+scoreboard players reset @s heartrobber_hammer_cobblestone
+scoreboard players reset @s heartrobber_hammer_gravel

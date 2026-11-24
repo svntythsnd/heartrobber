@@ -18,3 +18,5 @@ scoreboard objectives add heartrobber_ate_honey dummy
 scoreboard objectives add heartrobber_ate_cookie dummy
 scoreboard objectives add heartrobber_ate_cake minecraft.custom:minecraft.eat_cake_slice
 scoreboard objectives add heartrobber_version dummy
+scoreboard objectives add heartrobber_hammer_cobblestone minecraft.mined:minecraft.cobblestone
+scoreboard objectives add heartrobber_hammer_gravel minecraft.mined:minecraft.gravel

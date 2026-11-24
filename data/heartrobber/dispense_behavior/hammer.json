@@ -1,0 +1,6 @@
+[
+  {
+    "type": "minecraft:transform_block",
+    "transformer": "heartrobber:hammer"
+  }
+]

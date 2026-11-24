@@ -1,0 +1,219 @@
+[
+  {
+    "block_state_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:deepslate"
+          },
+          "then": {
+            "id": "cobbled_deepslate"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:stone"
+          },
+          "then": {
+            "id": "cobblestone"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "heartrobber:crush_to_gravel"
+          },
+          "then": {
+            "id": "gravel"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:gravel"
+              },
+              {
+                "type": "minecraft:matching_biomes",
+                "biomes": "#minecraft:is_badlands"
+              }
+            ]
+          },
+          "then": {
+            "id": "minecraft:red_sand"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:gravel"
+          },
+          "then": {
+            "id": "minecraft:sand"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "black_concrete"
+          },
+          "then": {
+            "id": "black_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "blue_concrete"
+          },
+          "then": {
+            "id": "blue_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "brown_concrete"
+          },
+          "then": {
+            "id": "brown_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "cyan_concrete"
+          },
+          "then": {
+            "id": "cyan_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "gray_concrete"
+          },
+          "then": {
+            "id": "gray_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "green_concrete"
+          },
+          "then": {
+            "id": "green_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "light_blue_concrete"
+          },
+          "then": {
+            "id": "light_blue_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "light_gray_concrete"
+          },
+          "then": {
+            "id": "light_gray_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "lime_concrete"
+          },
+          "then": {
+            "id": "lime_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "magenta_concrete"
+          },
+          "then": {
+            "id": "magenta_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "orange_concrete"
+          },
+          "then": {
+            "id": "orange_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "pink_concrete"
+          },
+          "then": {
+            "id": "pink_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "purple_concrete"
+          },
+          "then": {
+            "id": "purple_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "red_concrete"
+          },
+          "then": {
+            "id": "red_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "white_concrete"
+          },
+          "then": {
+            "id": "white_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "yellow_concrete"
+          },
+          "then": {
+            "id": "yellow_concrete_powder"
+          }
+        },
+        {
+          "if_true": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:concrete_powders"
+          },
+          "then": {
+            "id": "minecraft:sand"
+          }
+        }
+      ]
+    },
+    "sound": {
+      "sound_id": "heartrobber:item.hammer.crush"
+    }
+  }
+]

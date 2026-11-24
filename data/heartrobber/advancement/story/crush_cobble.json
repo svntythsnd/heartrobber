@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:story/mine_stone",
+  "criteria": {
+    "none": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.story.crush_cobble.description"
+    },
+    "icon": {
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "item_model": "heartrobber:stone_hammer"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.story.crush_cobble.title"
+    }
+  }
+}

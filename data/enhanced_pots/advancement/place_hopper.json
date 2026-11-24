@@ -1,20 +1,16 @@
 {
   "criteria": {
     "hopper_on_pot": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "hopper",
-                  "state": {
-                    "facing": "down"
-                  }
-                }
+              "type": "minecraft:match_block",
+              "blocks": "hopper",
+              "state": {
+                "facing": "down"
               }
             },
             {
@@ -31,20 +27,16 @@
       }
     },
     "hopper_east_pot": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "hopper",
-                  "state": {
-                    "facing": "east"
-                  }
-                }
+              "type": "minecraft:match_block",
+              "blocks": "hopper",
+              "state": {
+                "facing": "east"
               }
             },
             {
@@ -61,20 +53,16 @@
       }
     },
     "hopper_west_pot": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "hopper",
-                  "state": {
-                    "facing": "west"
-                  }
-                }
+              "type": "minecraft:match_block",
+              "blocks": "hopper",
+              "state": {
+                "facing": "west"
               }
             },
             {
@@ -91,20 +79,16 @@
       }
     },
     "hopper_south_pot": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "hopper",
-                  "state": {
-                    "facing": "south"
-                  }
-                }
+              "type": "minecraft:match_block",
+              "blocks": "hopper",
+              "state": {
+                "facing": "south"
               }
             },
             {
@@ -121,25 +105,44 @@
       }
     },
     "hopper_north_pot": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": "hopper",
-                  "state": {
-                    "facing": "north"
-                  }
-                }
+              "type": "minecraft:match_block",
+              "blocks": "hopper",
+              "state": {
+                "facing": "north"
               }
             },
             {
               "type": "minecraft:location_check",
               "offsetZ": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "hopper_below_pot": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "hopper"
+            },
+            {
+              "type": "minecraft:location_check",
+              "offsetY": 1,
               "predicate": {
                 "block": {
                   "blocks": "minecraft:decorated_pot"
@@ -157,7 +160,8 @@
       "hopper_east_pot",
       "hopper_west_pot",
       "hopper_north_pot",
-      "hopper_south_pot"
+      "hopper_south_pot",
+      "hopper_below_pot"
     ]
   ],
   "rewards": {

@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "minecraft:deepslate_copper_ore"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:copper_nugget",
+                  "modifier": {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 45,
+                      "min": 12
+                    }
+                  },
+                  "condition": {
+                    "type": "minecraft:match_tool",
+                    "predicate": {
+                      "predicates": {
+                        "minecraft:custom_data": {
+                          "heartrobber:type": 37
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:raw_copper",
+                  "modifier": {
+                    "type": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "max": 5,
+                      "min": 2
+                    }
+                  }
+                }
+              ],
+              "modifier": [
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/deepslate_copper_ore"
+}

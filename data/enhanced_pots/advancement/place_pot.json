@@ -3,15 +3,9 @@
     "place_pot": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {}
-        },
         "location": {
           "type": "minecraft:match_block",
-          "block": "minecraft:decorated_pot",
-          "properties": {}
+          "blocks": "minecraft:decorated_pot"
         }
       }
     },

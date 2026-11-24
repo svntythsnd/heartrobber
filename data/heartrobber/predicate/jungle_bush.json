@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:all_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#minecraft:is_jungle"
+          }
+        },
+        {
+          "type": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "type": "minecraft:all_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "minecraft:coarse_dirt"
+            }
+          }
+        },
+        {
+          "type": "minecraft:random_chance",
+          "chance": 0.8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:stick",
+    "@": "#minecraft:iron_tool_materials"
+  },
+  "pattern": [
+    " @@",
+    " /@",
+    "/  "
+  ],
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+      "item_model": "heartrobber:iron_hammer",
+      "item_name": {
+        "translate": "item.heartrobber.iron_hammer",
+        "fallback": "item.heartrobber.iron_hammer"
+      },
+      "custom_data": {
+        "heartrobber:type": 37
+      },
+      "dispense_behavior": "heartrobber:hammer",
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:incorrect_for_iron_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#heartrobber:mineable/hammer",
+            "speed": 6,
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "weapon": {
+        "disable_blocking_for_seconds": 7,
+        "item_damage_per_attack": 2
+      },
+      "attribute_modifiers": [
+        {
+          "type": "attack_damage",
+          "id": "heartrobber:hammer",
+          "amount": 11,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "attack_speed",
+          "id": "heartrobber:hammer",
+          "amount": -3.3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      },
+      "lore": [
+        "",
+        [
+          {
+            "translate": "item.modifiers.mainhand",
+            "color": "gray",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "12 ",
+            "color": "dark_green",
+            "italic": false
+          },
+          {
+            "translate": "attribute.name.attack_damage",
+            "color": "dark_green",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "0.7 ",
+            "color": "dark_green",
+            "italic": false
+          },
+          {
+            "translate": "attribute.name.attack_speed",
+            "color": "dark_green",
+            "italic": false
+          }
+        ]
+      ]
+    }
+  }
+}

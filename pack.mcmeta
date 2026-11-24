@@ -1,8 +1,8 @@
 {
   "pack": {
-    "min_format": [100,2],
-    "max_format": [128,0],
-    "description": "§3[§bheartrobber§3]\n§8v§71.9.8 §8• §7by §9§lflakalet"
+    "min_format": [104,0],
+    "max_format": [128,1],
+    "description": "§3[§bheartrobber§3]\n§8v§71.9.9 §8• §7by §9§lflakalet"
   },
   "filter": {
     "block": [

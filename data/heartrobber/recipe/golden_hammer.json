@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:stick",
+    "@": "#minecraft:gold_tool_materials"
+  },
+  "pattern": [
+    " @@",
+    " /@",
+    "/  "
+  ],
+  "result": {
+    "id": "minecraft:golden_pickaxe",
+    "components": {
+      "item_model": "heartrobber:golden_hammer",
+      "item_name": {
+        "translate": "item.heartrobber.golden_hammer",
+        "fallback": "item.heartrobber.golden_hammer"
+      },
+      "custom_data": {
+        "heartrobber:type": 37
+      },
+      "dispense_behavior": "heartrobber:hammer",
+      "tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:incorrect_for_gold_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#heartrobber:mineable/hammer",
+            "speed": 12,
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "weapon": {
+        "disable_blocking_for_seconds": 7,
+        "item_damage_per_attack": 2
+      },
+      "attribute_modifiers": [
+        {
+          "type": "attack_damage",
+          "id": "heartrobber:hammer",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "attack_speed",
+          "id": "heartrobber:hammer",
+          "amount": -3.2,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "tooltip_display": {
+        "hidden_components": [
+          "attribute_modifiers"
+        ]
+      },
+      "lore": [
+        "",
+        [
+          {
+            "translate": "item.modifiers.mainhand",
+            "color": "gray",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "9 ",
+            "color": "dark_green",
+            "italic": false
+          },
+          {
+            "translate": "attribute.name.attack_damage",
+            "color": "dark_green",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "text": "0.8 ",
+            "color": "dark_green",
+            "italic": false
+          },
+          {
+            "translate": "attribute.name.attack_speed",
+            "color": "dark_green",
+            "italic": false
+          }
+        ]
+      ]
+    }
+  }
+}

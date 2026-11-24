@@ -1,0 +1,22 @@
+{
+  "parent": "heartrobber:story/crush_cobble",
+  "criteria": {
+    "none": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.heartrobber.story.crush_gravel.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_pickaxe",
+      "components": {
+        "item_model": "heartrobber:copper_hammer"
+      }
+    },
+    "title": {
+      "translate": "advancements.heartrobber.story.crush_gravel.title"
+    }
+  }
+}

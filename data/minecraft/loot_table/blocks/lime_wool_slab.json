@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "heartrobber:wool/block",
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "blocks": "minecraft:lime_wool_slab",
+                    "state": {
+                      "type": "double"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "heartrobber:wool/slab"
+                }
+              ],
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:match_tool",
+                    "predicate": {
+                      "items": "#minecraft:hoes"
+                    }
+                  },
+                  {
+                    "type": "minecraft:inverted",
+                    "term": "minecraft:tool/can_silk_touch"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:lime_wool_slab",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "condition": {
+                    "type": "minecraft:match_block",
+                    "blocks": "minecraft:lime_wool_slab",
+                    "state": {
+                      "type": "double"
+                    }
+                  },
+                  "count": 2
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/lime_wool_slab"
+}

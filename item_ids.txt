@@ -36,3 +36,4 @@
 34: caramel
 35: music_disc_dog
 36: blank_disc
+37: hammer

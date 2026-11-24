@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "minecraft:gravel"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:red_sand",
+                  "condition": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
+                      "biomes": "#minecraft:is_badlands"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:sand"
+                }
+              ],
+              "modifier": {
+                "type": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "parameters": {
+                  "extra": 0,
+                  "probability": 0.1
+                }
+              },
+              "condition": {
+                "type": "minecraft:match_tool",
+                "predicate": {
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "heartrobber:type": 37
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "condition": {
+                    "type": "minecraft:table_bonus",
+                    "chances": [
+                      0.1,
+                      0.14285715,
+                      0.25,
+                      1
+                    ],
+                    "enchantment": "minecraft:fortune"
+                  },
+                  "name": "minecraft:flint"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:gravel"
+                }
+              ],
+              "condition": {
+                "type": "minecraft:survives_explosion"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/gravel"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:any_of",
+      "terms": [
+        {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#heartrobber:swamp_oak"
+          }
+        },
+        {
+          "type": "minecraft:location_check",
+          "offsetY": -1,
+          "predicate": {
+            "block": {
+              "blocks": "#minecraft:mud"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.8
+    }
+  ]
+}
